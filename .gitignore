@@ -15,3 +15,6 @@ __pycache__/
 
 # Raw Yahoo responses (include manager emails/ids); the normalized data/<season>/ files are enough
 data/raw/
+
+# Saved Yahoo pages (reference only)
+*.pdf

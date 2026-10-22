@@ -14,8 +14,7 @@ def write(path, data):
 
 
 def site_data(site):
-    text = (site / "data.js").read_text()
-    return json.loads(text[text.index("=") + 1:].rstrip().rstrip(";"))
+    return refresh.read_site_data(site / "data.js")
 
 
 class Build(unittest.TestCase):
@@ -47,6 +46,11 @@ class Build(unittest.TestCase):
         self.assertEqual((gibbs["name"], gibbs["keeper_cost"]), ("Jahmyr Gibbs", 75))
         self.assertEqual(out["keeper_season"], 2027)
         self.assertTrue((self.data / "2026" / "keepers.json").exists())
+
+    def test_rebuild_without_changes_leaves_data_js_alone(self):
+        first = self.build(2026)["generated_at"]
+        (self.site / "data.js").write_text((self.site / "data.js").read_text().replace(first, "SENTINEL"))
+        self.assertEqual(self.build(2026)["generated_at"], "SENTINEL")
 
     def test_declarations_budget_and_overrides(self):
         write(self.data / "keeper_declarations.json", {"2027": {"461.l.1.t.1": ["461.p.1"]}})

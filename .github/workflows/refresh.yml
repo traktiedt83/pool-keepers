@@ -1,0 +1,71 @@
+name: Refresh keepers
+
+on:
+  # Off until Yahoo approves Fantasy API access for our app (every call returns 403 until then).
+  # To turn on, uncomment these two lines:
+  # schedule:
+  #   - cron: "17 */6 * * *"  # every 6 hours (UTC), off the top of the hour
+  workflow_dispatch:         # "Run workflow" button on the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-keepers
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Unit tests
+        run: python -m unittest
+
+      # export_league.get_oauth seeds oauth2.json from these and refreshes the access token
+      # before the first Yahoo call. oauth2.json is gitignored and deleted below.
+      - name: Pull from Yahoo and rebuild
+        env:
+          YAHOO_CLIENT_ID: ${{ secrets.YAHOO_CLIENT_ID }}
+          YAHOO_CLIENT_SECRET: ${{ secrets.YAHOO_CLIENT_SECRET }}
+          YAHOO_REFRESH_TOKEN: ${{ secrets.YAHOO_REFRESH_TOKEN }}
+        run: python refresh.py
+
+      - name: Check the refresh token is still the same
+        if: always()
+        env:
+          YAHOO_REFRESH_TOKEN: ${{ secrets.YAHOO_REFRESH_TOKEN }}
+        run: |
+          python - <<'EOF'
+          import json, os, pathlib
+          p = pathlib.Path("oauth2.json")
+          if p.exists() and json.loads(p.read_text()).get("refresh_token") != os.environ["YAHOO_REFRESH_TOKEN"]:
+              print("::warning::Yahoo issued a new refresh token. Update the YAHOO_REFRESH_TOKEN secret "
+                    "(run refresh.py locally and copy refresh_token from oauth2.json).")
+          EOF
+
+      - name: Delete token files
+        if: always()
+        run: rm -f oauth2.json .env
+
+      - name: Commit changed data
+        run: |
+          git add docs/data.js data/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898099+github-actions[bot]@users.noreply.github.com" \
+              commit -m "Refresh keeper data"
+          git push

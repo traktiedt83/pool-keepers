@@ -36,11 +36,22 @@ logging.disable(logging.INFO)
 # ---------------------------------------------------------------- auth / HTTP
 
 def get_oauth():
-    env = dotenv_values(ROOT / ".env")
+    """Credentials come from environment variables (GitHub Actions secrets) or .env.
+
+    With YAHOO_REFRESH_TOKEN set and no token file yet (CI), the token file is seeded with an
+    already-expired access token so yahoo_oauth fetches a fresh one before the first call.
+    """
+    env = {**dotenv_values(ROOT / ".env"), **os.environ}
     key, secret = env.get("YAHOO_CLIENT_ID"), env.get("YAHOO_CLIENT_SECRET")
     if not key or not secret:
-        sys.exit("Missing YAHOO_CLIENT_ID or YAHOO_CLIENT_SECRET in .env")
-    if not TOKEN_FILE.exists():
+        sys.exit("Missing YAHOO_CLIENT_ID or YAHOO_CLIENT_SECRET (environment or .env)")
+    refresh_token = env.get("YAHOO_REFRESH_TOKEN")
+    if not TOKEN_FILE.exists() and refresh_token:
+        TOKEN_FILE.write_text(json.dumps({"consumer_key": key, "consumer_secret": secret,
+                                          "access_token": "expired", "token_type": "bearer",
+                                          "refresh_token": refresh_token, "token_time": 0}))
+        os.chmod(TOKEN_FILE, 0o600)
+    elif not TOKEN_FILE.exists():
         TOKEN_FILE.write_text(json.dumps({"consumer_key": key, "consumer_secret": secret}))
         os.chmod(TOKEN_FILE, 0o600)
         print(

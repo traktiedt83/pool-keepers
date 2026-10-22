@@ -77,7 +77,7 @@ def fetch_season(league_key):
 
     out = DATA / str(season)
     save(out / "season.json", {"season": season, "league_key": league_key, "is_finished": finished,
-                               "roster_week": week, "fetched_at": now_iso()})
+                               "roster_week": week})
     save(out / "teams.json", teams)
     save(out / "draft.json", yahoo_data.parse_draft(draft_resp))
     save(out / "transactions.json", moves)
@@ -160,12 +160,25 @@ def build(season, config, data=DATA, site=SITE):
         "declarations": decl,
         "warnings": warnings,
     }
-    site.mkdir(parents=True, exist_ok=True)
-    (site / "data.js").write_text("window.KEEPER_DATA = " + json.dumps(site_data, indent=1) + ";\n")
-
+    # Leave data.js alone when nothing but the timestamp would change, so scheduled runs
+    # only commit real changes. generated_at is "when the data last changed".
+    out = site / "data.js"
+    previous = read_site_data(out)
+    if previous and {**previous, "generated_at": None} == {**site_data, "generated_at": None}:
+        print(f"No changes; {out} left as is.")
+    else:
+        site.mkdir(parents=True, exist_ok=True)
+        out.write_text("window.KEEPER_DATA = " + json.dumps(site_data, indent=1) + ";\n")
+        print(f"Built {out}: {len(results)} rostered players, {len(teams)} teams.")
     for w in warnings:
         print(f"  ! {w}")
-    print(f"Built {site / 'data.js'}: {len(results)} rostered players, {len(teams)} teams.")
+
+
+def read_site_data(path):
+    if not path.exists():
+        return None
+    text = path.read_text()
+    return json.loads(text[text.index("=") + 1:].rstrip().rstrip(";"))
 
 
 def now_iso():
