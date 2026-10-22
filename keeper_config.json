@@ -1,0 +1,12 @@
+{
+  "league_name": "I Was In The Pool",
+  "league_key": null,
+  "first_keeper_season": 2027,
+  "draft_budget": 200,
+  "max_keepers": 2,
+  "keeper_tax_schedule": [10, 15],
+  "max_years_kept": 2,
+  "free_agent_base_price": 0,
+  "draft_date": null,
+  "keeper_deadline_days_before_draft": 7
+}

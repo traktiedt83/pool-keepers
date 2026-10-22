@@ -1,0 +1,17 @@
+# Secrets and OAuth tokens - never commit
+.env
+.env.*
+oauth2.json
+*token*.json
+.yahoo_oauth*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Raw Yahoo responses (include manager emails/ids); the normalized data/<season>/ files are enough
+data/raw/
