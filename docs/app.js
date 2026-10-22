@@ -102,11 +102,19 @@
 
   // Costs come right after the name so they stay on screen on a phone; the team column
   // hides on narrow screens and shows under the player's name instead.
+  // Cost subtitles name the keeper year and tax. Once some players have already been kept,
+  // the year differs by player, so the subtitle just says "+ keeper tax".
+  const tax = C.keeper_tax_schedule;
+  const allFirstYear = players.every((p) => p.years_kept === 0);
   const COLS = [
     { key: "name", label: "Player" },
-    { key: "keeper_cost", label: D.keeper_season + " cost", num: true },
-    { key: "cost_if_kept_again", label: (D.keeper_season + 1) + " cost", num: true },
-    { key: "years_kept", label: "Yrs kept", num: true },
+    { key: "base_price", label: "Paid " + D.season, num: true,
+      sub: allFirstYear ? "draft or top bid" : "base price" },
+    { key: "keeper_cost", label: "Keep " + D.keeper_season, num: true,
+      sub: allFirstYear ? "+" + money(tax[0]) + " tax (1st yr)" : "+ keeper tax" },
+    { key: "cost_if_kept_again", label: "Keep " + (D.keeper_season + 1), num: true,
+      sub: allFirstYear && tax[1] != null ? "+" + money(tax[1]) + " tax (2nd yr)" : "+ next year's tax" },
+    { key: "years_kept", label: "Yrs kept", num: true, cls: "wide-only" },
     { key: "status", label: "Status" },
     { key: "team", label: "Team", cls: "wide-only" },
   ];
@@ -127,7 +135,8 @@
       "</div>" +
       '<div class="table-wrap"><table><thead><tr>' +
       COLS.map((c) => '<th data-k="' + c.key + '" class="' + (c.num ? "num " : "") + (c.cls ? c.cls + " " : "") +
-        (state.sort === c.key ? "sorted" + (state.asc ? " asc" : "") : "") + '">' + esc(c.label) + "</th>").join("") +
+        (state.sort === c.key ? "sorted" + (state.asc ? " asc" : "") : "") + '">' + esc(c.label) +
+        (c.sub ? '<span class="th-sub">' + esc(c.sub) + "</span>" : "") + "</th>").join("") +
       '</tr></thead><tbody id="rows"></tbody></table></div>';
     const rows = document.getElementById("rows");
 
@@ -145,12 +154,13 @@
         '<tr class="' + (p.eligible ? "" : "out") + '">' +
         '<td><a href="#player/' + encodeURIComponent(p.player_key) + '">' + esc(p.name) + '</a><span class="meta">' + esc(playerMeta(p)) +
         '<span class="narrow-only"> · ' + esc(teamName(p.team_key)) + "</span></span></td>" +
+        '<td class="num">' + money(p.base_price) + "</td>" +
         '<td class="num"><b>' + money(p.keeper_cost) + "</b></td>" +
         '<td class="num">' + money(p.cost_if_kept_again) + "</td>" +
-        '<td class="num">' + p.years_kept + "</td>" +
+        '<td class="num wide-only">' + p.years_kept + "</td>" +
         "<td>" + statusPill(p) + "</td>" +
         '<td class="wide-only">' + esc(teamName(p.team_key)) + "</td></tr>").join("") ||
-        '<tr><td colspan="6" class="muted">No players match.</td></tr>';
+        '<tr><td colspan="' + COLS.length + '" class="muted">No players match.</td></tr>';
     }
     draw();
 
@@ -209,10 +219,14 @@
     return '<div class="card"><h3>' + esc(p.name) + ' <span class="muted small">' + esc(playerMeta(p)) + "</span></h3>" +
       "<div>" + statusPill(p) + "</div>" +
       '<div class="stats">' +
-      "<div><b>" + money(p.keeper_cost) + "</b><span>" + D.keeper_season + " keeper cost</span></div>" +
+      "<div><b>" + money(p.base_price) + "</b><span>Paid " + D.season + " (" + esc(sourceText(p)) + ")</span></div>" +
+      "<div><b>" + money(p.keeper_cost) + "</b><span>" + D.keeper_season + " keeper cost" +
+        (p.eligible ? " (+" + money(p.keeper_tax) + " tax, " + ordinal(p.years_kept + 1) + " yr)" : "") + "</span></div>" +
       "<div><b>" + esc(teamName(p.team_key)) + "</b><span>Holds keeper rights</span></div>" +
       "<div><b>" + p.years_kept + " of " + C.max_years_kept + "</b><span>Years kept so far</span></div>" +
-      "<div><b>" + money(p.cost_if_kept_again) + "</b><span>" + (D.keeper_season + 1) + " cost if kept again</span></div>" +
+      "<div><b>" + money(p.cost_if_kept_again) + "</b><span>" + (D.keeper_season + 1) + " cost if kept again" +
+        (p.cost_if_kept_again != null ? " (+" + money(C.keeper_tax_schedule[p.years_kept + 1]) + " tax, " + ordinal(p.years_kept + 2) + " yr)" : "") +
+        "</span></div>" +
       "</div>" +
       '<p class="small">' + (p.eligible
         ? "Base " + money(p.base_price) + " (" + esc(sourceText(p)) + ") + " + money(p.keeper_tax) + " " + ordinal(p.years_kept + 1) + "-year keeper tax."
