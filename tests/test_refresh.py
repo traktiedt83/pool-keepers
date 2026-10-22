@@ -47,6 +47,11 @@ class Build(unittest.TestCase):
         self.assertEqual(out["keeper_season"], 2027)
         self.assertTrue((self.data / "2026" / "keepers.json").exists())
 
+    def test_declarations_api_reaches_site_config(self):
+        # The site reads it from data.config, so it must be inside "config".
+        refresh.build(2026, {**CONFIG, "declarations_api": "https://example.test/exec"}, data=self.data, site=self.site)
+        self.assertEqual(site_data(self.site)["config"]["declarations_api"], "https://example.test/exec")
+
     def test_rebuild_without_changes_leaves_data_js_alone(self):
         first = self.build(2026)["generated_at"]
         (self.site / "data.js").write_text((self.site / "data.js").read_text().replace(first, "SENTINEL"))
