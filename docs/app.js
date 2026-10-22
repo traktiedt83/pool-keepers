@@ -5,7 +5,12 @@
   const D = window.KEEPER_DATA;
   const view = document.getElementById("view");
   if (!D) {
-    view.innerHTML = '<div class="card">No data yet. Run <code>python refresh.py</code>.</div>';
+    // Shown until the first refresh writes data.js.
+    document.getElementById("league-name").textContent = "I Was In The Pool Keepers";
+    document.querySelector(".tabs").hidden = true;
+    view.innerHTML = '<div class="card"><h2>Keeper costs coming soon</h2>' +
+      "<p>Every player's keeper cost, who holds the rights, and each team's draft budget will show up here " +
+      "once we're pulling data from Yahoo. Check back soon.</p></div>";
     return;
   }
   const C = D.config;
