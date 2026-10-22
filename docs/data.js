@@ -1,5 +1,5 @@
 window.KEEPER_DATA = {
- "generated_at": "2026-10-22T04:13:16+00:00",
+ "generated_at": "2026-10-22T04:23:18+00:00",
  "season": 2026,
  "keeper_season": 2027,
  "roster_week": null,
@@ -21,7 +21,7 @@ window.KEEPER_DATA = {
   "draft_date": null,
   "keeper_deadline_days_before_draft": 7
  },
- "declarations_api": null,
+ "declarations_api": "https://script.google.com/macros/s/AKfycbzDv1EMkLwJwsABOwIInNOj2rbHLeTMnClJPap3_E9ENHoAP5ASZqdARImfhCeiDj_FCg/exec",
  "keeper_deadline": null,
  "teams": {
   "snap.t.sam-laporta-potty": {
