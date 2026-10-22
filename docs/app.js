@@ -35,9 +35,20 @@
     return match ? D.teams[match].name : k;
   }
   function ordinal(n) { return n + (["th", "st", "nd", "rd"][n % 10 > 3 || [11, 12, 13].includes(n % 100) ? 0 : n % 10]); }
-  function playerMeta(p) { return [p.position, p.nfl_team].filter(Boolean).join(" · "); }
+  // Position chip + NFL team, as HTML (the chip color comes from .pos-<POSITION> in style.css).
+  function playerMeta(p) {
+    const pos = (p.position || "").split(",")[0].trim();
+    return (pos ? '<span class="pos pos-' + esc(pos.replace(/[^A-Z]/gi, "")) + '">' + esc(pos) + "</span> " : "") + esc(p.nfl_team || "");
+  }
+  // Cheap keepers are "steals" (green, 🔥 badge); pricey ones show in red. Thresholds live in keeper_config.json.
+  function isSteal(p) { return p.eligible && C.steal_under != null && p.keeper_cost < C.steal_under; }
+  function isPricey(p) { return p.eligible && C.expensive_from != null && p.keeper_cost >= C.expensive_from; }
+  function priceHtml(p) {
+    return '<span class="price' + (isSteal(p) ? " steal" : isPricey(p) ? " pricey" : "") + '">' + money(p.keeper_cost) + "</span>";
+  }
+  const STEAL_PILL = '<span class="pill steal">🔥 Steal</span>';
   function statusPill(p) {
-    let html = p.eligible ? '<span class="pill ok">Eligible</span>' : '<span class="pill out">Back to pool</span>';
+    let html = !p.eligible ? '<span class="pill out">Back to pool</span>' : isSteal(p) ? STEAL_PILL : '<span class="pill ok">Eligible</span>';
     if (p.override) html += ' <span class="pill ovr" title="' + esc(p.override.note) + '">Commish</span>';
     return html;
   }
@@ -218,10 +229,10 @@
         });
       rows.innerHTML = list.map((p) =>
         '<tr class="' + (p.eligible ? "" : "out") + '">' +
-        '<td><a href="#player/' + encodeURIComponent(p.player_key) + '">' + esc(p.name) + '</a><span class="meta">' + esc(playerMeta(p)) +
+        '<td><a href="#player/' + encodeURIComponent(p.player_key) + '">' + esc(p.name) + '</a><span class="meta">' + playerMeta(p) +
         '<span class="narrow-only"> · ' + esc(teamName(p.team_key)) + "</span></span></td>" +
         '<td class="num">' + money(p.base_price) + "</td>" +
-        '<td class="num"><b>' + money(p.keeper_cost) + "</b></td>" +
+        '<td class="num"><b>' + priceHtml(p) + "</b></td>" +
         '<td class="num">' + money(p.cost_if_kept_again) + "</td>" +
         '<td class="num wide-only">' + p.years_kept + "</td>" +
         "<td>" + statusPill(p) + "</td>" +
@@ -276,10 +287,11 @@
       '<div class="picks">' + roster.map((p) =>
         '<label class="' + (p.eligible ? "" : "disabled") + '">' +
         '<input type="checkbox" value="' + esc(p.player_key) + '"' + (p.eligible ? "" : " disabled") + ">" +
-        '<span class="name">' + esc(p.name) + ' <span class="muted small">' + esc(playerMeta(p)) +
+        '<span class="name">' + esc(p.name) + ' <span class="muted small">' + playerMeta(p) +
         (p.years_kept ? " · kept " + p.years_kept + "x" : "") + "</span>" +
-        (p.override ? ' <span class="pill ovr" title="' + esc(p.override.note) + '">Commish</span>' : "") + "</span>" +
-        '<span class="cost">' + (p.eligible ? money(p.keeper_cost) : '<span class="pill out">Back to pool</span>') + "</span></label>").join("") +
+        (p.override ? ' <span class="pill ovr" title="' + esc(p.override.note) + '">Commish</span>' : "") +
+        (isSteal(p) ? " " + STEAL_PILL : "") + "</span>" +
+        '<span class="cost">' + (p.eligible ? priceHtml(p) : '<span class="pill out">Back to pool</span>') + "</span></label>").join("") +
       "</div>" +
       // Pinned to the bottom of the screen so the total and buttons stay in reach while scrolling.
       '<div class="budget"><div id="budget"></div><div class="pick-actions">' +
@@ -365,11 +377,11 @@
   }
 
   function playerCard(p) {
-    return '<div class="card"><h3>' + esc(p.name) + ' <span class="muted small">' + esc(playerMeta(p)) + "</span></h3>" +
+    return '<div class="card"><h3>' + esc(p.name) + ' <span class="muted small">' + playerMeta(p) + "</span></h3>" +
       "<div>" + statusPill(p) + "</div>" +
       '<div class="stats">' +
       "<div><b>" + money(p.base_price) + "</b><span>Paid " + D.season + " (" + esc(sourceText(p)) + ")</span></div>" +
-      "<div><b>" + money(p.keeper_cost) + "</b><span>" + D.keeper_season + " keeper cost" +
+      "<div><b>" + priceHtml(p) + "</b><span>" + D.keeper_season + " keeper cost" +
         (p.eligible ? " (+" + money(p.keeper_tax) + " tax, " + ordinal(p.years_kept + 1) + " yr)" : "") + "</span></div>" +
       "<div><b>" + esc(teamName(p.team_key)) + "</b><span>Holds keeper rights</span></div>" +
       "<div><b>" + p.years_kept + " of " + C.max_years_kept + "</b><span>Years kept so far</span></div>" +

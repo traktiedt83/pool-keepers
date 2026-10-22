@@ -1,31 +1,28 @@
+/* "Sunday Night" theme: always dark. Every text/background pair below was checked for
+   WCAG AA contrast (4.5:1 or better; the lowest is --bad on --card at 5.2:1). */
 :root {
-  --bg: #f6f7f9;
-  --card: #ffffff;
-  --text: #16181d;
-  --muted: #5f6672;
-  --line: #e1e4ea;
-  --accent: #1f6feb;
-  --accent-soft: #e6effd;
-  --good: #1a7f37;
-  --warn: #b35900;
-  --warn-soft: #fff4e5;
-  --bad: #c62828;
+  --bg: #0B1F17;
+  --card: #12301F;
+  --head: #0E2A1D;
+  --field: #0E2419;          /* inputs and inset panels */
+  --text: #F2F5EF;
+  --muted: #A9BFB1;
+  --line: #24503A;
+  --accent: #F5B21A;         /* prices, active tab, highlights */
+  --good: #4ADE80;           /* steals */
+  --good-soft: #173D27;
+  --bad: #F87171;            /* expensive keepers, errors */
+  --ok-soft: #1F4D35;
+  --out-soft: #24302A;
+  --out-text: #C9D3CC;
+  --notice: #2B2612;
   --radius: 10px;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0f1115;
-    --card: #181b21;
-    --text: #e8eaee;
-    --muted: #9aa1ad;
-    --line: #2a2f38;
-    --accent: #5b9dff;
-    --accent-soft: #1b2a42;
-    --good: #4cc26b;
-    --warn: #f0a24a;
-    --warn-soft: #2f2414;
-    --bad: #ff6b6b;
-  }
+  --font-head: "Oswald", "Arial Narrow", sans-serif;
+  --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  /* Scoreboard numbers: bold, condensed, every digit the same width. Oswald's digits are
+     proportional even with tabular-nums; Barlow Condensed's are truly tabular (measured). */
+  --font-score: "Barlow Condensed", "Arial Narrow", sans-serif;
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
@@ -35,28 +32,48 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font: 16px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font: 16px/1.45 var(--font-body);
 }
+a { color: var(--accent); }
 .wrap { max-width: 900px; margin: 0 auto; padding: 0 16px; }
+h1, h2, h3 { font-family: var(--font-head); font-weight: 600; letter-spacing: .01em; }
 
-.top { background: var(--card); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 5; }
+/* ---------------------------------------------------------------- header with yard lines */
+
+.top {
+  position: sticky; top: 0; z-index: 5;
+  border-bottom: 2px solid var(--accent);
+  background-color: var(--head);
+  /* Yard lines every 5 yards, plus two rows of 1-yard hash marks, all in faint white. */
+  background-image:
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, .10) 0 2px, transparent 2px 80px),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, .09) 0 2px, transparent 2px 16px),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, .09) 0 2px, transparent 2px 16px);
+  background-size: 100% 100%, 100% 9px, 100% 9px;
+  background-position: 0 0, 0 28%, 0 72%;
+  background-repeat: no-repeat;
+}
 .top .wrap:first-child { padding-top: 12px; }
-h1 { font-size: 1.25rem; margin: 0; }
+h1 { font-size: 1.45rem; margin: 0; display: flex; align-items: center; gap: 8px; text-transform: uppercase; letter-spacing: .03em; }
+h1 .ball { width: 26px; height: 26px; color: var(--accent); flex: 0 0 auto; }
 .sub { margin: 2px 0 0; color: var(--muted); font-size: .85rem; }
-.deadline { margin: 6px 0 0; font-size: .85rem; font-weight: 600; color: var(--warn); }
+.deadline { margin: 6px 0 0; font-size: .85rem; font-weight: 600; color: var(--accent); }
 .deadline:empty { display: none; }
 
 .tabs { display: flex; gap: 4px; overflow-x: auto; padding-top: 8px; padding-bottom: 0; scrollbar-width: none; }
 .tabs::-webkit-scrollbar { display: none; }
 .tabs a {
   flex: 0 0 auto; padding: 8px 12px; color: var(--muted); text-decoration: none;
-  font-weight: 600; font-size: .9rem; border-bottom: 3px solid transparent;
+  font-family: var(--font-head); font-weight: 500; font-size: .95rem; letter-spacing: .04em;
+  text-transform: uppercase; border-bottom: 3px solid transparent;
 }
 .tabs a.on { color: var(--accent); border-bottom-color: var(--accent); }
 
+/* ---------------------------------------------------------------- page */
+
 main { padding-top: 16px; padding-bottom: 24px; }
-h2 { font-size: 1.1rem; margin: 0 0 12px; }
-h3 { font-size: 1rem; margin: 0 0 8px; }
+h2 { font-size: 1.3rem; margin: 0 0 12px; text-transform: uppercase; letter-spacing: .03em; }
+h3 { font-size: 1.1rem; margin: 0 0 8px; }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; margin-bottom: 12px; }
 .muted { color: var(--muted); }
 .small { font-size: .85rem; }
@@ -65,23 +82,42 @@ h3 { font-size: 1rem; margin: 0 0 8px; }
 input[type=search], select {
   font: inherit; font-size: 16px; /* keeps iOS from zooming */
   padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px;
-  background: var(--card); color: var(--text); min-width: 0;
+  background: var(--field); color: var(--text); min-width: 0;
 }
+input[type=search]::placeholder { color: #8FA697; }
+input:focus-visible, select:focus-visible, button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .controls input[type=search] { flex: 1 1 180px; }
 .controls select { flex: 1 1 140px; }
 label.check { display: flex; align-items: center; gap: 6px; font-size: .9rem; }
+input[type=checkbox] { accent-color: var(--accent); }
+
+/* ---------------------------------------------------------------- scoreboard numbers */
+
+td.num, .picks .cost, .stats b, .big, .budget b {
+  font-family: var(--font-score); font-weight: 700; font-variant-numeric: tabular-nums; letter-spacing: .02em;
+}
+td.num { font-size: 1.1rem; }
+.price { color: var(--accent); }
+.price.steal { color: var(--good); }
+.price.pricey { color: var(--bad); }
+
+/* ---------------------------------------------------------------- tables */
 
 .table-wrap { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); }
 table { width: 100%; border-collapse: collapse; font-size: .9rem; }
 th, td { padding: 9px 10px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
 tr:last-child td { border-bottom: 0; }
-th { font-size: .75rem; text-transform: uppercase; letter-spacing: .03em; color: var(--muted); cursor: pointer; user-select: none; }
-th.num, td.num { text-align: right; font-variant-numeric: tabular-nums; }
-th .th-sub { display: block; font-weight: 500; text-transform: none; letter-spacing: 0; font-size: .7rem; }
+th {
+  font-family: var(--font-head); font-weight: 500; font-size: .8rem; text-transform: uppercase; letter-spacing: .05em;
+  color: var(--muted); cursor: pointer; user-select: none; background: var(--head);
+}
+th.num, td.num { text-align: right; }
+th .th-sub { display: block; font-family: var(--font-body); font-weight: 500; text-transform: none; letter-spacing: 0; font-size: .7rem; }
+th.sorted { color: var(--accent); }
 th.sorted::after { content: " ▾"; }
 th.sorted.asc::after { content: " ▴"; }
 td a { color: inherit; text-decoration: none; font-weight: 600; }
-td .meta { display: block; font-weight: 400; color: var(--muted); font-size: .78rem; }
+td .meta { display: block; font-weight: 400; color: var(--muted); font-size: .78rem; margin-top: 2px; }
 tr.out td { color: var(--muted); }
 .narrow-only { display: none; }
 @media (max-width: 600px) {
@@ -93,43 +129,68 @@ tr.out td { color: var(--muted); }
   td:first-child { min-width: 110px; }
 }
 
-.pill { display: inline-block; padding: 1px 8px; border-radius: 99px; font-size: .75rem; font-weight: 600; }
-.pill.ok { background: var(--accent-soft); color: var(--accent); }
-.pill.out { background: var(--line); color: var(--muted); }
-.pill.ovr { background: var(--warn-soft); color: var(--warn); }
+/* ---------------------------------------------------------------- pills and chips */
 
-.big { font-size: 2rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.pill { display: inline-block; padding: 1px 8px; border-radius: 99px; font-size: .75rem; font-weight: 600; white-space: nowrap; }
+.pill.ok { background: var(--ok-soft); color: var(--text); }
+.pill.out { background: var(--out-soft); color: var(--out-text); }
+.pill.ovr { background: var(--notice); color: var(--accent); }
+.pill.steal { background: var(--good-soft); color: var(--good); }
+
+/* Position chips: dark text on light tints (all 9:1 or better). */
+.pos {
+  display: inline-block; min-width: 2.3em; padding: 0 5px; border-radius: 4px; text-align: center;
+  font-family: var(--font-head); font-weight: 600; font-size: .72rem; letter-spacing: .04em; line-height: 1.5;
+  color: var(--bg); background: #CBD5E1; vertical-align: 1px;
+}
+.pos-QB { background: #F9A8D4; }
+.pos-RB { background: #93C5FD; }
+.pos-WR { background: #C4B5FD; }
+.pos-TE { background: #FDBA74; }
+.pos-K { background: #CBD5E1; }
+.pos-DEF { background: #5EEAD4; }
+
+/* ---------------------------------------------------------------- player card */
+
+.big { font-size: 2.2rem; color: var(--accent); }
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin: 10px 0; }
-.stats div { background: var(--bg); border-radius: 8px; padding: 8px 10px; }
-.stats b { display: block; font-size: 1.15rem; font-variant-numeric: tabular-nums; }
-.stats span { font-size: .78rem; color: var(--muted); }
+.stats div { background: var(--field); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
+.stats b { display: block; font-size: 1.35rem; }
+.stats div > span { font-size: .78rem; color: var(--muted); }  /* the label, not the price inside <b> */
 
 ol.trail { margin: 8px 0 0; padding-left: 20px; }
 ol.trail li { margin-bottom: 4px; }
 ol.trail .date { color: var(--muted); font-size: .8rem; }
 
+/* ---------------------------------------------------------------- keeper picker */
+
 .picks label { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--line); }
 .picks label:last-child { border-bottom: 0; }
 .picks input { width: 20px; height: 20px; flex: 0 0 auto; }
 .picks .name { flex: 1; min-width: 0; }
-.picks .cost { font-weight: 700; font-variant-numeric: tabular-nums; }
+.picks .cost { font-size: 1.15rem; }
 .picks label.disabled { opacity: .5; }
 
 .declared-line { margin: 0 0 8px; font-size: .9rem; }
 .pick-actions { display: flex; gap: 6px; margin-top: 10px; }
 .pick-actions button {
-  flex: 1 1 0; font: inherit; font-size: .9rem; font-weight: 600; padding: 8px 6px; cursor: pointer;
-  border: 0; border-radius: 8px; background: #fff; color: var(--accent);
+  flex: 1 1 0; font: inherit; font-family: var(--font-head); font-size: .95rem; font-weight: 600; letter-spacing: .03em;
+  text-transform: uppercase; padding: 8px 6px; cursor: pointer;
+  border: 0; border-radius: 8px; background: var(--bg); color: var(--accent);
 }
 .pick-actions button:disabled { opacity: .45; cursor: default; }
-.budget { position: sticky; bottom: 0; background: var(--accent); color: #fff; border-radius: var(--radius); padding: 12px 14px; margin-top: 12px; }
-.budget b { font-size: 1.4rem; }
+/* The scoreboard bar: dark on gold. */
+.budget {
+  position: sticky; bottom: 0; background: var(--accent); color: var(--bg);
+  border-radius: var(--radius); padding: 12px 14px; margin-top: 12px; box-shadow: 0 -6px 18px rgba(0, 0, 0, .35);
+}
+.budget b { font-size: 1.6rem; }
 
 .results button {
   display: block; width: 100%; text-align: left; font: inherit; color: var(--text);
   background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 10px; margin-bottom: 6px; cursor: pointer;
 }
-.notice { border-left: 4px solid var(--warn); background: var(--warn-soft); padding: 10px 12px; border-radius: 6px; margin-bottom: 12px; font-size: .9rem; }
+.notice { border-left: 4px solid var(--accent); background: var(--notice); padding: 10px 12px; border-radius: 6px; margin-bottom: 12px; font-size: .9rem; }
 .error { color: var(--bad); font-size: .85rem; }
 
 .rules li { margin-bottom: 8px; }

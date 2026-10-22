@@ -1,5 +1,5 @@
 window.KEEPER_DATA = {
- "generated_at": "2026-10-22T04:25:08+00:00",
+ "generated_at": "2026-10-22T04:31:36+00:00",
  "season": 2026,
  "keeper_season": 2027,
  "roster_week": null,
@@ -20,7 +20,9 @@ window.KEEPER_DATA = {
   "free_agent_base_price": 0,
   "draft_date": null,
   "keeper_deadline_days_before_draft": 7,
-  "declarations_api": "https://script.google.com/macros/s/AKfycbzDv1EMkLwJwsABOwIInNOj2rbHLeTMnClJPap3_E9ENHoAP5ASZqdARImfhCeiDj_FCg/exec"
+  "declarations_api": "https://script.google.com/macros/s/AKfycbzDv1EMkLwJwsABOwIInNOj2rbHLeTMnClJPap3_E9ENHoAP5ASZqdARImfhCeiDj_FCg/exec",
+  "steal_under": 20,
+  "expensive_from": 50
  },
  "keeper_deadline": null,
  "teams": {

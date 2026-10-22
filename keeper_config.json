@@ -9,5 +9,7 @@
   "free_agent_base_price": 0,
   "draft_date": null,
   "keeper_deadline_days_before_draft": 7,
+  "steal_under": 20,
+  "expensive_from": 50,
   "declarations_api": "https://script.google.com/macros/s/AKfycbzDv1EMkLwJwsABOwIInNOj2rbHLeTMnClJPap3_E9ENHoAP5ASZqdARImfhCeiDj_FCg/exec"
 }

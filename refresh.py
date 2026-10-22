@@ -156,7 +156,10 @@ def build(season, config, data=DATA, site=SITE):
                                              "max_years_kept", "free_agent_base_price", "draft_date",
                                              "keeper_deadline_days_before_draft")},
                    # Google Apps Script web app holding managers' declarations (apps_script/Code.gs), or None.
-                   "declarations_api": config.get("declarations_api")},
+                   "declarations_api": config.get("declarations_api"),
+                   # Display only: keeper costs under steal_under get a 🔥 Steal badge; expensive_from and up show red.
+                   "steal_under": config.get("steal_under"),
+                   "expensive_from": config.get("expensive_from")},
         "keeper_deadline": deadline.isoformat() if deadline else None,
         "teams": teams,
         "players": [{**players.get(pk, {"name": pk, "position": "", "nfl_team": ""}), **r}
