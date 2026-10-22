@@ -155,6 +155,8 @@ def build(season, config, data=DATA, site=SITE):
         "config": {k: config[k] for k in ("league_name", "draft_budget", "max_keepers", "keeper_tax_schedule",
                                           "max_years_kept", "free_agent_base_price", "draft_date",
                                           "keeper_deadline_days_before_draft")},
+        # Google Apps Script web app holding managers' declarations (apps_script/Code.gs), or None.
+        "declarations_api": config.get("declarations_api"),
         "keeper_deadline": deadline.isoformat() if deadline else None,
         "teams": teams,
         "players": [{**players.get(pk, {"name": pk, "position": "", "nfl_team": ""}), **r}

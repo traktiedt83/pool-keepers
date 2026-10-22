@@ -8,5 +8,6 @@
   "max_years_kept": 2,
   "free_agent_base_price": 0,
   "draft_date": null,
-  "keeper_deadline_days_before_draft": 7
+  "keeper_deadline_days_before_draft": 7,
+  "declarations_api": null
 }

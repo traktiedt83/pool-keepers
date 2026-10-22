@@ -74,6 +74,71 @@
     return lines.length ? '<ol class="trail">' + lines.join("") + "</ol>" : '<p class="muted small">No moves on record.</p>';
   }
 
+  // ------------------------------------------------------------ declarations (Google Sheet)
+
+  // Managers' declared keepers live in a Google Sheet behind an Apps Script web app
+  // (apps_script/Code.gs). GET lists them; POST declares or undeclares, checked against the team PIN.
+  const API = C.declarations_api;
+  let live = { status: API ? "loading" : "off", decl: {} };
+
+  function loadDeclarations() {
+    if (!API) return Promise.resolve();
+    return fetch(API + "?t=" + Date.now())
+      .then((r) => r.json())
+      .then((d) => { live = { status: "ok", decl: d.declarations || {} }; })
+      .catch(() => { live = { status: "error", decl: {} }; })
+      .then(() => { if (/^#(teams|declarations)/.test(location.hash)) route(false); });
+  }
+
+  function deadlinePassed() {
+    if (!D.keeper_deadline) return false;
+    return new Date() > new Date(D.keeper_deadline + "T23:59:59");
+  }
+
+  // A team's declaration, with player keys resolved for this data. Teams and players fall back to
+  // matching by name, because keys change when the hand-built snapshot is replaced by Yahoo data.
+  function declaredFor(team) {
+    const d = live.decl[team] || Object.values(live.decl).find((x) => x.team_name === teamName(team));
+    if (!d) return null;
+    const keys = d.players.map((p) => byKey[p.key] && byKey[p.key].team_key === team ? p.key :
+      (players.find((q) => q.team_key === team && q.name === p.name && q.position === p.pos) || {}).player_key);
+    return Object.assign({}, d, { keys: keys.filter(Boolean) });
+  }
+
+  function declaredStatus(declared) {
+    if (!API) return "";
+    if (live.status === "loading") return '<p class="small muted">Checking declared keepers…</p>';
+    if (live.status === "error") return '<div class="notice">Couldn\'t load declared keepers right now. Try again in a minute.</div>';
+    const when = declared ? new Date(declared.declared_at).toLocaleDateString(undefined, { month: "short", day: "numeric" }) : "";
+    return (declared
+      ? '<p class="declared-line"><span class="pill ok">Declared</span> ' + declared.players.map((p) => esc(p.name) + " " + money(p.cost)).join(" + ") +
+        ' <span class="muted small">· ' + esc(when) + "</span></p>"
+      : '<p class="declared-line"><span class="pill out">Not declared</span></p>') +
+      (deadlinePassed() ? '<p class="small muted">The keeper deadline has passed, so declarations are locked.</p>' : "");
+  }
+
+  function sendDeclaration(team, action, extra, button) {
+    const pin = window.prompt("Enter the PIN for " + teamName(team) + ":");
+    if (!pin) return;
+    const label = button.textContent;
+    button.disabled = true;
+    button.textContent = "Saving…";
+    // Plain-text body keeps this a "simple" cross-site request that Apps Script accepts.
+    fetch(API, { method: "POST", body: JSON.stringify(Object.assign({ action: action, team: team, pin: pin.trim() }, extra)) })
+      .then((r) => r.json())
+      .then((res) => {
+        if (!res.ok) {
+          window.alert(res.error || "That didn't work. Try again.");
+          return;
+        }
+        live = { status: "ok", decl: res.declarations || {} };
+        history.replaceState(null, "", "#teams/" + encodeURIComponent(team));
+        route(false);
+      })
+      .catch(() => window.alert("Couldn't reach the keeper sheet. Check your connection and try again."))
+      .then(() => { button.textContent = label; button.disabled = false; });
+  }
+
   // ------------------------------------------------------------ header
 
   document.getElementById("league-name").textContent = C.league_name + " Keepers";
@@ -186,23 +251,28 @@
     }
   }
 
-  // Try-out keeper picks. The picks live in the page address (#teams/<team>/<player>,<player>)
-  // so a link shows someone else the same picks. Nothing here is an official declaration.
+  // Keeper picks for one team. Picks live in the page address (#teams/<team>/<player>,<player>)
+  // so a link shows someone else the same picks. With the declarations sheet connected,
+  // Declare / Undeclare save them for the whole league (the sheet checks the team PIN).
   function teams(team, picksArg) {
     if (!teamKeys.includes(team)) team = teamKeys.includes(rememberedTeam()) ? rememberedTeam() : teamKeys[0];
     rememberedTeam(team);
     const roster = players.filter((p) => p.team_key === team)
       .sort((a, b) => (b.eligible - a.eligible) || ((b.keeper_cost || 0) - (a.keeper_cost || 0)));
     const eligible = new Set(roster.filter((p) => p.eligible).map((p) => p.player_key));
-    let picks = (picksArg ? picksArg.split(",") : []).filter((k) => eligible.has(k)).slice(0, C.max_keepers);
-    const undoStack = [];
+    const declared = declaredFor(team);
+    const start = picksArg ? picksArg.split(",") : declared ? declared.keys : [];
+    let picks = start.filter((k) => eligible.has(k)).slice(0, C.max_keepers);
+    const canDeclare = live.status === "ok" && !deadlinePassed();
     const t = D.teams[team] || {};
     view.innerHTML =
-      "<h2>Try your keepers</h2>" +
+      "<h2>" + (API ? "Pick and declare keepers" : "Try your keepers") + "</h2>" +
       '<div class="controls"><select id="team">' + teamOptions(team) + "</select></div>" +
       '<div class="card"><h3>' + esc(teamName(team)) + (t.manager ? ' <span class="muted small">' + esc(t.manager) + "</span>" : "") + "</h3>" +
+      declaredStatus(declared) +
       '<p class="muted small">Tap up to ' + C.max_keepers + " players to see what they'd cost and what you'd have left for the " +
-        D.keeper_season + " draft. This is just a try-out, not your official keeper declaration.</p>" +
+        D.keeper_season + " draft." + (API ? " When you're sure, tap <b>Declare</b> and enter your team PIN." :
+        " This is just a try-out, not your official keeper declaration.") + "</p>" +
       '<div class="picks">' + roster.map((p) =>
         '<label class="' + (p.eligible ? "" : "disabled") + '">' +
         '<input type="checkbox" value="' + esc(p.player_key) + '"' + (p.eligible ? "" : " disabled") + ">" +
@@ -213,20 +283,24 @@
       "</div>" +
       // Pinned to the bottom of the screen so the total and buttons stay in reach while scrolling.
       '<div class="budget"><div id="budget"></div><div class="pick-actions">' +
-      '<button type="button" id="undo">Undo</button>' +
+      (API ? '<button type="button" id="declare">Declare</button>' +
+             '<button type="button" id="undeclare">Undeclare</button>' : "") +
       '<button type="button" id="clear">Clear</button>' +
       '<button type="button" id="share">Share</button>' +
       "</div></div></div>";
 
     const boxes = Array.from(view.querySelectorAll(".picks input"));
-    const undoBtn = document.getElementById("undo");
+    const declareBtn = document.getElementById("declare");
+    const undeclareBtn = document.getElementById("undeclare");
     const clearBtn = document.getElementById("clear");
     const shareBtn = document.getElementById("share");
 
     function setPicks(next) {
-      undoStack.push(picks);
       picks = next;
       sync();
+    }
+    function sameAsDeclared() {
+      return declared && picks.length === declared.keys.length && picks.every((k) => declared.keys.includes(k));
     }
     function sync() {
       const picked = picks.map((k) => byKey[k]);
@@ -238,11 +312,15 @@
         b.disabled = off;
         b.parentElement.classList.toggle("disabled", off);
       });
-      undoBtn.disabled = !undoStack.length;
+      if (declareBtn) {
+        declareBtn.disabled = !canDeclare || !picks.length || sameAsDeclared();
+        undeclareBtn.disabled = !canDeclare || !declared;
+      }
       clearBtn.disabled = !picks.length;
       shareBtn.disabled = !picks.length;
       document.getElementById("budget").innerHTML = picked.length
-        ? "Keeping " + picked.map((p) => esc(p.name) + " (" + money(p.keeper_cost) + ")").join(" + ") +
+        ? (sameAsDeclared() ? "✓ Declared: " : declared ? "Changing to " : "Keeping ") +
+          picked.map((p) => esc(p.name) + " (" + money(p.keeper_cost) + ")").join(" + ") +
           "<br><b>" + money(C.draft_budget - total) + "</b> left to spend in the " + D.keeper_season + " draft"
         : "No keepers picked · <b>" + money(C.draft_budget) + "</b> to spend";
       // Keep the address in step without re-rendering, so the link always matches the picks.
@@ -252,11 +330,22 @@
 
     boxes.forEach((b) => b.addEventListener("change", () =>
       setPicks(b.checked ? picks.concat(b.value) : picks.filter((k) => k !== b.value))));
-    undoBtn.addEventListener("click", () => {
-      picks = undoStack.pop();
-      sync();
-    });
     clearBtn.addEventListener("click", () => setPicks([]));
+    if (declareBtn) {
+      declareBtn.addEventListener("click", () => {
+        const picked = picks.map((k) => byKey[k]);
+        const total = picked.reduce((s, p) => s + p.keeper_cost, 0);
+        const ok = window.confirm("Declare " + picked.map((p) => p.name + " (" + money(p.keeper_cost) + ")").join(" + ") +
+          " as " + teamName(team) + "'s " + D.keeper_season + " keepers?\n\nThat leaves " +
+          money(C.draft_budget - total) + " for the draft. You can undeclare until the keeper deadline.");
+        if (ok) sendDeclaration(team, "declare", { players: picks }, declareBtn);
+      });
+      undeclareBtn.addEventListener("click", () => {
+        if (window.confirm("Undeclare " + teamName(team) + "'s keepers? Nobody will be declared until you declare again.")) {
+          sendDeclaration(team, "undeclare", {}, undeclareBtn);
+        }
+      });
+    }
     shareBtn.addEventListener("click", () => {
       const url = location.href;
       const text = teamName(team) + " keeping " + picks.map((k) => byKey[k].name).join(" + ");
@@ -344,6 +433,7 @@
   }
 
   function declarations() {
+    if (API) return liveDeclarations();
     const any = Object.keys(D.declarations).length > 0;
     view.innerHTML = "<h2>" + D.keeper_season + " keeper declarations</h2>" +
       (any ? "" : '<div class="notice">No keepers declared yet. ' + (D.keeper_deadline ? "Deadline: " + esc(D.keeper_deadline) + "." :
@@ -356,6 +446,29 @@
           (d && d.errors.length ? '<div class="error">' + d.errors.map(esc).join("<br>") + "</div>" : "") + "</td>" +
           '<td class="num">' + money(d ? d.total_cost : 0) + '</td><td class="num"><b>' + money(d ? d.remaining_budget : C.draft_budget) + "</b></td></tr>";
       }).join("") + "</tbody></table></div>";
+  }
+
+  // Declared tab when the declarations sheet is connected: what managers have declared so far.
+  function liveDeclarations() {
+    const head = "<h2>" + D.keeper_season + " keeper declarations</h2>";
+    if (live.status === "loading") { view.innerHTML = head + '<p class="muted">Loading declared keepers…</p>'; return; }
+    if (live.status === "error") {
+      view.innerHTML = head + '<div class="notice">Couldn\'t load declared keepers right now. Try again in a minute.</div>';
+      return;
+    }
+    const rows = teamKeys.map((t) => ({ team: t, d: declaredFor(t) }));
+    const count = rows.filter((r) => r.d).length;
+    view.innerHTML = head +
+      '<p class="small">' + count + " of " + teamKeys.length + " teams have declared. " +
+      (D.keeper_deadline ? (deadlinePassed() ? "The deadline (" + esc(D.keeper_deadline) + ") has passed; declarations are locked."
+        : "Deadline: " + esc(D.keeper_deadline) + ".") : "Deadline: one week before the draft (date TBD).") +
+      ' <a href="#teams">Declare yours →</a></p>' +
+      '<div class="table-wrap"><table><thead><tr><th>Team</th><th>Keepers</th><th class="num">Cost</th><th class="num">Draft budget</th></tr></thead><tbody>' +
+      rows.map(({ team, d }) => "<tr><td>" + esc(teamName(team)) + "</td><td>" +
+        (d ? d.players.map((p) => esc(p.name) + " " + money(p.cost)).join("<br>") : '<span class="muted">Not declared</span>') + "</td>" +
+        '<td class="num">' + money(d ? d.total_cost : 0) + '</td><td class="num"><b>' +
+        money(d ? d.remaining_budget : C.draft_budget) + "</b></td></tr>").join("") +
+      "</tbody></table></div>";
   }
 
   function rules() {
@@ -384,14 +497,16 @@
   // ------------------------------------------------------------ routing
 
   const ROUTES = { board: board, teams: teams, player: lookup, trade: trade, declarations: declarations, rules: rules };
-  function route() {
+  // scrollTop is false when re-drawing the same page (e.g. after declared keepers load).
+  function route(scrollTop) {
     const [name, ...args] = (location.hash.slice(1) || "board").split("/");
     const fn = ROUTES[name] || board;
     document.querySelectorAll(".tabs a").forEach((a) => a.classList.toggle("on", a.getAttribute("href") === "#" + (ROUTES[name] ? name : "board")));
     fn(...args.map(decodeURIComponent));
     if (snapshotNote) view.insertAdjacentHTML("afterbegin", snapshotNote);
-    window.scrollTo(0, 0);
+    if (scrollTop !== false) window.scrollTo(0, 0);
   }
-  window.addEventListener("hashchange", route);
+  window.addEventListener("hashchange", () => route());
   route();
+  loadDeclarations();
 })();
