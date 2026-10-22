@@ -150,6 +150,8 @@ def build(season, config, data=DATA, site=SITE):
         "keeper_season": next_season,
         "roster_week": info.get("roster_week"),
         "season_finished": info.get("is_finished", False),
+        # Set when data/<season>/ was built by hand (e.g. from saved Yahoo pages) instead of the API.
+        "snapshot": info.get("snapshot"),
         "config": {k: config[k] for k in ("league_name", "draft_budget", "max_keepers", "keeper_tax_schedule",
                                           "max_years_kept", "free_agent_base_price", "draft_date",
                                           "keeper_deadline_days_before_draft")},

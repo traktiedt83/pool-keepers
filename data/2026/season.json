@@ -1,0 +1,10 @@
+{
+ "season": 2026,
+ "league_key": "snapshot",
+ "is_finished": false,
+ "roster_week": null,
+ "snapshot": {
+  "as_of": "Oct 21, 2026",
+  "note": "Built by hand from Yahoo draft and transaction pages saved Oct 21, 2026, while we wait for Yahoo to approve live data. Tell the commish if anything looks off."
+ }
+}

@@ -1,0 +1,574 @@
+{
+ "file": "tx4",
+ "transactions": [
+  {
+   "seq": 1,
+   "date": "2026-10-02",
+   "time": "6:46 pm",
+   "team": "Sam LaPorta Potty",
+   "moves": [
+    {
+     "type": "drop",
+     "player": "Terrance Ferguson",
+     "nfl": "LAR",
+     "pos": "TE",
+     "faab_bid": null,
+     "from_team": "Sam LaPorta Potty",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 2,
+   "date": "2026-10-02",
+   "time": "12:22 am",
+   "team": "My Team Hurts",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Zach Charbonnet",
+     "nfl": "SEA",
+     "pos": "RB",
+     "faab_bid": 7,
+     "from_team": null,
+     "to_team": "My Team Hurts"
+    },
+    {
+     "type": "drop",
+     "player": "Keon Coleman",
+     "nfl": "BUF",
+     "pos": "WR",
+     "faab_bid": null,
+     "from_team": "My Team Hurts",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 3,
+   "date": "2026-10-01",
+   "time": "2:58 pm",
+   "team": "Granny Danger",
+   "moves": [
+    {
+     "type": "add",
+     "player": "George Holani",
+     "nfl": "SEA",
+     "pos": "RB",
+     "faab_bid": null,
+     "from_team": null,
+     "to_team": "Granny Danger"
+    }
+   ]
+  },
+  {
+   "seq": 4,
+   "date": "2026-10-01",
+   "time": "2:56 pm",
+   "team": "Sato's Escorts",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Isaiah Davis",
+     "nfl": "NYJ",
+     "pos": "RB",
+     "faab_bid": null,
+     "from_team": null,
+     "to_team": "Sato's Escorts"
+    },
+    {
+     "type": "drop",
+     "player": "Keaton Mitchell",
+     "nfl": "LAC",
+     "pos": "RB",
+     "faab_bid": null,
+     "from_team": "Sato's Escorts",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 5,
+   "date": "2026-09-30",
+   "time": "4:02 pm",
+   "team": "Succop is the glue",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Jaylen Wright",
+     "nfl": "MIA",
+     "pos": "RB",
+     "faab_bid": null,
+     "from_team": null,
+     "to_team": "Succop is the glue"
+    },
+    {
+     "type": "drop",
+     "player": "Adonai Mitchell",
+     "nfl": "NYJ",
+     "pos": "WR",
+     "faab_bid": null,
+     "from_team": "Succop is the glue",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 6,
+   "date": "2026-09-30",
+   "time": "2:26 pm",
+   "team": "Granny Danger",
+   "moves": [
+    {
+     "type": "drop",
+     "player": "Jayden Reed",
+     "nfl": "GB",
+     "pos": "WR",
+     "faab_bid": null,
+     "from_team": "Granny Danger",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 7,
+   "date": "2026-09-30",
+   "time": "4:43 am",
+   "team": "GallupGate 2020",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Darren Waller",
+     "nfl": "CAR",
+     "pos": "TE",
+     "faab_bid": null,
+     "from_team": null,
+     "to_team": "GallupGate 2020"
+    },
+    {
+     "type": "drop",
+     "player": "Tyrone Tracy Jr.",
+     "nfl": "NYG",
+     "pos": "RB",
+     "faab_bid": null,
+     "from_team": "GallupGate 2020",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 8,
+   "date": "2026-09-30",
+   "time": "4:36 am",
+   "team": "My Team Hurts",
+   "moves": [
+    {
+     "type": "add",
+     "player": "KC Concepcion Jr.",
+     "nfl": "CLE",
+     "pos": "WR",
+     "faab_bid": null,
+     "from_team": null,
+     "to_team": "My Team Hurts"
+    },
+    {
+     "type": "drop",
+     "player": "Jonathon Brooks",
+     "nfl": "CAR",
+     "pos": "RB",
+     "faab_bid": null,
+     "from_team": "My Team Hurts",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 9,
+   "date": "2026-09-30",
+   "time": "1:23 am",
+   "team": "Succop is the glue",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Jaguars",
+     "nfl": "JAX",
+     "pos": "DEF",
+     "faab_bid": 0,
+     "from_team": null,
+     "to_team": "Succop is the glue"
+    },
+    {
+     "type": "drop",
+     "player": "49ers",
+     "nfl": "SF",
+     "pos": "DEF",
+     "faab_bid": null,
+     "from_team": "Succop is the glue",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 10,
+   "date": "2026-09-30",
+   "time": "1:23 am",
+   "team": "GallupGate 2020",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Kirk Cousins",
+     "nfl": "LV",
+     "pos": "QB",
+     "faab_bid": 0,
+     "from_team": null,
+     "to_team": "GallupGate 2020"
+    },
+    {
+     "type": "drop",
+     "player": "Packers",
+     "nfl": "GB",
+     "pos": "DEF",
+     "faab_bid": null,
+     "from_team": "GallupGate 2020",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 11,
+   "date": "2026-09-30",
+   "time": "1:23 am",
+   "team": "My Team Hurts",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Bills",
+     "nfl": "BUF",
+     "pos": "DEF",
+     "faab_bid": 0,
+     "from_team": null,
+     "to_team": "My Team Hurts"
+    }
+   ]
+  },
+  {
+   "seq": 12,
+   "date": "2026-09-30",
+   "time": "1:23 am",
+   "team": "Pepperidge Farm",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Roman Wilson",
+     "nfl": "PIT",
+     "pos": "WR",
+     "faab_bid": 1,
+     "from_team": null,
+     "to_team": "Pepperidge Farm"
+    },
+    {
+     "type": "drop",
+     "player": "Will Shipley",
+     "nfl": "PHI",
+     "pos": "RB",
+     "faab_bid": null,
+     "from_team": "Pepperidge Farm",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 13,
+   "date": "2026-09-30",
+   "time": "1:23 am",
+   "team": "Big Rig Bohler",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Austin Ekeler",
+     "nfl": "WAS",
+     "pos": "RB",
+     "faab_bid": 2,
+     "from_team": null,
+     "to_team": "Big Rig Bohler"
+    },
+    {
+     "type": "drop",
+     "player": "Alec Pierce",
+     "nfl": "IND",
+     "pos": "WR",
+     "faab_bid": null,
+     "from_team": "Big Rig Bohler",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 14,
+   "date": "2026-09-30",
+   "time": "1:23 am",
+   "team": "FGB",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Konata Mumpfield",
+     "nfl": "LAR",
+     "pos": "WR",
+     "faab_bid": 11,
+     "from_team": null,
+     "to_team": "FGB"
+    },
+    {
+     "type": "drop",
+     "player": "Zavion Thomas",
+     "nfl": "CHI",
+     "pos": "WR",
+     "faab_bid": null,
+     "from_team": "FGB",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 15,
+   "date": "2026-09-30",
+   "time": "1:23 am",
+   "team": "Love Thy Nabers",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Tyreek Hill",
+     "nfl": "MIA",
+     "pos": "WR",
+     "faab_bid": 11,
+     "from_team": null,
+     "to_team": "Love Thy Nabers"
+    },
+    {
+     "type": "drop",
+     "player": "Chris Godwin Jr.",
+     "nfl": "TB",
+     "pos": "WR",
+     "faab_bid": null,
+     "from_team": "Love Thy Nabers",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 16,
+   "date": "2026-09-30",
+   "time": "1:23 am",
+   "team": "Sato's Escorts",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Keaton Mitchell",
+     "nfl": "LAC",
+     "pos": "RB",
+     "faab_bid": 12,
+     "from_team": null,
+     "to_team": "Sato's Escorts"
+    },
+    {
+     "type": "drop",
+     "player": "Drake Maye",
+     "nfl": "NE",
+     "pos": "QB",
+     "faab_bid": null,
+     "from_team": "Sato's Escorts",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 17,
+   "date": "2026-09-30",
+   "time": "1:23 am",
+   "team": "Love Thy Nabers",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Wan'Dale Robinson",
+     "nfl": "TEN",
+     "pos": "WR",
+     "faab_bid": 12,
+     "from_team": null,
+     "to_team": "Love Thy Nabers"
+    }
+   ]
+  },
+  {
+   "seq": 18,
+   "date": "2026-09-30",
+   "time": "1:23 am",
+   "team": "Big Rig Bohler",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Noah Fant",
+     "nfl": "NO",
+     "pos": "TE",
+     "faab_bid": 20,
+     "from_team": null,
+     "to_team": "Big Rig Bohler"
+    },
+    {
+     "type": "drop",
+     "player": "Zach Charbonnet",
+     "nfl": "SEA",
+     "pos": "RB",
+     "faab_bid": null,
+     "from_team": "Big Rig Bohler",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 19,
+   "date": "2026-09-30",
+   "time": "1:23 am",
+   "team": "Sam LaPorta Potty",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Ollie Gordon II",
+     "nfl": "MIA",
+     "pos": "RB",
+     "faab_bid": 46,
+     "from_team": null,
+     "to_team": "Sam LaPorta Potty"
+    }
+   ]
+  },
+  {
+   "seq": 20,
+   "date": "2026-09-29",
+   "time": "5:16 am",
+   "team": "Love Thy Nabers",
+   "moves": [
+    {
+     "type": "drop",
+     "player": "Justin Herbert",
+     "nfl": "LAC",
+     "pos": "QB",
+     "faab_bid": null,
+     "from_team": "Love Thy Nabers",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 21,
+   "date": "2026-09-29",
+   "time": "5:15 am",
+   "team": "Sam LaPorta Potty",
+   "moves": [
+    {
+     "type": "drop",
+     "player": "Rashod Bateman",
+     "nfl": "BAL",
+     "pos": "WR",
+     "faab_bid": null,
+     "from_team": "Sam LaPorta Potty",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 22,
+   "date": "2026-09-29",
+   "time": "4:23 am",
+   "team": "My Team Hurts",
+   "moves": [
+    {
+     "type": "drop",
+     "player": "Bengals",
+     "nfl": "CIN",
+     "pos": "DEF",
+     "faab_bid": null,
+     "from_team": "My Team Hurts",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 23,
+   "date": "2026-09-27",
+   "time": "9:44 am",
+   "team": "Pepperidge Farm",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Will Shipley",
+     "nfl": "PHI",
+     "pos": "RB",
+     "faab_bid": null,
+     "from_team": null,
+     "to_team": "Pepperidge Farm"
+    },
+    {
+     "type": "drop",
+     "player": "Devin Singletary",
+     "nfl": "NYG",
+     "pos": "RB",
+     "faab_bid": null,
+     "from_team": "Pepperidge Farm",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 24,
+   "date": "2026-09-27",
+   "time": "9:22 am",
+   "team": "Sam LaPorta Potty",
+   "moves": [
+    {
+     "type": "add",
+     "player": "Rashod Bateman",
+     "nfl": "BAL",
+     "pos": "WR",
+     "faab_bid": null,
+     "from_team": null,
+     "to_team": "Sam LaPorta Potty"
+    },
+    {
+     "type": "drop",
+     "player": "Jonah Coleman",
+     "nfl": "DEN",
+     "pos": "RB",
+     "faab_bid": null,
+     "from_team": "Sam LaPorta Potty",
+     "to_team": null
+    }
+   ]
+  },
+  {
+   "seq": 25,
+   "date": "2026-09-23",
+   "time": "9:05 pm",
+   "team": null,
+   "moves": [
+    {
+     "type": "trade",
+     "player": "Patrick Mahomes",
+     "nfl": "KC",
+     "pos": "QB",
+     "faab_bid": null,
+     "from_team": "Big Rig Bohler",
+     "to_team": "Love Thy Nabers"
+    },
+    {
+     "type": "trade",
+     "player": "Malik Nabers",
+     "nfl": "NYG",
+     "pos": "WR",
+     "faab_bid": null,
+     "from_team": "Love Thy Nabers",
+     "to_team": "Big Rig Bohler"
+    }
+   ]
+  }
+ ]
+}

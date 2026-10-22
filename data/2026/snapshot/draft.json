@@ -1,0 +1,1612 @@
+{
+  "teams": [
+    {
+      "team": "Sam LaPorta Potty",
+      "unused": 0,
+      "picks": [
+        {
+          "pick": 1,
+          "overall": 5,
+          "player": "Jahmyr Gibbs",
+          "nfl": "DET",
+          "pos": "RB",
+          "cost": 65
+        },
+        {
+          "pick": 2,
+          "overall": 42,
+          "player": "Zay Flowers",
+          "nfl": "BAL",
+          "pos": "WR",
+          "cost": 24
+        },
+        {
+          "pick": 3,
+          "overall": 53,
+          "player": "Rashee Rice",
+          "nfl": "KC",
+          "pos": "WR",
+          "cost": 27
+        },
+        {
+          "pick": 4,
+          "overall": 59,
+          "player": "Kyle Pitts Sr.",
+          "nfl": "ATL",
+          "pos": "TE",
+          "cost": 5
+        },
+        {
+          "pick": 5,
+          "overall": 63,
+          "player": "Ladd McConkey",
+          "nfl": "LAC",
+          "pos": "WR",
+          "cost": 31
+        },
+        {
+          "pick": 6,
+          "overall": 75,
+          "player": "Chris Rodriguez Jr.",
+          "nfl": "JAX",
+          "pos": "RB",
+          "cost": 3
+        },
+        {
+          "pick": 7,
+          "overall": 82,
+          "player": "Carnell Tate",
+          "nfl": "TEN",
+          "pos": "WR",
+          "cost": 8
+        },
+        {
+          "pick": 8,
+          "overall": 86,
+          "player": "David Montgomery",
+          "nfl": "HOU",
+          "pos": "RB",
+          "cost": 17
+        },
+        {
+          "pick": 9,
+          "overall": 91,
+          "player": "Josh Downs",
+          "nfl": "IND",
+          "pos": "WR",
+          "cost": 3
+        },
+        {
+          "pick": 10,
+          "overall": 99,
+          "player": "Dak Prescott",
+          "nfl": "DAL",
+          "pos": "QB",
+          "cost": 4
+        },
+        {
+          "pick": 11,
+          "overall": 119,
+          "player": "Jason Myers",
+          "nfl": "SEA",
+          "pos": "K",
+          "cost": 2
+        },
+        {
+          "pick": 12,
+          "overall": 121,
+          "player": "Eagles",
+          "nfl": "PHI",
+          "pos": "DEF",
+          "cost": 1
+        },
+        {
+          "pick": 13,
+          "overall": 133,
+          "player": "Michael Wilson",
+          "nfl": "ARI",
+          "pos": "WR",
+          "cost": 5
+        },
+        {
+          "pick": 14,
+          "overall": 144,
+          "player": "Tyjae Spears",
+          "nfl": "TEN",
+          "pos": "RB",
+          "cost": 1
+        },
+        {
+          "pick": 15,
+          "overall": 155,
+          "player": "Brock Purdy",
+          "nfl": "SF",
+          "pos": "QB",
+          "cost": 2
+        },
+        {
+          "pick": 16,
+          "overall": 158,
+          "player": "KC Concepcion Jr.",
+          "nfl": "CLE",
+          "pos": "WR",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "team": "Hawk Tua",
+      "unused": 0,
+      "picks": [
+        {
+          "pick": 1,
+          "overall": 13,
+          "player": "Bijan Robinson",
+          "nfl": "ATL",
+          "pos": "RB",
+          "cost": 69
+        },
+        {
+          "pick": 2,
+          "overall": 14,
+          "player": "Brock Bowers",
+          "nfl": "LV",
+          "pos": "TE",
+          "cost": 39
+        },
+        {
+          "pick": 3,
+          "overall": 26,
+          "player": "MarShawn Lloyd",
+          "nfl": "GB",
+          "pos": "RB",
+          "cost": 9
+        },
+        {
+          "pick": 4,
+          "overall": 34,
+          "player": "Joe Burrow",
+          "nfl": "CIN",
+          "pos": "QB",
+          "cost": 10
+        },
+        {
+          "pick": 5,
+          "overall": 38,
+          "player": "Matthew Stafford",
+          "nfl": "LAR",
+          "pos": "QB",
+          "cost": 5
+        },
+        {
+          "pick": 6,
+          "overall": 54,
+          "player": "Terry McLaurin",
+          "nfl": "WAS",
+          "pos": "WR",
+          "cost": 10
+        },
+        {
+          "pick": 7,
+          "overall": 62,
+          "player": "Keenan Allen",
+          "nfl": "IND",
+          "pos": "WR",
+          "cost": 4
+        },
+        {
+          "pick": 8,
+          "overall": 73,
+          "player": "TreVeyon Henderson",
+          "nfl": "NE",
+          "pos": "RB",
+          "cost": 9
+        },
+        {
+          "pick": 9,
+          "overall": 74,
+          "player": "Stefon Diggs",
+          "nfl": "WAS",
+          "pos": "WR",
+          "cost": 5
+        },
+        {
+          "pick": 10,
+          "overall": 80,
+          "player": "Marvin Harrison Jr.",
+          "nfl": "HOU",
+          "pos": "WR",
+          "cost": 17
+        },
+        {
+          "pick": 11,
+          "overall": 88,
+          "player": "Jaylen Warren",
+          "nfl": "PIT",
+          "pos": "RB",
+          "cost": 6
+        },
+        {
+          "pick": 12,
+          "overall": 98,
+          "player": "Broncos",
+          "nfl": "DEN",
+          "pos": "DEF",
+          "cost": 3
+        },
+        {
+          "pick": 13,
+          "overall": 110,
+          "player": "Cameron Dicker",
+          "nfl": "LAC",
+          "pos": "K",
+          "cost": 3
+        },
+        {
+          "pick": 14,
+          "overall": 114,
+          "player": "Courtland Sutton",
+          "nfl": "DEN",
+          "pos": "WR",
+          "cost": 5
+        },
+        {
+          "pick": 15,
+          "overall": 130,
+          "player": "Mark Andrews",
+          "nfl": "BAL",
+          "pos": "TE",
+          "cost": 4
+        },
+        {
+          "pick": 16,
+          "overall": 131,
+          "player": "Jake Bates",
+          "nfl": "DET",
+          "pos": "K",
+          "cost": 2
+        }
+      ]
+    },
+    {
+      "team": "FGB",
+      "unused": 0,
+      "picks": [
+        {
+          "pick": 1,
+          "overall": 2,
+          "player": "Omarion Hampton",
+          "nfl": "LAC",
+          "pos": "RB",
+          "cost": 39
+        },
+        {
+          "pick": 2,
+          "overall": 16,
+          "player": "CeeDee Lamb",
+          "nfl": "DAL",
+          "pos": "WR",
+          "cost": 50
+        },
+        {
+          "pick": 3,
+          "overall": 27,
+          "player": "DJ Moore",
+          "nfl": "BUF",
+          "pos": "WR",
+          "cost": 22
+        },
+        {
+          "pick": 4,
+          "overall": 36,
+          "player": "Colston Loveland",
+          "nfl": "CHI",
+          "pos": "TE",
+          "cost": 29
+        },
+        {
+          "pick": 5,
+          "overall": 57,
+          "player": "Rome Odunze",
+          "nfl": "CHI",
+          "pos": "WR",
+          "cost": 14
+        },
+        {
+          "pick": 6,
+          "overall": 66,
+          "player": "Jameson Williams",
+          "nfl": "DET",
+          "pos": "WR",
+          "cost": 11
+        },
+        {
+          "pick": 7,
+          "overall": 68,
+          "player": "Christian Watson",
+          "nfl": "GB",
+          "pos": "WR",
+          "cost": 5
+        },
+        {
+          "pick": 8,
+          "overall": 72,
+          "player": "Quinshon Judkins",
+          "nfl": "CLE",
+          "pos": "RB",
+          "cost": 16
+        },
+        {
+          "pick": 9,
+          "overall": 111,
+          "player": "Patriots",
+          "nfl": "NE",
+          "pos": "DEF",
+          "cost": 1
+        },
+        {
+          "pick": 10,
+          "overall": 113,
+          "player": "Trevor Lawrence",
+          "nfl": "JAX",
+          "pos": "QB",
+          "cost": 2
+        },
+        {
+          "pick": 11,
+          "overall": 115,
+          "player": "Ja'Kobi Lane",
+          "nfl": "BAL",
+          "pos": "WR",
+          "cost": 2
+        },
+        {
+          "pick": 12,
+          "overall": 123,
+          "player": "Cam Little",
+          "nfl": "JAX",
+          "pos": "K",
+          "cost": 1
+        },
+        {
+          "pick": 13,
+          "overall": 129,
+          "player": "Chuba Hubbard",
+          "nfl": "CAR",
+          "pos": "RB",
+          "cost": 3
+        },
+        {
+          "pick": 14,
+          "overall": 140,
+          "player": "Dallas Goedert",
+          "nfl": "PHI",
+          "pos": "TE",
+          "cost": 3
+        },
+        {
+          "pick": 15,
+          "overall": 156,
+          "player": "Zavion Thomas",
+          "nfl": "CHI",
+          "pos": "WR",
+          "cost": 1
+        },
+        {
+          "pick": 16,
+          "overall": 166,
+          "player": "Mike Washington Jr.",
+          "nfl": "LV",
+          "pos": "RB",
+          "cost": 1
+        }
+      ]
+    },
+    {
+      "team": "My Team Hurts",
+      "unused": 2,
+      "picks": [
+        {
+          "pick": 1,
+          "overall": 31,
+          "player": "A.J. Brown",
+          "nfl": "NE",
+          "pos": "WR",
+          "cost": 40
+        },
+        {
+          "pick": 2,
+          "overall": 40,
+          "player": "Drake London",
+          "nfl": "ATL",
+          "pos": "WR",
+          "cost": 34
+        },
+        {
+          "pick": 3,
+          "overall": 41,
+          "player": "George Pickens",
+          "nfl": "DAL",
+          "pos": "WR",
+          "cost": 30
+        },
+        {
+          "pick": 4,
+          "overall": 51,
+          "player": "Tyler Warren",
+          "nfl": "IND",
+          "pos": "TE",
+          "cost": 17
+        },
+        {
+          "pick": 5,
+          "overall": 55,
+          "player": "Cam Skattebo",
+          "nfl": "NYG",
+          "pos": "RB",
+          "cost": 23
+        },
+        {
+          "pick": 6,
+          "overall": 60,
+          "player": "Travis Etienne Jr.",
+          "nfl": "NO",
+          "pos": "RB",
+          "cost": 25
+        },
+        {
+          "pick": 7,
+          "overall": 70,
+          "player": "Jayden Daniels",
+          "nfl": "WAS",
+          "pos": "QB",
+          "cost": 5
+        },
+        {
+          "pick": 8,
+          "overall": 78,
+          "player": "Jalen Hurts",
+          "nfl": "PHI",
+          "pos": "QB",
+          "cost": 2
+        },
+        {
+          "pick": 9,
+          "overall": 100,
+          "player": "J.K. Dobbins",
+          "nfl": "DEN",
+          "pos": "RB",
+          "cost": 4
+        },
+        {
+          "pick": 10,
+          "overall": 102,
+          "player": "Jacory Croskey-Merritt",
+          "nfl": "WAS",
+          "pos": "RB",
+          "cost": 5
+        },
+        {
+          "pick": 11,
+          "overall": 106,
+          "player": "Jonathon Brooks",
+          "nfl": "CAR",
+          "pos": "RB",
+          "cost": 5
+        },
+        {
+          "pick": 12,
+          "overall": 124,
+          "player": "Jordan Mason",
+          "nfl": "MIN",
+          "pos": "RB",
+          "cost": 1
+        },
+        {
+          "pick": 13,
+          "overall": 135,
+          "player": "Wan'Dale Robinson",
+          "nfl": "TEN",
+          "pos": "WR",
+          "cost": 1
+        },
+        {
+          "pick": 14,
+          "overall": 136,
+          "player": "De'Zhaun Stribling",
+          "nfl": "SF",
+          "pos": "WR",
+          "cost": 4
+        },
+        {
+          "pick": 15,
+          "overall": 146,
+          "player": "Spencer Shrader",
+          "nfl": "IND",
+          "pos": "K",
+          "cost": 1
+        },
+        {
+          "pick": 16,
+          "overall": 157,
+          "player": "Jaguars",
+          "nfl": "JAX",
+          "pos": "DEF",
+          "cost": 1
+        }
+      ]
+    },
+    {
+      "team": "Bear downs",
+      "unused": 0,
+      "picks": [
+        {
+          "pick": 1,
+          "overall": 4,
+          "player": "Jaxon Smith-Njigba",
+          "nfl": "SEA",
+          "pos": "WR",
+          "cost": 59
+        },
+        {
+          "pick": 2,
+          "overall": 8,
+          "player": "Jonathan Taylor",
+          "nfl": "IND",
+          "pos": "RB",
+          "cost": 59
+        },
+        {
+          "pick": 3,
+          "overall": 22,
+          "player": "Josh Allen",
+          "nfl": "BUF",
+          "pos": "QB",
+          "cost": 23
+        },
+        {
+          "pick": 4,
+          "overall": 32,
+          "player": "Tee Higgins",
+          "nfl": "CIN",
+          "pos": "WR",
+          "cost": 15
+        },
+        {
+          "pick": 5,
+          "overall": 39,
+          "player": "Kyren Williams",
+          "nfl": "LAR",
+          "pos": "RB",
+          "cost": 30
+        },
+        {
+          "pick": 6,
+          "overall": 89,
+          "player": "Greg Dulcich",
+          "nfl": "MIA",
+          "pos": "TE",
+          "cost": 1
+        },
+        {
+          "pick": 7,
+          "overall": 122,
+          "player": "Isaiah Likely",
+          "nfl": "NYG",
+          "pos": "TE",
+          "cost": 4
+        },
+        {
+          "pick": 8,
+          "overall": 125,
+          "player": "Kenyon Sadiq",
+          "nfl": "NYJ",
+          "pos": "TE",
+          "cost": 1
+        },
+        {
+          "pick": 9,
+          "overall": 167,
+          "player": "Makai Lemon",
+          "nfl": "PHI",
+          "pos": "WR",
+          "cost": 1
+        },
+        {
+          "pick": 10,
+          "overall": 173,
+          "player": "Rachaad White",
+          "nfl": "WAS",
+          "pos": "RB",
+          "cost": 1
+        },
+        {
+          "pick": 11,
+          "overall": 179,
+          "player": "Jordyn Tyson",
+          "nfl": "NO",
+          "pos": "WR",
+          "cost": 1
+        },
+        {
+          "pick": 12,
+          "overall": 184,
+          "player": "Baker Mayfield",
+          "nfl": "TB",
+          "pos": "QB",
+          "cost": 1
+        },
+        {
+          "pick": 13,
+          "overall": 188,
+          "player": "Xavier Worthy",
+          "nfl": "KC",
+          "pos": "WR",
+          "cost": 1
+        },
+        {
+          "pick": 14,
+          "overall": 190,
+          "player": "Khalil Shakir",
+          "nfl": "BUF",
+          "pos": "WR",
+          "cost": 1
+        },
+        {
+          "pick": 15,
+          "overall": 191,
+          "player": "Ravens",
+          "nfl": "BAL",
+          "pos": "DEF",
+          "cost": 1
+        },
+        {
+          "pick": 16,
+          "overall": 192,
+          "player": "Will Reichard",
+          "nfl": "MIN",
+          "pos": "K",
+          "cost": 1
+        }
+      ]
+    },
+    {
+      "team": "Love Thy Nabers",
+      "unused": 0,
+      "picks": [
+        {
+          "pick": 1,
+          "overall": 20,
+          "player": "Malik Nabers",
+          "nfl": "NYG",
+          "pos": "WR",
+          "cost": 29
+        },
+        {
+          "pick": 2,
+          "overall": 25,
+          "player": "Kenneth Walker III",
+          "nfl": "KC",
+          "pos": "RB",
+          "cost": 56
+        },
+        {
+          "pick": 3,
+          "overall": 33,
+          "player": "Chase Brown",
+          "nfl": "CIN",
+          "pos": "RB",
+          "cost": 57
+        },
+        {
+          "pick": 4,
+          "overall": 69,
+          "player": "Sam LaPorta",
+          "nfl": "DET",
+          "pos": "TE",
+          "cost": 5
+        },
+        {
+          "pick": 5,
+          "overall": 77,
+          "player": "Parker Washington",
+          "nfl": "JAX",
+          "pos": "WR",
+          "cost": 10
+        },
+        {
+          "pick": 6,
+          "overall": 81,
+          "player": "Mike Evans",
+          "nfl": "SF",
+          "pos": "WR",
+          "cost": 14
+        },
+        {
+          "pick": 7,
+          "overall": 90,
+          "player": "Harrison Mevis",
+          "nfl": "LAR",
+          "pos": "K",
+          "cost": 2
+        },
+        {
+          "pick": 8,
+          "overall": 93,
+          "player": "Justin Herbert",
+          "nfl": "LAC",
+          "pos": "QB",
+          "cost": 3
+        },
+        {
+          "pick": 9,
+          "overall": 96,
+          "player": "Blake Corum",
+          "nfl": "LAR",
+          "pos": "RB",
+          "cost": 8
+        },
+        {
+          "pick": 10,
+          "overall": 116,
+          "player": "Chris Godwin Jr.",
+          "nfl": "TB",
+          "pos": "WR",
+          "cost": 10
+        },
+        {
+          "pick": 11,
+          "overall": 148,
+          "player": "Woody Marks",
+          "nfl": "HOU",
+          "pos": "RB",
+          "cost": 1
+        },
+        {
+          "pick": 12,
+          "overall": 159,
+          "player": "Kyler Murray",
+          "nfl": "MIN",
+          "pos": "QB",
+          "cost": 1
+        },
+        {
+          "pick": 13,
+          "overall": 168,
+          "player": "Jalen Coker",
+          "nfl": "CAR",
+          "pos": "WR",
+          "cost": 1
+        },
+        {
+          "pick": 14,
+          "overall": 174,
+          "player": "Keaton Mitchell",
+          "nfl": "LAC",
+          "pos": "RB",
+          "cost": 1
+        },
+        {
+          "pick": 15,
+          "overall": 180,
+          "player": "Emmett Johnson",
+          "nfl": "KC",
+          "pos": "RB",
+          "cost": 1
+        },
+        {
+          "pick": 16,
+          "overall": 185,
+          "player": "Tank Bigsby",
+          "nfl": "PHI",
+          "pos": "RB",
+          "cost": 1
+        }
+      ]
+    },
+    {
+      "team": "Sato's Escorts",
+      "unused": 0,
+      "picks": [
+        {
+          "pick": 1,
+          "overall": 7,
+          "player": "Drake Maye",
+          "nfl": "NE",
+          "pos": "QB",
+          "cost": 9
+        },
+        {
+          "pick": 2,
+          "overall": 10,
+          "player": "De'Von Achane",
+          "nfl": "MIA",
+          "pos": "RB",
+          "cost": 44
+        },
+        {
+          "pick": 3,
+          "overall": 12,
+          "player": "Josh Jacobs",
+          "nfl": "GB",
+          "pos": "RB",
+          "cost": 14
+        },
+        {
+          "pick": 4,
+          "overall": 17,
+          "player": "Breece Hall",
+          "nfl": "NYJ",
+          "pos": "RB",
+          "cost": 28
+        },
+        {
+          "pick": 5,
+          "overall": 29,
+          "player": "Trey McBride",
+          "nfl": "ARI",
+          "pos": "TE",
+          "cost": 35
+        },
+        {
+          "pick": 6,
+          "overall": 35,
+          "player": "Rams",
+          "nfl": "LAR",
+          "pos": "DEF",
+          "cost": 9
+        },
+        {
+          "pick": 7,
+          "overall": 49,
+          "player": "Garrett Wilson",
+          "nfl": "NYJ",
+          "pos": "WR",
+          "cost": 19
+        },
+        {
+          "pick": 8,
+          "overall": 50,
+          "player": "Brian Thomas Jr.",
+          "nfl": "JAX",
+          "pos": "WR",
+          "cost": 13
+        },
+        {
+          "pick": 9,
+          "overall": 64,
+          "player": "Davante Adams",
+          "nfl": "LAR",
+          "pos": "WR",
+          "cost": 19
+        },
+        {
+          "pick": 10,
+          "overall": 79,
+          "player": "Kaleb Johnson",
+          "nfl": "GB",
+          "pos": "RB",
+          "cost": 3
+        },
+        {
+          "pick": 11,
+          "overall": 107,
+          "player": "Trey Smack",
+          "nfl": "GB",
+          "pos": "K",
+          "cost": 2
+        },
+        {
+          "pick": 12,
+          "overall": 127,
+          "player": "Cyrus Allen",
+          "nfl": "KC",
+          "pos": "WR",
+          "cost": 1
+        },
+        {
+          "pick": 13,
+          "overall": 138,
+          "player": "Calvin Ridley",
+          "nfl": "TEN",
+          "pos": "WR",
+          "cost": 1
+        },
+        {
+          "pick": 14,
+          "overall": 149,
+          "player": "Kayshon Boutte",
+          "nfl": "HOU",
+          "pos": "WR",
+          "cost": 1
+        },
+        {
+          "pick": 15,
+          "overall": 169,
+          "player": "Bryce Young",
+          "nfl": "CAR",
+          "pos": "QB",
+          "cost": 1
+        },
+        {
+          "pick": 16,
+          "overall": 175,
+          "player": "Cooper Kupp",
+          "nfl": "SEA",
+          "pos": "WR",
+          "cost": 1
+        }
+      ]
+    },
+    {
+      "team": "Pepperidge Farm",
+      "unused": 0,
+      "picks": [
+        {
+          "pick": 1,
+          "overall": 24,
+          "player": "Justin Jefferson",
+          "nfl": "MIN",
+          "pos": "WR",
+          "cost": 49
+        },
+        {
+          "pick": 2,
+          "overall": 43,
+          "player": "DeVonta Smith",
+          "nfl": "PHI",
+          "pos": "WR",
+          "cost": 31
+        },
+        {
+          "pick": 3,
+          "overall": 46,
+          "player": "Javonte Williams",
+          "nfl": "DAL",
+          "pos": "RB",
+          "cost": 37
+        },
+        {
+          "pick": 4,
+          "overall": 47,
+          "player": "Tetairoa McMillan",
+          "nfl": "CAR",
+          "pos": "WR",
+          "cost": 22
+        },
+        {
+          "pick": 5,
+          "overall": 56,
+          "player": "Travis Kelce",
+          "nfl": "KC",
+          "pos": "TE",
+          "cost": 6
+        },
+        {
+          "pick": 6,
+          "overall": 71,
+          "player": "Caleb Williams",
+          "nfl": "CHI",
+          "pos": "QB",
+          "cost": 7
+        },
+        {
+          "pick": 7,
+          "overall": 85,
+          "player": "Bhayshul Tuten",
+          "nfl": "JAX",
+          "pos": "RB",
+          "cost": 19
+        },
+        {
+          "pick": 8,
+          "overall": 87,
+          "player": "Brandon Aubrey",
+          "nfl": "DAL",
+          "pos": "K",
+          "cost": 4
+        },
+        {
+          "pick": 9,
+          "overall": 97,
+          "player": "Rhamondre Stevenson",
+          "nfl": "NE",
+          "pos": "RB",
+          "cost": 10
+        },
+        {
+          "pick": 10,
+          "overall": 103,
+          "player": "Kenny Gainwell",
+          "nfl": "TB",
+          "pos": "RB",
+          "cost": 5
+        },
+        {
+          "pick": 11,
+          "overall": 104,
+          "player": "Seahawks",
+          "nfl": "SEA",
+          "pos": "DEF",
+          "cost": 3
+        },
+        {
+          "pick": 12,
+          "overall": 128,
+          "player": "Quentin Johnston",
+          "nfl": "LAC",
+          "pos": "WR",
+          "cost": 3
+        },
+        {
+          "pick": 13,
+          "overall": 161,
+          "player": "Rashid Shaheed",
+          "nfl": "SEA",
+          "pos": "WR",
+          "cost": 1
+        },
+        {
+          "pick": 14,
+          "overall": 170,
+          "player": "Deebo Samuel Sr.",
+          "nfl": "SF",
+          "pos": "WR",
+          "cost": 1
+        },
+        {
+          "pick": 15,
+          "overall": 176,
+          "player": "Dylan Sampson",
+          "nfl": "CLE",
+          "pos": "RB",
+          "cost": 1
+        },
+        {
+          "pick": 16,
+          "overall": 181,
+          "player": "Dalton Kincaid",
+          "nfl": "BUF",
+          "pos": "TE",
+          "cost": 1
+        }
+      ]
+    },
+    {
+      "team": "Granny Danger",
+      "unused": 0,
+      "picks": [
+        {
+          "pick": 1,
+          "overall": 3,
+          "player": "Ja'Marr Chase",
+          "nfl": "CIN",
+          "pos": "WR",
+          "cost": 64
+        },
+        {
+          "pick": 2,
+          "overall": 15,
+          "player": "Amon-Ra St. Brown",
+          "nfl": "DET",
+          "pos": "WR",
+          "cost": 55
+        },
+        {
+          "pick": 3,
+          "overall": 61,
+          "player": "Bucky Irving",
+          "nfl": "TB",
+          "pos": "RB",
+          "cost": 15
+        },
+        {
+          "pick": 4,
+          "overall": 76,
+          "player": "Luther Burden III",
+          "nfl": "CHI",
+          "pos": "WR",
+          "cost": 17
+        },
+        {
+          "pick": 5,
+          "overall": 84,
+          "player": "Jadarian Price",
+          "nfl": "SEA",
+          "pos": "RB",
+          "cost": 19
+        },
+        {
+          "pick": 6,
+          "overall": 92,
+          "player": "Jared Goff",
+          "nfl": "DET",
+          "pos": "QB",
+          "cost": 3
+        },
+        {
+          "pick": 7,
+          "overall": 105,
+          "player": "Chargers",
+          "nfl": "LAC",
+          "pos": "DEF",
+          "cost": 1
+        },
+        {
+          "pick": 8,
+          "overall": 109,
+          "player": "Jayden Reed",
+          "nfl": "GB",
+          "pos": "WR",
+          "cost": 5
+        },
+        {
+          "pick": 9,
+          "overall": 117,
+          "player": "Rico Dowdle",
+          "nfl": "PIT",
+          "pos": "RB",
+          "cost": 12
+        },
+        {
+          "pick": 10,
+          "overall": 139,
+          "player": "Jaxson Dart",
+          "nfl": "NYG",
+          "pos": "QB",
+          "cost": 2
+        },
+        {
+          "pick": 11,
+          "overall": 145,
+          "player": "Tyler Allgeier",
+          "nfl": "ARI",
+          "pos": "RB",
+          "cost": 2
+        },
+        {
+          "pick": 12,
+          "overall": 151,
+          "player": "Evan McPherson",
+          "nfl": "CIN",
+          "pos": "K",
+          "cost": 1
+        },
+        {
+          "pick": 13,
+          "overall": 171,
+          "player": "Hunter Henry",
+          "nfl": "NE",
+          "pos": "TE",
+          "cost": 1
+        },
+        {
+          "pick": 14,
+          "overall": 177,
+          "player": "George Holani",
+          "nfl": "SEA",
+          "pos": "RB",
+          "cost": 1
+        },
+        {
+          "pick": 15,
+          "overall": 182,
+          "player": "Caleb Douglas",
+          "nfl": "MIA",
+          "pos": "WR",
+          "cost": 1
+        },
+        {
+          "pick": 16,
+          "overall": 186,
+          "player": "Jake Ferguson",
+          "nfl": "DAL",
+          "pos": "TE",
+          "cost": 1
+        }
+      ]
+    },
+    {
+      "team": "Big Rig Bohler",
+      "unused": 0,
+      "picks": [
+        {
+          "pick": 1,
+          "overall": 1,
+          "player": "Derrick Henry",
+          "nfl": "BAL",
+          "pos": "RB",
+          "cost": 42
+        },
+        {
+          "pick": 2,
+          "overall": 11,
+          "player": "Saquon Barkley",
+          "nfl": "PHI",
+          "pos": "RB",
+          "cost": 54
+        },
+        {
+          "pick": 3,
+          "overall": 19,
+          "player": "Bills",
+          "nfl": "BUF",
+          "pos": "DEF",
+          "cost": 2
+        },
+        {
+          "pick": 4,
+          "overall": 21,
+          "player": "Chris Olave",
+          "nfl": "NO",
+          "pos": "WR",
+          "cost": 37
+        },
+        {
+          "pick": 5,
+          "overall": 44,
+          "player": "Emeka Egbuka",
+          "nfl": "TB",
+          "pos": "WR",
+          "cost": 19
+        },
+        {
+          "pick": 6,
+          "overall": 52,
+          "player": "Lamar Jackson",
+          "nfl": "BAL",
+          "pos": "QB",
+          "cost": 17
+        },
+        {
+          "pick": 7,
+          "overall": 58,
+          "player": "George Kittle",
+          "nfl": "SF",
+          "pos": "TE",
+          "cost": 5
+        },
+        {
+          "pick": 8,
+          "overall": 94,
+          "player": "Patrick Mahomes",
+          "nfl": "KC",
+          "pos": "QB",
+          "cost": 3
+        },
+        {
+          "pick": 9,
+          "overall": 101,
+          "player": "DK Metcalf",
+          "nfl": "PIT",
+          "pos": "WR",
+          "cost": 8
+        },
+        {
+          "pick": 10,
+          "overall": 118,
+          "player": "Ka'imi Fairbairn",
+          "nfl": "HOU",
+          "pos": "K",
+          "cost": 1
+        },
+        {
+          "pick": 11,
+          "overall": 137,
+          "player": "Aaron Jones Sr.",
+          "nfl": "MIN",
+          "pos": "RB",
+          "cost": 4
+        },
+        {
+          "pick": 12,
+          "overall": 141,
+          "player": "Vikings",
+          "nfl": "MIN",
+          "pos": "DEF",
+          "cost": 1
+        },
+        {
+          "pick": 13,
+          "overall": 150,
+          "player": "Alec Pierce",
+          "nfl": "IND",
+          "pos": "WR",
+          "cost": 3
+        },
+        {
+          "pick": 14,
+          "overall": 152,
+          "player": "Jakobi Meyers",
+          "nfl": "JAX",
+          "pos": "WR",
+          "cost": 1
+        },
+        {
+          "pick": 15,
+          "overall": 162,
+          "player": "Juwan Johnson",
+          "nfl": "NO",
+          "pos": "TE",
+          "cost": 2
+        },
+        {
+          "pick": 16,
+          "overall": 163,
+          "player": "Zach Charbonnet",
+          "nfl": "SEA",
+          "pos": "RB",
+          "cost": 1
+        }
+      ]
+    },
+    {
+      "team": "GallupGate 2020",
+      "unused": 0,
+      "picks": [
+        {
+          "pick": 1,
+          "overall": 18,
+          "player": "James Cook III",
+          "nfl": "BUF",
+          "pos": "RB",
+          "cost": 58
+        },
+        {
+          "pick": 2,
+          "overall": 23,
+          "player": "Jordan Love",
+          "nfl": "GB",
+          "pos": "QB",
+          "cost": 5
+        },
+        {
+          "pick": 3,
+          "overall": 30,
+          "player": "Ashton Jeanty",
+          "nfl": "LV",
+          "pos": "RB",
+          "cost": 44
+        },
+        {
+          "pick": 4,
+          "overall": 37,
+          "player": "Nico Collins",
+          "nfl": "HOU",
+          "pos": "WR",
+          "cost": 39
+        },
+        {
+          "pick": 5,
+          "overall": 45,
+          "player": "Jaylen Waddle",
+          "nfl": "DEN",
+          "pos": "WR",
+          "cost": 24
+        },
+        {
+          "pick": 6,
+          "overall": 65,
+          "player": "Tucker Kraft",
+          "nfl": "GB",
+          "pos": "TE",
+          "cost": 13
+        },
+        {
+          "pick": 7,
+          "overall": 83,
+          "player": "Tony Pollard",
+          "nfl": "TEN",
+          "pos": "RB",
+          "cost": 4
+        },
+        {
+          "pick": 8,
+          "overall": 95,
+          "player": "Texans",
+          "nfl": "HOU",
+          "pos": "DEF",
+          "cost": 5
+        },
+        {
+          "pick": 9,
+          "overall": 142,
+          "player": "Harrison Butker",
+          "nfl": "KC",
+          "pos": "K",
+          "cost": 1
+        },
+        {
+          "pick": 10,
+          "overall": 153,
+          "player": "Alvin Kamara",
+          "nfl": "NO",
+          "pos": "RB",
+          "cost": 1
+        },
+        {
+          "pick": 11,
+          "overall": 164,
+          "player": "Tyrone Tracy Jr.",
+          "nfl": "NYG",
+          "pos": "RB",
+          "cost": 1
+        },
+        {
+          "pick": 12,
+          "overall": 172,
+          "player": "Romeo Doubs",
+          "nfl": "NE",
+          "pos": "WR",
+          "cost": 1
+        },
+        {
+          "pick": 13,
+          "overall": 178,
+          "player": "Packers",
+          "nfl": "GB",
+          "pos": "DEF",
+          "cost": 1
+        },
+        {
+          "pick": 14,
+          "overall": 183,
+          "player": "Brian Robinson Jr.",
+          "nfl": "ATL",
+          "pos": "RB",
+          "cost": 1
+        },
+        {
+          "pick": 15,
+          "overall": 187,
+          "player": "Justin Fields",
+          "nfl": "KC",
+          "pos": "QB",
+          "cost": 1
+        },
+        {
+          "pick": 16,
+          "overall": 189,
+          "player": "Taysom Hill",
+          "nfl": "NO",
+          "pos": "TE",
+          "cost": 1
+        }
+      ]
+    },
+    {
+      "team": "Succop is the glue",
+      "unused": 0,
+      "picks": [
+        {
+          "pick": 1,
+          "overall": 6,
+          "player": "Christian McCaffrey",
+          "nfl": "SF",
+          "pos": "RB",
+          "cost": 63
+        },
+        {
+          "pick": 2,
+          "overall": 9,
+          "player": "Puka Nacua",
+          "nfl": "LAR",
+          "pos": "WR",
+          "cost": 57
+        },
+        {
+          "pick": 3,
+          "overall": 28,
+          "player": "Jeremiyah Love",
+          "nfl": "ARI",
+          "pos": "RB",
+          "cost": 27
+        },
+        {
+          "pick": 4,
+          "overall": 48,
+          "player": "Kaelon Black",
+          "nfl": "SF",
+          "pos": "RB",
+          "cost": 7
+        },
+        {
+          "pick": 5,
+          "overall": 67,
+          "player": "D'Andre Swift",
+          "nfl": "CHI",
+          "pos": "RB",
+          "cost": 17
+        },
+        {
+          "pick": 6,
+          "overall": 108,
+          "player": "Harold Fannin Jr.",
+          "nfl": "CLE",
+          "pos": "TE",
+          "cost": 5
+        },
+        {
+          "pick": 7,
+          "overall": 112,
+          "player": "Michael Pittman Jr.",
+          "nfl": "PIT",
+          "pos": "WR",
+          "cost": 4
+        },
+        {
+          "pick": 8,
+          "overall": 120,
+          "player": "Matthew Golden",
+          "nfl": "GB",
+          "pos": "WR",
+          "cost": 5
+        },
+        {
+          "pick": 9,
+          "overall": 126,
+          "player": "RJ Harvey",
+          "nfl": "DEN",
+          "pos": "RB",
+          "cost": 5
+        },
+        {
+          "pick": 10,
+          "overall": 132,
+          "player": "Malik Willis",
+          "nfl": "MIA",
+          "pos": "QB",
+          "cost": 1
+        },
+        {
+          "pick": 11,
+          "overall": 134,
+          "player": "Kyle Monangai",
+          "nfl": "CHI",
+          "pos": "RB",
+          "cost": 2
+        },
+        {
+          "pick": 12,
+          "overall": 143,
+          "player": "Bo Nix",
+          "nfl": "DEN",
+          "pos": "QB",
+          "cost": 1
+        },
+        {
+          "pick": 13,
+          "overall": 147,
+          "player": "Jordan Addison",
+          "nfl": "MIN",
+          "pos": "WR",
+          "cost": 2
+        },
+        {
+          "pick": 14,
+          "overall": 154,
+          "player": "Cowboys",
+          "nfl": "DAL",
+          "pos": "DEF",
+          "cost": 1
+        },
+        {
+          "pick": 15,
+          "overall": 160,
+          "player": "Kaytron Allen",
+          "nfl": "MIA",
+          "pos": "RB",
+          "cost": 2
+        },
+        {
+          "pick": 16,
+          "overall": 165,
+          "player": "Tyler Loop",
+          "nfl": "BAL",
+          "pos": "K",
+          "cost": 1
+        }
+      ]
+    }
+  ]
+}

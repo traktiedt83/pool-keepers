@@ -78,8 +78,8 @@
 
   document.getElementById("league-name").textContent = C.league_name + " Keepers";
   document.title = "Pool Keepers";
-  document.getElementById("status-line").textContent =
-    D.keeper_season + " keeper costs · rosters as of " + D.season + (D.season_finished ? " (final)" : " week " + D.roster_week);
+  document.getElementById("status-line").textContent = D.keeper_season + " keeper costs · rosters as of " +
+    (D.snapshot ? D.snapshot.as_of : D.season + (D.season_finished ? " (final)" : " week " + D.roster_week));
   (function deadline() {
     const el = document.getElementById("deadline");
     if (!D.keeper_deadline) { el.textContent = "Keeper deadline: TBD (one week before the draft)"; return; }
@@ -91,6 +91,10 @@
   })();
   document.getElementById("foot").textContent = "Updated " + new Date(D.generated_at).toLocaleString() +
     ". Commish corrections are marked “Commish”.";
+  // Hand-built data (before the Yahoo feed is connected) gets a banner on every tab.
+  const snapshotNote = D.snapshot
+    ? '<div class="notice"><b>Preliminary.</b> ' + esc(D.snapshot.note) + "</div>"
+    : "";
 
   // ------------------------------------------------------------ views
 
@@ -311,6 +315,7 @@
     const fn = ROUTES[name] || board;
     document.querySelectorAll(".tabs a").forEach((a) => a.classList.toggle("on", a.getAttribute("href") === "#" + (ROUTES[name] ? name : "board")));
     fn(arg && decodeURIComponent(arg));
+    if (snapshotNote) view.insertAdjacentHTML("afterbegin", snapshotNote);
     window.scrollTo(0, 0);
   }
   window.addEventListener("hashchange", route);

@@ -1,0 +1,962 @@
+[
+ {
+  "player_key": "snap.p.jahmyr-gibbs-rb",
+  "team_key": "snap.t.sam-laporta-potty",
+  "cost": 65
+ },
+ {
+  "player_key": "snap.p.zay-flowers-wr",
+  "team_key": "snap.t.sam-laporta-potty",
+  "cost": 24
+ },
+ {
+  "player_key": "snap.p.rashee-rice-wr",
+  "team_key": "snap.t.sam-laporta-potty",
+  "cost": 27
+ },
+ {
+  "player_key": "snap.p.kyle-pitts-sr-te",
+  "team_key": "snap.t.sam-laporta-potty",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.ladd-mcconkey-wr",
+  "team_key": "snap.t.sam-laporta-potty",
+  "cost": 31
+ },
+ {
+  "player_key": "snap.p.chris-rodriguez-jr-rb",
+  "team_key": "snap.t.sam-laporta-potty",
+  "cost": 3
+ },
+ {
+  "player_key": "snap.p.carnell-tate-wr",
+  "team_key": "snap.t.sam-laporta-potty",
+  "cost": 8
+ },
+ {
+  "player_key": "snap.p.david-montgomery-rb",
+  "team_key": "snap.t.sam-laporta-potty",
+  "cost": 17
+ },
+ {
+  "player_key": "snap.p.josh-downs-wr",
+  "team_key": "snap.t.sam-laporta-potty",
+  "cost": 3
+ },
+ {
+  "player_key": "snap.p.dak-prescott-qb",
+  "team_key": "snap.t.sam-laporta-potty",
+  "cost": 4
+ },
+ {
+  "player_key": "snap.p.jason-myers-k",
+  "team_key": "snap.t.sam-laporta-potty",
+  "cost": 2
+ },
+ {
+  "player_key": "snap.p.eagles-def",
+  "team_key": "snap.t.sam-laporta-potty",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.michael-wilson-wr",
+  "team_key": "snap.t.sam-laporta-potty",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.tyjae-spears-rb",
+  "team_key": "snap.t.sam-laporta-potty",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.brock-purdy-qb",
+  "team_key": "snap.t.sam-laporta-potty",
+  "cost": 2
+ },
+ {
+  "player_key": "snap.p.kc-concepcion-jr-wr",
+  "team_key": "snap.t.sam-laporta-potty",
+  "cost": 2
+ },
+ {
+  "player_key": "snap.p.bijan-robinson-rb",
+  "team_key": "snap.t.hawk-tua",
+  "cost": 69
+ },
+ {
+  "player_key": "snap.p.brock-bowers-te",
+  "team_key": "snap.t.hawk-tua",
+  "cost": 39
+ },
+ {
+  "player_key": "snap.p.marshawn-lloyd-rb",
+  "team_key": "snap.t.hawk-tua",
+  "cost": 9
+ },
+ {
+  "player_key": "snap.p.joe-burrow-qb",
+  "team_key": "snap.t.hawk-tua",
+  "cost": 10
+ },
+ {
+  "player_key": "snap.p.matthew-stafford-qb",
+  "team_key": "snap.t.hawk-tua",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.terry-mclaurin-wr",
+  "team_key": "snap.t.hawk-tua",
+  "cost": 10
+ },
+ {
+  "player_key": "snap.p.keenan-allen-wr",
+  "team_key": "snap.t.hawk-tua",
+  "cost": 4
+ },
+ {
+  "player_key": "snap.p.treveyon-henderson-rb",
+  "team_key": "snap.t.hawk-tua",
+  "cost": 9
+ },
+ {
+  "player_key": "snap.p.stefon-diggs-wr",
+  "team_key": "snap.t.hawk-tua",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.marvin-harrison-jr-wr",
+  "team_key": "snap.t.hawk-tua",
+  "cost": 17
+ },
+ {
+  "player_key": "snap.p.jaylen-warren-rb",
+  "team_key": "snap.t.hawk-tua",
+  "cost": 6
+ },
+ {
+  "player_key": "snap.p.broncos-def",
+  "team_key": "snap.t.hawk-tua",
+  "cost": 3
+ },
+ {
+  "player_key": "snap.p.cameron-dicker-k",
+  "team_key": "snap.t.hawk-tua",
+  "cost": 3
+ },
+ {
+  "player_key": "snap.p.courtland-sutton-wr",
+  "team_key": "snap.t.hawk-tua",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.mark-andrews-te",
+  "team_key": "snap.t.hawk-tua",
+  "cost": 4
+ },
+ {
+  "player_key": "snap.p.jake-bates-k",
+  "team_key": "snap.t.hawk-tua",
+  "cost": 2
+ },
+ {
+  "player_key": "snap.p.omarion-hampton-rb",
+  "team_key": "snap.t.fgb",
+  "cost": 39
+ },
+ {
+  "player_key": "snap.p.ceedee-lamb-wr",
+  "team_key": "snap.t.fgb",
+  "cost": 50
+ },
+ {
+  "player_key": "snap.p.dj-moore-wr",
+  "team_key": "snap.t.fgb",
+  "cost": 22
+ },
+ {
+  "player_key": "snap.p.colston-loveland-te",
+  "team_key": "snap.t.fgb",
+  "cost": 29
+ },
+ {
+  "player_key": "snap.p.rome-odunze-wr",
+  "team_key": "snap.t.fgb",
+  "cost": 14
+ },
+ {
+  "player_key": "snap.p.jameson-williams-wr",
+  "team_key": "snap.t.fgb",
+  "cost": 11
+ },
+ {
+  "player_key": "snap.p.christian-watson-wr",
+  "team_key": "snap.t.fgb",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.quinshon-judkins-rb",
+  "team_key": "snap.t.fgb",
+  "cost": 16
+ },
+ {
+  "player_key": "snap.p.patriots-def",
+  "team_key": "snap.t.fgb",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.trevor-lawrence-qb",
+  "team_key": "snap.t.fgb",
+  "cost": 2
+ },
+ {
+  "player_key": "snap.p.ja-kobi-lane-wr",
+  "team_key": "snap.t.fgb",
+  "cost": 2
+ },
+ {
+  "player_key": "snap.p.cam-little-k",
+  "team_key": "snap.t.fgb",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.chuba-hubbard-rb",
+  "team_key": "snap.t.fgb",
+  "cost": 3
+ },
+ {
+  "player_key": "snap.p.dallas-goedert-te",
+  "team_key": "snap.t.fgb",
+  "cost": 3
+ },
+ {
+  "player_key": "snap.p.zavion-thomas-wr",
+  "team_key": "snap.t.fgb",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.mike-washington-jr-rb",
+  "team_key": "snap.t.fgb",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.a-j-brown-wr",
+  "team_key": "snap.t.my-team-hurts",
+  "cost": 40
+ },
+ {
+  "player_key": "snap.p.drake-london-wr",
+  "team_key": "snap.t.my-team-hurts",
+  "cost": 34
+ },
+ {
+  "player_key": "snap.p.george-pickens-wr",
+  "team_key": "snap.t.my-team-hurts",
+  "cost": 30
+ },
+ {
+  "player_key": "snap.p.tyler-warren-te",
+  "team_key": "snap.t.my-team-hurts",
+  "cost": 17
+ },
+ {
+  "player_key": "snap.p.cam-skattebo-rb",
+  "team_key": "snap.t.my-team-hurts",
+  "cost": 23
+ },
+ {
+  "player_key": "snap.p.travis-etienne-jr-rb",
+  "team_key": "snap.t.my-team-hurts",
+  "cost": 25
+ },
+ {
+  "player_key": "snap.p.jayden-daniels-qb",
+  "team_key": "snap.t.my-team-hurts",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.jalen-hurts-qb",
+  "team_key": "snap.t.my-team-hurts",
+  "cost": 2
+ },
+ {
+  "player_key": "snap.p.j-k-dobbins-rb",
+  "team_key": "snap.t.my-team-hurts",
+  "cost": 4
+ },
+ {
+  "player_key": "snap.p.jacory-croskey-merritt-rb",
+  "team_key": "snap.t.my-team-hurts",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.jonathon-brooks-rb",
+  "team_key": "snap.t.my-team-hurts",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.jordan-mason-rb",
+  "team_key": "snap.t.my-team-hurts",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.wan-dale-robinson-wr",
+  "team_key": "snap.t.my-team-hurts",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.de-zhaun-stribling-wr",
+  "team_key": "snap.t.my-team-hurts",
+  "cost": 4
+ },
+ {
+  "player_key": "snap.p.spencer-shrader-k",
+  "team_key": "snap.t.my-team-hurts",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.jaguars-def",
+  "team_key": "snap.t.my-team-hurts",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.jaxon-smith-njigba-wr",
+  "team_key": "snap.t.bear-downs",
+  "cost": 59
+ },
+ {
+  "player_key": "snap.p.jonathan-taylor-rb",
+  "team_key": "snap.t.bear-downs",
+  "cost": 59
+ },
+ {
+  "player_key": "snap.p.josh-allen-qb",
+  "team_key": "snap.t.bear-downs",
+  "cost": 23
+ },
+ {
+  "player_key": "snap.p.tee-higgins-wr",
+  "team_key": "snap.t.bear-downs",
+  "cost": 15
+ },
+ {
+  "player_key": "snap.p.kyren-williams-rb",
+  "team_key": "snap.t.bear-downs",
+  "cost": 30
+ },
+ {
+  "player_key": "snap.p.greg-dulcich-te",
+  "team_key": "snap.t.bear-downs",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.isaiah-likely-te",
+  "team_key": "snap.t.bear-downs",
+  "cost": 4
+ },
+ {
+  "player_key": "snap.p.kenyon-sadiq-te",
+  "team_key": "snap.t.bear-downs",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.makai-lemon-wr",
+  "team_key": "snap.t.bear-downs",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.rachaad-white-rb",
+  "team_key": "snap.t.bear-downs",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.jordyn-tyson-wr",
+  "team_key": "snap.t.bear-downs",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.baker-mayfield-qb",
+  "team_key": "snap.t.bear-downs",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.xavier-worthy-wr",
+  "team_key": "snap.t.bear-downs",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.khalil-shakir-wr",
+  "team_key": "snap.t.bear-downs",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.ravens-def",
+  "team_key": "snap.t.bear-downs",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.will-reichard-k",
+  "team_key": "snap.t.bear-downs",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.malik-nabers-wr",
+  "team_key": "snap.t.love-thy-nabers",
+  "cost": 29
+ },
+ {
+  "player_key": "snap.p.kenneth-walker-iii-rb",
+  "team_key": "snap.t.love-thy-nabers",
+  "cost": 56
+ },
+ {
+  "player_key": "snap.p.chase-brown-rb",
+  "team_key": "snap.t.love-thy-nabers",
+  "cost": 57
+ },
+ {
+  "player_key": "snap.p.sam-laporta-te",
+  "team_key": "snap.t.love-thy-nabers",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.parker-washington-wr",
+  "team_key": "snap.t.love-thy-nabers",
+  "cost": 10
+ },
+ {
+  "player_key": "snap.p.mike-evans-wr",
+  "team_key": "snap.t.love-thy-nabers",
+  "cost": 14
+ },
+ {
+  "player_key": "snap.p.harrison-mevis-k",
+  "team_key": "snap.t.love-thy-nabers",
+  "cost": 2
+ },
+ {
+  "player_key": "snap.p.justin-herbert-qb",
+  "team_key": "snap.t.love-thy-nabers",
+  "cost": 3
+ },
+ {
+  "player_key": "snap.p.blake-corum-rb",
+  "team_key": "snap.t.love-thy-nabers",
+  "cost": 8
+ },
+ {
+  "player_key": "snap.p.chris-godwin-jr-wr",
+  "team_key": "snap.t.love-thy-nabers",
+  "cost": 10
+ },
+ {
+  "player_key": "snap.p.woody-marks-rb",
+  "team_key": "snap.t.love-thy-nabers",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.kyler-murray-qb",
+  "team_key": "snap.t.love-thy-nabers",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.jalen-coker-wr",
+  "team_key": "snap.t.love-thy-nabers",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.keaton-mitchell-rb",
+  "team_key": "snap.t.love-thy-nabers",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.emmett-johnson-rb",
+  "team_key": "snap.t.love-thy-nabers",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.tank-bigsby-rb",
+  "team_key": "snap.t.love-thy-nabers",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.drake-maye-qb",
+  "team_key": "snap.t.sato-s-escorts",
+  "cost": 9
+ },
+ {
+  "player_key": "snap.p.de-von-achane-rb",
+  "team_key": "snap.t.sato-s-escorts",
+  "cost": 44
+ },
+ {
+  "player_key": "snap.p.josh-jacobs-rb",
+  "team_key": "snap.t.sato-s-escorts",
+  "cost": 14
+ },
+ {
+  "player_key": "snap.p.breece-hall-rb",
+  "team_key": "snap.t.sato-s-escorts",
+  "cost": 28
+ },
+ {
+  "player_key": "snap.p.trey-mcbride-te",
+  "team_key": "snap.t.sato-s-escorts",
+  "cost": 35
+ },
+ {
+  "player_key": "snap.p.rams-def",
+  "team_key": "snap.t.sato-s-escorts",
+  "cost": 9
+ },
+ {
+  "player_key": "snap.p.garrett-wilson-wr",
+  "team_key": "snap.t.sato-s-escorts",
+  "cost": 19
+ },
+ {
+  "player_key": "snap.p.brian-thomas-jr-wr",
+  "team_key": "snap.t.sato-s-escorts",
+  "cost": 13
+ },
+ {
+  "player_key": "snap.p.davante-adams-wr",
+  "team_key": "snap.t.sato-s-escorts",
+  "cost": 19
+ },
+ {
+  "player_key": "snap.p.kaleb-johnson-rb",
+  "team_key": "snap.t.sato-s-escorts",
+  "cost": 3
+ },
+ {
+  "player_key": "snap.p.trey-smack-k",
+  "team_key": "snap.t.sato-s-escorts",
+  "cost": 2
+ },
+ {
+  "player_key": "snap.p.cyrus-allen-wr",
+  "team_key": "snap.t.sato-s-escorts",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.calvin-ridley-wr",
+  "team_key": "snap.t.sato-s-escorts",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.kayshon-boutte-wr",
+  "team_key": "snap.t.sato-s-escorts",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.bryce-young-qb",
+  "team_key": "snap.t.sato-s-escorts",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.cooper-kupp-wr",
+  "team_key": "snap.t.sato-s-escorts",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.justin-jefferson-wr",
+  "team_key": "snap.t.pepperidge-farm",
+  "cost": 49
+ },
+ {
+  "player_key": "snap.p.devonta-smith-wr",
+  "team_key": "snap.t.pepperidge-farm",
+  "cost": 31
+ },
+ {
+  "player_key": "snap.p.javonte-williams-rb",
+  "team_key": "snap.t.pepperidge-farm",
+  "cost": 37
+ },
+ {
+  "player_key": "snap.p.tetairoa-mcmillan-wr",
+  "team_key": "snap.t.pepperidge-farm",
+  "cost": 22
+ },
+ {
+  "player_key": "snap.p.travis-kelce-te",
+  "team_key": "snap.t.pepperidge-farm",
+  "cost": 6
+ },
+ {
+  "player_key": "snap.p.caleb-williams-qb",
+  "team_key": "snap.t.pepperidge-farm",
+  "cost": 7
+ },
+ {
+  "player_key": "snap.p.bhayshul-tuten-rb",
+  "team_key": "snap.t.pepperidge-farm",
+  "cost": 19
+ },
+ {
+  "player_key": "snap.p.brandon-aubrey-k",
+  "team_key": "snap.t.pepperidge-farm",
+  "cost": 4
+ },
+ {
+  "player_key": "snap.p.rhamondre-stevenson-rb",
+  "team_key": "snap.t.pepperidge-farm",
+  "cost": 10
+ },
+ {
+  "player_key": "snap.p.kenny-gainwell-rb",
+  "team_key": "snap.t.pepperidge-farm",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.seahawks-def",
+  "team_key": "snap.t.pepperidge-farm",
+  "cost": 3
+ },
+ {
+  "player_key": "snap.p.quentin-johnston-wr",
+  "team_key": "snap.t.pepperidge-farm",
+  "cost": 3
+ },
+ {
+  "player_key": "snap.p.rashid-shaheed-wr",
+  "team_key": "snap.t.pepperidge-farm",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.deebo-samuel-sr-wr",
+  "team_key": "snap.t.pepperidge-farm",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.dylan-sampson-rb",
+  "team_key": "snap.t.pepperidge-farm",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.dalton-kincaid-te",
+  "team_key": "snap.t.pepperidge-farm",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.ja-marr-chase-wr",
+  "team_key": "snap.t.granny-danger",
+  "cost": 64
+ },
+ {
+  "player_key": "snap.p.amon-ra-st-brown-wr",
+  "team_key": "snap.t.granny-danger",
+  "cost": 55
+ },
+ {
+  "player_key": "snap.p.bucky-irving-rb",
+  "team_key": "snap.t.granny-danger",
+  "cost": 15
+ },
+ {
+  "player_key": "snap.p.luther-burden-iii-wr",
+  "team_key": "snap.t.granny-danger",
+  "cost": 17
+ },
+ {
+  "player_key": "snap.p.jadarian-price-rb",
+  "team_key": "snap.t.granny-danger",
+  "cost": 19
+ },
+ {
+  "player_key": "snap.p.jared-goff-qb",
+  "team_key": "snap.t.granny-danger",
+  "cost": 3
+ },
+ {
+  "player_key": "snap.p.chargers-def",
+  "team_key": "snap.t.granny-danger",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.jayden-reed-wr",
+  "team_key": "snap.t.granny-danger",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.rico-dowdle-rb",
+  "team_key": "snap.t.granny-danger",
+  "cost": 12
+ },
+ {
+  "player_key": "snap.p.jaxson-dart-qb",
+  "team_key": "snap.t.granny-danger",
+  "cost": 2
+ },
+ {
+  "player_key": "snap.p.tyler-allgeier-rb",
+  "team_key": "snap.t.granny-danger",
+  "cost": 2
+ },
+ {
+  "player_key": "snap.p.evan-mcpherson-k",
+  "team_key": "snap.t.granny-danger",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.hunter-henry-te",
+  "team_key": "snap.t.granny-danger",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.george-holani-rb",
+  "team_key": "snap.t.granny-danger",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.caleb-douglas-wr",
+  "team_key": "snap.t.granny-danger",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.jake-ferguson-te",
+  "team_key": "snap.t.granny-danger",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.derrick-henry-rb",
+  "team_key": "snap.t.big-rig-bohler",
+  "cost": 42
+ },
+ {
+  "player_key": "snap.p.saquon-barkley-rb",
+  "team_key": "snap.t.big-rig-bohler",
+  "cost": 54
+ },
+ {
+  "player_key": "snap.p.bills-def",
+  "team_key": "snap.t.big-rig-bohler",
+  "cost": 2
+ },
+ {
+  "player_key": "snap.p.chris-olave-wr",
+  "team_key": "snap.t.big-rig-bohler",
+  "cost": 37
+ },
+ {
+  "player_key": "snap.p.emeka-egbuka-wr",
+  "team_key": "snap.t.big-rig-bohler",
+  "cost": 19
+ },
+ {
+  "player_key": "snap.p.lamar-jackson-qb",
+  "team_key": "snap.t.big-rig-bohler",
+  "cost": 17
+ },
+ {
+  "player_key": "snap.p.george-kittle-te",
+  "team_key": "snap.t.big-rig-bohler",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.patrick-mahomes-qb",
+  "team_key": "snap.t.big-rig-bohler",
+  "cost": 3
+ },
+ {
+  "player_key": "snap.p.dk-metcalf-wr",
+  "team_key": "snap.t.big-rig-bohler",
+  "cost": 8
+ },
+ {
+  "player_key": "snap.p.ka-imi-fairbairn-k",
+  "team_key": "snap.t.big-rig-bohler",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.aaron-jones-sr-rb",
+  "team_key": "snap.t.big-rig-bohler",
+  "cost": 4
+ },
+ {
+  "player_key": "snap.p.vikings-def",
+  "team_key": "snap.t.big-rig-bohler",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.alec-pierce-wr",
+  "team_key": "snap.t.big-rig-bohler",
+  "cost": 3
+ },
+ {
+  "player_key": "snap.p.jakobi-meyers-wr",
+  "team_key": "snap.t.big-rig-bohler",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.juwan-johnson-te",
+  "team_key": "snap.t.big-rig-bohler",
+  "cost": 2
+ },
+ {
+  "player_key": "snap.p.zach-charbonnet-rb",
+  "team_key": "snap.t.big-rig-bohler",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.james-cook-iii-rb",
+  "team_key": "snap.t.gallupgate-2020",
+  "cost": 58
+ },
+ {
+  "player_key": "snap.p.jordan-love-qb",
+  "team_key": "snap.t.gallupgate-2020",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.ashton-jeanty-rb",
+  "team_key": "snap.t.gallupgate-2020",
+  "cost": 44
+ },
+ {
+  "player_key": "snap.p.nico-collins-wr",
+  "team_key": "snap.t.gallupgate-2020",
+  "cost": 39
+ },
+ {
+  "player_key": "snap.p.jaylen-waddle-wr",
+  "team_key": "snap.t.gallupgate-2020",
+  "cost": 24
+ },
+ {
+  "player_key": "snap.p.tucker-kraft-te",
+  "team_key": "snap.t.gallupgate-2020",
+  "cost": 13
+ },
+ {
+  "player_key": "snap.p.tony-pollard-rb",
+  "team_key": "snap.t.gallupgate-2020",
+  "cost": 4
+ },
+ {
+  "player_key": "snap.p.texans-def",
+  "team_key": "snap.t.gallupgate-2020",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.harrison-butker-k",
+  "team_key": "snap.t.gallupgate-2020",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.alvin-kamara-rb",
+  "team_key": "snap.t.gallupgate-2020",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.tyrone-tracy-jr-rb",
+  "team_key": "snap.t.gallupgate-2020",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.romeo-doubs-wr",
+  "team_key": "snap.t.gallupgate-2020",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.packers-def",
+  "team_key": "snap.t.gallupgate-2020",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.brian-robinson-jr-rb",
+  "team_key": "snap.t.gallupgate-2020",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.justin-fields-qb",
+  "team_key": "snap.t.gallupgate-2020",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.taysom-hill-te",
+  "team_key": "snap.t.gallupgate-2020",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.christian-mccaffrey-rb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "cost": 63
+ },
+ {
+  "player_key": "snap.p.puka-nacua-wr",
+  "team_key": "snap.t.succop-is-the-glue",
+  "cost": 57
+ },
+ {
+  "player_key": "snap.p.jeremiyah-love-rb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "cost": 27
+ },
+ {
+  "player_key": "snap.p.kaelon-black-rb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "cost": 7
+ },
+ {
+  "player_key": "snap.p.d-andre-swift-rb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "cost": 17
+ },
+ {
+  "player_key": "snap.p.harold-fannin-jr-te",
+  "team_key": "snap.t.succop-is-the-glue",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.michael-pittman-jr-wr",
+  "team_key": "snap.t.succop-is-the-glue",
+  "cost": 4
+ },
+ {
+  "player_key": "snap.p.matthew-golden-wr",
+  "team_key": "snap.t.succop-is-the-glue",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.rj-harvey-rb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "cost": 5
+ },
+ {
+  "player_key": "snap.p.malik-willis-qb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.kyle-monangai-rb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "cost": 2
+ },
+ {
+  "player_key": "snap.p.bo-nix-qb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.jordan-addison-wr",
+  "team_key": "snap.t.succop-is-the-glue",
+  "cost": 2
+ },
+ {
+  "player_key": "snap.p.cowboys-def",
+  "team_key": "snap.t.succop-is-the-glue",
+  "cost": 1
+ },
+ {
+  "player_key": "snap.p.kaytron-allen-rb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "cost": 2
+ },
+ {
+  "player_key": "snap.p.tyler-loop-k",
+  "team_key": "snap.t.succop-is-the-glue",
+  "cost": 1
+ }
+]

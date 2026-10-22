@@ -1,0 +1,4243 @@
+{
+ "snap.p.49ers-def": {
+  "player_key": "snap.p.49ers-def",
+  "team_key": "snap.t.sam-laporta-potty",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-16",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": null
+   },
+   {
+    "event": "dropped",
+    "date": "2026-09-30",
+    "team_key": "snap.t.succop-is-the-glue"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-14",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 0
+   }
+  ],
+  "override": null
+ },
+ "snap.p.brenton-strange-te": {
+  "player_key": "snap.p.brenton-strange-te",
+  "team_key": "snap.t.sam-laporta-potty",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-07",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.carnell-tate-wr": {
+  "player_key": "snap.p.carnell-tate-wr",
+  "team_key": "snap.t.sam-laporta-potty",
+  "base_price": 8,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 18,
+  "cost_if_kept_again": 33,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 8
+   }
+  ],
+  "override": null
+ },
+ "snap.p.chris-boswell-k": {
+  "player_key": "snap.p.chris-boswell-k",
+  "team_key": "snap.t.sam-laporta-potty",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-10",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.dak-prescott-qb": {
+  "player_key": "snap.p.dak-prescott-qb",
+  "team_key": "snap.t.sam-laporta-potty",
+  "base_price": 4,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 14,
+  "cost_if_kept_again": 29,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 4
+   }
+  ],
+  "override": null
+ },
+ "snap.p.dameon-pierce-rb": {
+  "player_key": "snap.p.dameon-pierce-rb",
+  "team_key": "snap.t.sam-laporta-potty",
+  "base_price": 0,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-14",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 0
+   }
+  ],
+  "override": null
+ },
+ "snap.p.david-montgomery-rb": {
+  "player_key": "snap.p.david-montgomery-rb",
+  "team_key": "snap.t.sam-laporta-potty",
+  "base_price": 17,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 27,
+  "cost_if_kept_again": 42,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 17
+   }
+  ],
+  "override": null
+ },
+ "snap.p.hunter-henry-te": {
+  "player_key": "snap.p.hunter-henry-te",
+  "team_key": "snap.t.sam-laporta-potty",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.granny-danger",
+    "price": 1
+   },
+   {
+    "event": "dropped",
+    "date": "2026-10-07",
+    "team_key": "snap.t.granny-danger"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 0
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jahmyr-gibbs-rb": {
+  "player_key": "snap.p.jahmyr-gibbs-rb",
+  "team_key": "snap.t.sam-laporta-potty",
+  "base_price": 65,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 75,
+  "cost_if_kept_again": 90,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 65
+   }
+  ],
+  "override": null
+ },
+ "snap.p.josh-downs-wr": {
+  "player_key": "snap.p.josh-downs-wr",
+  "team_key": "snap.t.sam-laporta-potty",
+  "base_price": 3,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 13,
+  "cost_if_kept_again": 28,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 3
+   }
+  ],
+  "override": null
+ },
+ "snap.p.ladd-mcconkey-wr": {
+  "player_key": "snap.p.ladd-mcconkey-wr",
+  "team_key": "snap.t.sam-laporta-potty",
+  "base_price": 31,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 41,
+  "cost_if_kept_again": 56,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 31
+   }
+  ],
+  "override": null
+ },
+ "snap.p.michael-wilson-wr": {
+  "player_key": "snap.p.michael-wilson-wr",
+  "team_key": "snap.t.sam-laporta-potty",
+  "base_price": 5,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.ollie-gordon-ii-rb": {
+  "player_key": "snap.p.ollie-gordon-ii-rb",
+  "team_key": "snap.t.sam-laporta-potty",
+  "base_price": 46,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 56,
+  "cost_if_kept_again": 71,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-30",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 46
+   }
+  ],
+  "override": null
+ },
+ "snap.p.rashee-rice-wr": {
+  "player_key": "snap.p.rashee-rice-wr",
+  "team_key": "snap.t.sam-laporta-potty",
+  "base_price": 27,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 37,
+  "cost_if_kept_again": 52,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 27
+   }
+  ],
+  "override": null
+ },
+ "snap.p.tyjae-spears-rb": {
+  "player_key": "snap.p.tyjae-spears-rb",
+  "team_key": "snap.t.sam-laporta-potty",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.zay-flowers-wr": {
+  "player_key": "snap.p.zay-flowers-wr",
+  "team_key": "snap.t.sam-laporta-potty",
+  "base_price": 24,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 34,
+  "cost_if_kept_again": 49,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 24
+   }
+  ],
+  "override": null
+ },
+ "snap.p.bijan-robinson-rb": {
+  "player_key": "snap.p.bijan-robinson-rb",
+  "team_key": "snap.t.hawk-tua",
+  "base_price": 69,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 79,
+  "cost_if_kept_again": 94,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.hawk-tua",
+    "price": 69
+   }
+  ],
+  "override": null
+ },
+ "snap.p.brock-bowers-te": {
+  "player_key": "snap.p.brock-bowers-te",
+  "team_key": "snap.t.hawk-tua",
+  "base_price": 39,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 49,
+  "cost_if_kept_again": 64,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.hawk-tua",
+    "price": 39
+   }
+  ],
+  "override": null
+ },
+ "snap.p.broncos-def": {
+  "player_key": "snap.p.broncos-def",
+  "team_key": "snap.t.hawk-tua",
+  "base_price": 3,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 13,
+  "cost_if_kept_again": 28,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.hawk-tua",
+    "price": 3
+   }
+  ],
+  "override": null
+ },
+ "snap.p.cameron-dicker-k": {
+  "player_key": "snap.p.cameron-dicker-k",
+  "team_key": "snap.t.hawk-tua",
+  "base_price": 3,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 13,
+  "cost_if_kept_again": 28,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.hawk-tua",
+    "price": 3
+   }
+  ],
+  "override": null
+ },
+ "snap.p.courtland-sutton-wr": {
+  "player_key": "snap.p.courtland-sutton-wr",
+  "team_key": "snap.t.hawk-tua",
+  "base_price": 5,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.hawk-tua",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jake-bates-k": {
+  "player_key": "snap.p.jake-bates-k",
+  "team_key": "snap.t.hawk-tua",
+  "base_price": 2,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 12,
+  "cost_if_kept_again": 27,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.hawk-tua",
+    "price": 2
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jaylen-warren-rb": {
+  "player_key": "snap.p.jaylen-warren-rb",
+  "team_key": "snap.t.hawk-tua",
+  "base_price": 6,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 16,
+  "cost_if_kept_again": 31,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.hawk-tua",
+    "price": 6
+   }
+  ],
+  "override": null
+ },
+ "snap.p.joe-burrow-qb": {
+  "player_key": "snap.p.joe-burrow-qb",
+  "team_key": "snap.t.hawk-tua",
+  "base_price": 10,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 20,
+  "cost_if_kept_again": 35,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.hawk-tua",
+    "price": 10
+   }
+  ],
+  "override": null
+ },
+ "snap.p.keenan-allen-wr": {
+  "player_key": "snap.p.keenan-allen-wr",
+  "team_key": "snap.t.hawk-tua",
+  "base_price": 4,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 14,
+  "cost_if_kept_again": 29,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.hawk-tua",
+    "price": 4
+   }
+  ],
+  "override": null
+ },
+ "snap.p.mark-andrews-te": {
+  "player_key": "snap.p.mark-andrews-te",
+  "team_key": "snap.t.hawk-tua",
+  "base_price": 4,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 14,
+  "cost_if_kept_again": 29,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.hawk-tua",
+    "price": 4
+   }
+  ],
+  "override": null
+ },
+ "snap.p.marshawn-lloyd-rb": {
+  "player_key": "snap.p.marshawn-lloyd-rb",
+  "team_key": "snap.t.hawk-tua",
+  "base_price": 9,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 19,
+  "cost_if_kept_again": 34,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.hawk-tua",
+    "price": 9
+   }
+  ],
+  "override": null
+ },
+ "snap.p.marvin-harrison-jr-wr": {
+  "player_key": "snap.p.marvin-harrison-jr-wr",
+  "team_key": "snap.t.hawk-tua",
+  "base_price": 17,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 27,
+  "cost_if_kept_again": 42,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.hawk-tua",
+    "price": 17
+   }
+  ],
+  "override": null
+ },
+ "snap.p.matthew-stafford-qb": {
+  "player_key": "snap.p.matthew-stafford-qb",
+  "team_key": "snap.t.hawk-tua",
+  "base_price": 5,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.hawk-tua",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.stefon-diggs-wr": {
+  "player_key": "snap.p.stefon-diggs-wr",
+  "team_key": "snap.t.hawk-tua",
+  "base_price": 5,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.hawk-tua",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.terry-mclaurin-wr": {
+  "player_key": "snap.p.terry-mclaurin-wr",
+  "team_key": "snap.t.hawk-tua",
+  "base_price": 10,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 20,
+  "cost_if_kept_again": 35,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.hawk-tua",
+    "price": 10
+   }
+  ],
+  "override": null
+ },
+ "snap.p.treveyon-henderson-rb": {
+  "player_key": "snap.p.treveyon-henderson-rb",
+  "team_key": "snap.t.hawk-tua",
+  "base_price": 9,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 19,
+  "cost_if_kept_again": 34,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.hawk-tua",
+    "price": 9
+   }
+  ],
+  "override": null
+ },
+ "snap.p.ceedee-lamb-wr": {
+  "player_key": "snap.p.ceedee-lamb-wr",
+  "team_key": "snap.t.fgb",
+  "base_price": 50,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 60,
+  "cost_if_kept_again": 75,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.fgb",
+    "price": 50
+   }
+  ],
+  "override": null
+ },
+ "snap.p.christian-watson-wr": {
+  "player_key": "snap.p.christian-watson-wr",
+  "team_key": "snap.t.fgb",
+  "base_price": 5,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.fgb",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.chuba-hubbard-rb": {
+  "player_key": "snap.p.chuba-hubbard-rb",
+  "team_key": "snap.t.fgb",
+  "base_price": 3,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 13,
+  "cost_if_kept_again": 28,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.fgb",
+    "price": 3
+   }
+  ],
+  "override": null
+ },
+ "snap.p.colston-loveland-te": {
+  "player_key": "snap.p.colston-loveland-te",
+  "team_key": "snap.t.fgb",
+  "base_price": 29,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 39,
+  "cost_if_kept_again": 54,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.fgb",
+    "price": 29
+   }
+  ],
+  "override": null
+ },
+ "snap.p.dallas-goedert-te": {
+  "player_key": "snap.p.dallas-goedert-te",
+  "team_key": "snap.t.fgb",
+  "base_price": 3,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 13,
+  "cost_if_kept_again": 28,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.fgb",
+    "price": 3
+   }
+  ],
+  "override": null
+ },
+ "snap.p.dj-moore-wr": {
+  "player_key": "snap.p.dj-moore-wr",
+  "team_key": "snap.t.fgb",
+  "base_price": 22,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 32,
+  "cost_if_kept_again": 47,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.fgb",
+    "price": 22
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jameson-williams-wr": {
+  "player_key": "snap.p.jameson-williams-wr",
+  "team_key": "snap.t.fgb",
+  "base_price": 11,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 21,
+  "cost_if_kept_again": 36,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.fgb",
+    "price": 11
+   }
+  ],
+  "override": null
+ },
+ "snap.p.ka-imi-fairbairn-k": {
+  "player_key": "snap.p.ka-imi-fairbairn-k",
+  "team_key": "snap.t.fgb",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": 1
+   },
+   {
+    "event": "dropped",
+    "date": "2026-10-04",
+    "team_key": "snap.t.big-rig-bohler"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.fgb",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.kendre-miller-rb": {
+  "player_key": "snap.p.kendre-miller-rb",
+  "team_key": "snap.t.fgb",
+  "base_price": 2,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 12,
+  "cost_if_kept_again": 27,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-17",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": null
+   },
+   {
+    "event": "dropped",
+    "date": "2026-10-18",
+    "team_key": "snap.t.sam-laporta-potty"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.fgb",
+    "price": 2
+   }
+  ],
+  "override": null
+ },
+ "snap.p.kyler-murray-qb": {
+  "player_key": "snap.p.kyler-murray-qb",
+  "team_key": "snap.t.fgb",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 1
+   },
+   {
+    "event": "dropped",
+    "date": "2026-09-16",
+    "team_key": "snap.t.love-thy-nabers"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.fgb",
+    "price": 3
+   }
+  ],
+  "override": null
+ },
+ "snap.p.mike-washington-jr-rb": {
+  "player_key": "snap.p.mike-washington-jr-rb",
+  "team_key": "snap.t.fgb",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.fgb",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.omarion-hampton-rb": {
+  "player_key": "snap.p.omarion-hampton-rb",
+  "team_key": "snap.t.fgb",
+  "base_price": 39,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 49,
+  "cost_if_kept_again": 64,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.fgb",
+    "price": 39
+   }
+  ],
+  "override": null
+ },
+ "snap.p.patriots-def": {
+  "player_key": "snap.p.patriots-def",
+  "team_key": "snap.t.fgb",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.fgb",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.quinshon-judkins-rb": {
+  "player_key": "snap.p.quinshon-judkins-rb",
+  "team_key": "snap.t.fgb",
+  "base_price": 16,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 26,
+  "cost_if_kept_again": 41,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.fgb",
+    "price": 16
+   }
+  ],
+  "override": null
+ },
+ "snap.p.rome-odunze-wr": {
+  "player_key": "snap.p.rome-odunze-wr",
+  "team_key": "snap.t.fgb",
+  "base_price": 14,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 24,
+  "cost_if_kept_again": 39,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.fgb",
+    "price": 14
+   }
+  ],
+  "override": null
+ },
+ "snap.p.trevor-lawrence-qb": {
+  "player_key": "snap.p.trevor-lawrence-qb",
+  "team_key": "snap.t.fgb",
+  "base_price": 2,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 12,
+  "cost_if_kept_again": 27,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.fgb",
+    "price": 2
+   }
+  ],
+  "override": null
+ },
+ "snap.p.a-j-brown-wr": {
+  "player_key": "snap.p.a-j-brown-wr",
+  "team_key": "snap.t.my-team-hurts",
+  "base_price": 40,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 50,
+  "cost_if_kept_again": 65,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.my-team-hurts",
+    "price": 40
+   }
+  ],
+  "override": null
+ },
+ "snap.p.cam-skattebo-rb": {
+  "player_key": "snap.p.cam-skattebo-rb",
+  "team_key": "snap.t.my-team-hurts",
+  "base_price": 23,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 33,
+  "cost_if_kept_again": 48,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.my-team-hurts",
+    "price": 23
+   }
+  ],
+  "override": null
+ },
+ "snap.p.drake-london-wr": {
+  "player_key": "snap.p.drake-london-wr",
+  "team_key": "snap.t.my-team-hurts",
+  "base_price": 34,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 44,
+  "cost_if_kept_again": 59,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.my-team-hurts",
+    "price": 34
+   }
+  ],
+  "override": null
+ },
+ "snap.p.eddy-pineiro-k": {
+  "player_key": "snap.p.eddy-pineiro-k",
+  "team_key": "snap.t.my-team-hurts",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-20",
+    "team_key": "snap.t.my-team-hurts",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.geno-smith-qb": {
+  "player_key": "snap.p.geno-smith-qb",
+  "team_key": "snap.t.my-team-hurts",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.my-team-hurts",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.george-pickens-wr": {
+  "player_key": "snap.p.george-pickens-wr",
+  "team_key": "snap.t.my-team-hurts",
+  "base_price": 30,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 40,
+  "cost_if_kept_again": 55,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.my-team-hurts",
+    "price": 30
+   }
+  ],
+  "override": null
+ },
+ "snap.p.j-k-dobbins-rb": {
+  "player_key": "snap.p.j-k-dobbins-rb",
+  "team_key": "snap.t.my-team-hurts",
+  "base_price": 4,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 14,
+  "cost_if_kept_again": 29,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.my-team-hurts",
+    "price": 4
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jacory-croskey-merritt-rb": {
+  "player_key": "snap.p.jacory-croskey-merritt-rb",
+  "team_key": "snap.t.my-team-hurts",
+  "base_price": 5,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.my-team-hurts",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jayden-daniels-qb": {
+  "player_key": "snap.p.jayden-daniels-qb",
+  "team_key": "snap.t.my-team-hurts",
+  "base_price": 5,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.my-team-hurts",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jordan-mason-rb": {
+  "player_key": "snap.p.jordan-mason-rb",
+  "team_key": "snap.t.my-team-hurts",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.my-team-hurts",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jordyn-tyson-wr": {
+  "player_key": "snap.p.jordyn-tyson-wr",
+  "team_key": "snap.t.my-team-hurts",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.bear-downs",
+    "price": 1
+   },
+   {
+    "event": "dropped",
+    "date": "2026-09-09",
+    "team_key": "snap.t.bear-downs"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-09-16",
+    "team_key": "snap.t.my-team-hurts",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.kyle-pitts-sr-te": {
+  "player_key": "snap.p.kyle-pitts-sr-te",
+  "team_key": "snap.t.my-team-hurts",
+  "base_price": 5,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 5
+   },
+   {
+    "event": "dropped",
+    "date": "2026-10-17",
+    "team_key": "snap.t.sam-laporta-potty"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.my-team-hurts",
+    "price": 2
+   }
+  ],
+  "override": null
+ },
+ "snap.p.titans-def": {
+  "player_key": "snap.p.titans-def",
+  "team_key": "snap.t.my-team-hurts",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.my-team-hurts",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.travis-etienne-jr-rb": {
+  "player_key": "snap.p.travis-etienne-jr-rb",
+  "team_key": "snap.t.my-team-hurts",
+  "base_price": 25,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 35,
+  "cost_if_kept_again": 50,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.my-team-hurts",
+    "price": 25
+   }
+  ],
+  "override": null
+ },
+ "snap.p.tyler-warren-te": {
+  "player_key": "snap.p.tyler-warren-te",
+  "team_key": "snap.t.my-team-hurts",
+  "base_price": 17,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 27,
+  "cost_if_kept_again": 42,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.my-team-hurts",
+    "price": 17
+   }
+  ],
+  "override": null
+ },
+ "snap.p.zach-charbonnet-rb": {
+  "player_key": "snap.p.zach-charbonnet-rb",
+  "team_key": "snap.t.my-team-hurts",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": 1
+   },
+   {
+    "event": "dropped",
+    "date": "2026-09-30",
+    "team_key": "snap.t.big-rig-bohler"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-02",
+    "team_key": "snap.t.my-team-hurts",
+    "price": 7
+   }
+  ],
+  "override": null
+ },
+ "snap.p.baker-mayfield-qb": {
+  "player_key": "snap.p.baker-mayfield-qb",
+  "team_key": "snap.t.bear-downs",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.bear-downs",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.isaiah-likely-te": {
+  "player_key": "snap.p.isaiah-likely-te",
+  "team_key": "snap.t.bear-downs",
+  "base_price": 4,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 14,
+  "cost_if_kept_again": 29,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.bear-downs",
+    "price": 4
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jaxon-smith-njigba-wr": {
+  "player_key": "snap.p.jaxon-smith-njigba-wr",
+  "team_key": "snap.t.bear-downs",
+  "base_price": 59,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 69,
+  "cost_if_kept_again": 84,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.bear-downs",
+    "price": 59
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jonathan-taylor-rb": {
+  "player_key": "snap.p.jonathan-taylor-rb",
+  "team_key": "snap.t.bear-downs",
+  "base_price": 59,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 69,
+  "cost_if_kept_again": 84,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.bear-downs",
+    "price": 59
+   }
+  ],
+  "override": null
+ },
+ "snap.p.josh-allen-qb": {
+  "player_key": "snap.p.josh-allen-qb",
+  "team_key": "snap.t.bear-downs",
+  "base_price": 23,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 33,
+  "cost_if_kept_again": 48,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.bear-downs",
+    "price": 23
+   }
+  ],
+  "override": null
+ },
+ "snap.p.kenyon-sadiq-te": {
+  "player_key": "snap.p.kenyon-sadiq-te",
+  "team_key": "snap.t.bear-downs",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.bear-downs",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.khalil-shakir-wr": {
+  "player_key": "snap.p.khalil-shakir-wr",
+  "team_key": "snap.t.bear-downs",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.bear-downs",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.kyren-williams-rb": {
+  "player_key": "snap.p.kyren-williams-rb",
+  "team_key": "snap.t.bear-downs",
+  "base_price": 30,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 40,
+  "cost_if_kept_again": 55,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.bear-downs",
+    "price": 30
+   }
+  ],
+  "override": null
+ },
+ "snap.p.malik-washington-wr": {
+  "player_key": "snap.p.malik-washington-wr",
+  "team_key": "snap.t.bear-downs",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-09",
+    "team_key": "snap.t.bear-downs",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.mike-gesicki-te": {
+  "player_key": "snap.p.mike-gesicki-te",
+  "team_key": "snap.t.bear-downs",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-16",
+    "team_key": "snap.t.bear-downs",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.rachaad-white-rb": {
+  "player_key": "snap.p.rachaad-white-rb",
+  "team_key": "snap.t.bear-downs",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.bear-downs",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.ravens-def": {
+  "player_key": "snap.p.ravens-def",
+  "team_key": "snap.t.bear-downs",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.bear-downs",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.tanner-mckee-qb": {
+  "player_key": "snap.p.tanner-mckee-qb",
+  "team_key": "snap.t.bear-downs",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.bear-downs",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.tee-higgins-wr": {
+  "player_key": "snap.p.tee-higgins-wr",
+  "team_key": "snap.t.bear-downs",
+  "base_price": 15,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 25,
+  "cost_if_kept_again": 40,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.bear-downs",
+    "price": 15
+   }
+  ],
+  "override": null
+ },
+ "snap.p.will-reichard-k": {
+  "player_key": "snap.p.will-reichard-k",
+  "team_key": "snap.t.bear-downs",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.bear-downs",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.xavier-worthy-wr": {
+  "player_key": "snap.p.xavier-worthy-wr",
+  "team_key": "snap.t.bear-downs",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.bear-downs",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.blake-corum-rb": {
+  "player_key": "snap.p.blake-corum-rb",
+  "team_key": "snap.t.love-thy-nabers",
+  "base_price": 8,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 18,
+  "cost_if_kept_again": 33,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 8
+   }
+  ],
+  "override": null
+ },
+ "snap.p.chase-brown-rb": {
+  "player_key": "snap.p.chase-brown-rb",
+  "team_key": "snap.t.love-thy-nabers",
+  "base_price": 57,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 67,
+  "cost_if_kept_again": 82,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 57
+   }
+  ],
+  "override": null
+ },
+ "snap.p.drake-maye-qb": {
+  "player_key": "snap.p.drake-maye-qb",
+  "team_key": "snap.t.love-thy-nabers",
+  "base_price": 9,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 19,
+  "cost_if_kept_again": 34,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sato-s-escorts",
+    "price": 9
+   },
+   {
+    "event": "dropped",
+    "date": "2026-09-30",
+    "team_key": "snap.t.sato-s-escorts"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-14",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 10
+   }
+  ],
+  "override": null
+ },
+ "snap.p.emmett-johnson-rb": {
+  "player_key": "snap.p.emmett-johnson-rb",
+  "team_key": "snap.t.love-thy-nabers",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.ja-kobi-lane-wr": {
+  "player_key": "snap.p.ja-kobi-lane-wr",
+  "team_key": "snap.t.love-thy-nabers",
+  "base_price": 2,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 12,
+  "cost_if_kept_again": 27,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.fgb",
+    "price": 2
+   },
+   {
+    "event": "dropped",
+    "date": "2026-09-16",
+    "team_key": "snap.t.fgb"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jalen-coker-wr": {
+  "player_key": "snap.p.jalen-coker-wr",
+  "team_key": "snap.t.love-thy-nabers",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.kenneth-walker-iii-rb": {
+  "player_key": "snap.p.kenneth-walker-iii-rb",
+  "team_key": "snap.t.love-thy-nabers",
+  "base_price": 56,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 66,
+  "cost_if_kept_again": 81,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 56
+   }
+  ],
+  "override": null
+ },
+ "snap.p.mike-evans-wr": {
+  "player_key": "snap.p.mike-evans-wr",
+  "team_key": "snap.t.love-thy-nabers",
+  "base_price": 14,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 24,
+  "cost_if_kept_again": 39,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 14
+   }
+  ],
+  "override": null
+ },
+ "snap.p.omar-cooper-jr-wr": {
+  "player_key": "snap.p.omar-cooper-jr-wr",
+  "team_key": "snap.t.love-thy-nabers",
+  "base_price": 0,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 0
+   }
+  ],
+  "override": null
+ },
+ "snap.p.parker-washington-wr": {
+  "player_key": "snap.p.parker-washington-wr",
+  "team_key": "snap.t.love-thy-nabers",
+  "base_price": 10,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 20,
+  "cost_if_kept_again": 35,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 10
+   }
+  ],
+  "override": null
+ },
+ "snap.p.patrick-mahomes-qb": {
+  "player_key": "snap.p.patrick-mahomes-qb",
+  "team_key": "snap.t.love-thy-nabers",
+  "base_price": 3,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 13,
+  "cost_if_kept_again": 28,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": 3
+   },
+   {
+    "event": "traded",
+    "date": "2026-09-23",
+    "from_team": "snap.t.big-rig-bohler",
+    "team_key": "snap.t.love-thy-nabers"
+   }
+  ],
+  "override": null
+ },
+ "snap.p.sam-laporta-te": {
+  "player_key": "snap.p.sam-laporta-te",
+  "team_key": "snap.t.love-thy-nabers",
+  "base_price": 5,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.spencer-shrader-k": {
+  "player_key": "snap.p.spencer-shrader-k",
+  "team_key": "snap.t.love-thy-nabers",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.my-team-hurts",
+    "price": 1
+   },
+   {
+    "event": "dropped",
+    "date": "2026-09-11",
+    "team_key": "snap.t.my-team-hurts"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-07",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 4
+   }
+  ],
+  "override": null
+ },
+ "snap.p.steelers-def": {
+  "player_key": "snap.p.steelers-def",
+  "team_key": "snap.t.love-thy-nabers",
+  "base_price": 6,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 16,
+  "cost_if_kept_again": 31,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-09",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 6
+   }
+  ],
+  "override": null
+ },
+ "snap.p.tyreek-hill-wr": {
+  "player_key": "snap.p.tyreek-hill-wr",
+  "team_key": "snap.t.love-thy-nabers",
+  "base_price": 11,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 21,
+  "cost_if_kept_again": 36,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-30",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 11
+   }
+  ],
+  "override": null
+ },
+ "snap.p.woody-marks-rb": {
+  "player_key": "snap.p.woody-marks-rb",
+  "team_key": "snap.t.love-thy-nabers",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.bhayshul-tuten-rb": {
+  "player_key": "snap.p.bhayshul-tuten-rb",
+  "team_key": "snap.t.sato-s-escorts",
+  "base_price": 19,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 29,
+  "cost_if_kept_again": 44,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 19
+   },
+   {
+    "event": "traded",
+    "date": "2026-10-09",
+    "from_team": "snap.t.pepperidge-farm",
+    "team_key": "snap.t.sato-s-escorts"
+   }
+  ],
+  "override": null
+ },
+ "snap.p.brian-robinson-jr-rb": {
+  "player_key": "snap.p.brian-robinson-jr-rb",
+  "team_key": "snap.t.sato-s-escorts",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": 1
+   },
+   {
+    "event": "traded",
+    "date": "2026-10-09",
+    "from_team": "snap.t.gallupgate-2020",
+    "team_key": "snap.t.sato-s-escorts"
+   }
+  ],
+  "override": null
+ },
+ "snap.p.bryce-young-qb": {
+  "player_key": "snap.p.bryce-young-qb",
+  "team_key": "snap.t.sato-s-escorts",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sato-s-escorts",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.dalton-kincaid-te": {
+  "player_key": "snap.p.dalton-kincaid-te",
+  "team_key": "snap.t.sato-s-escorts",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 1
+   },
+   {
+    "event": "traded",
+    "date": "2026-10-09",
+    "from_team": "snap.t.pepperidge-farm",
+    "team_key": "snap.t.sato-s-escorts"
+   }
+  ],
+  "override": null
+ },
+ "snap.p.deebo-samuel-sr-wr": {
+  "player_key": "snap.p.deebo-samuel-sr-wr",
+  "team_key": "snap.t.sato-s-escorts",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 1
+   },
+   {
+    "event": "traded",
+    "date": "2026-10-09",
+    "from_team": "snap.t.pepperidge-farm",
+    "team_key": "snap.t.sato-s-escorts"
+   }
+  ],
+  "override": null
+ },
+ "snap.p.denzel-boston-wr": {
+  "player_key": "snap.p.denzel-boston-wr",
+  "team_key": "snap.t.sato-s-escorts",
+  "base_price": 27,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 37,
+  "cost_if_kept_again": 52,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-23",
+    "team_key": "snap.t.sato-s-escorts",
+    "price": 27
+   }
+  ],
+  "override": null
+ },
+ "snap.p.dontayvion-wicks-wr": {
+  "player_key": "snap.p.dontayvion-wicks-wr",
+  "team_key": "snap.t.sato-s-escorts",
+  "base_price": 25,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 35,
+  "cost_if_kept_again": 50,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-16",
+    "team_key": "snap.t.sato-s-escorts",
+    "price": 25
+   }
+  ],
+  "override": null
+ },
+ "snap.p.garrett-wilson-wr": {
+  "player_key": "snap.p.garrett-wilson-wr",
+  "team_key": "snap.t.sato-s-escorts",
+  "base_price": 19,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 29,
+  "cost_if_kept_again": 44,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sato-s-escorts",
+    "price": 19
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jacoby-brissett-qb": {
+  "player_key": "snap.p.jacoby-brissett-qb",
+  "team_key": "snap.t.sato-s-escorts",
+  "base_price": 4,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 14,
+  "cost_if_kept_again": 29,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-07",
+    "team_key": "snap.t.sato-s-escorts",
+    "price": 4
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jaylen-waddle-wr": {
+  "player_key": "snap.p.jaylen-waddle-wr",
+  "team_key": "snap.t.sato-s-escorts",
+  "base_price": 24,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 34,
+  "cost_if_kept_again": 49,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": 24
+   },
+   {
+    "event": "traded",
+    "date": "2026-10-09",
+    "from_team": "snap.t.gallupgate-2020",
+    "team_key": "snap.t.sato-s-escorts"
+   }
+  ],
+  "override": null
+ },
+ "snap.p.kaleb-johnson-rb": {
+  "player_key": "snap.p.kaleb-johnson-rb",
+  "team_key": "snap.t.sato-s-escorts",
+  "base_price": 3,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 13,
+  "cost_if_kept_again": 28,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sato-s-escorts",
+    "price": 3
+   }
+  ],
+  "override": null
+ },
+ "snap.p.kayshon-boutte-wr": {
+  "player_key": "snap.p.kayshon-boutte-wr",
+  "team_key": "snap.t.sato-s-escorts",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sato-s-escorts",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.pat-freiermuth-te": {
+  "player_key": "snap.p.pat-freiermuth-te",
+  "team_key": "snap.t.sato-s-escorts",
+  "base_price": 16,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 26,
+  "cost_if_kept_again": 41,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-14",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 16
+   },
+   {
+    "event": "dropped",
+    "date": "2026-10-18",
+    "team_key": "snap.t.love-thy-nabers"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.sato-s-escorts",
+    "price": 2
+   }
+  ],
+  "override": null
+ },
+ "snap.p.rams-def": {
+  "player_key": "snap.p.rams-def",
+  "team_key": "snap.t.sato-s-escorts",
+  "base_price": 9,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 19,
+  "cost_if_kept_again": 34,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sato-s-escorts",
+    "price": 9
+   }
+  ],
+  "override": null
+ },
+ "snap.p.tony-pollard-rb": {
+  "player_key": "snap.p.tony-pollard-rb",
+  "team_key": "snap.t.sato-s-escorts",
+  "base_price": 4,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 14,
+  "cost_if_kept_again": 29,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": 4
+   },
+   {
+    "event": "traded",
+    "date": "2026-10-09",
+    "from_team": "snap.t.gallupgate-2020",
+    "team_key": "snap.t.sato-s-escorts"
+   }
+  ],
+  "override": null
+ },
+ "snap.p.trey-smack-k": {
+  "player_key": "snap.p.trey-smack-k",
+  "team_key": "snap.t.sato-s-escorts",
+  "base_price": 2,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 12,
+  "cost_if_kept_again": 27,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sato-s-escorts",
+    "price": 2
+   }
+  ],
+  "override": null
+ },
+ "snap.p.brandon-aubrey-k": {
+  "player_key": "snap.p.brandon-aubrey-k",
+  "team_key": "snap.t.pepperidge-farm",
+  "base_price": 4,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 14,
+  "cost_if_kept_again": 29,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 4
+   }
+  ],
+  "override": null
+ },
+ "snap.p.breece-hall-rb": {
+  "player_key": "snap.p.breece-hall-rb",
+  "team_key": "snap.t.pepperidge-farm",
+  "base_price": 28,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 38,
+  "cost_if_kept_again": 53,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sato-s-escorts",
+    "price": 28
+   },
+   {
+    "event": "traded",
+    "date": "2026-10-09",
+    "from_team": "snap.t.sato-s-escorts",
+    "team_key": "snap.t.pepperidge-farm"
+   }
+  ],
+  "override": null
+ },
+ "snap.p.brock-purdy-qb": {
+  "player_key": "snap.p.brock-purdy-qb",
+  "team_key": "snap.t.pepperidge-farm",
+  "base_price": 2,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 12,
+  "cost_if_kept_again": 27,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 2
+   },
+   {
+    "event": "dropped",
+    "date": "2026-09-09",
+    "team_key": "snap.t.sam-laporta-potty"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-09-16",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 10
+   }
+  ],
+  "override": null
+ },
+ "snap.p.browns-def": {
+  "player_key": "snap.p.browns-def",
+  "team_key": "snap.t.pepperidge-farm",
+  "base_price": 15,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 25,
+  "cost_if_kept_again": 40,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-07",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": null
+   },
+   {
+    "event": "dropped",
+    "date": "2026-10-14",
+    "team_key": "snap.t.sam-laporta-potty"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 15
+   }
+  ],
+  "override": null
+ },
+ "snap.p.caleb-williams-qb": {
+  "player_key": "snap.p.caleb-williams-qb",
+  "team_key": "snap.t.pepperidge-farm",
+  "base_price": 7,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 17,
+  "cost_if_kept_again": 32,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 7
+   }
+  ],
+  "override": null
+ },
+ "snap.p.devonta-smith-wr": {
+  "player_key": "snap.p.devonta-smith-wr",
+  "team_key": "snap.t.pepperidge-farm",
+  "base_price": 31,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 41,
+  "cost_if_kept_again": 56,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 31
+   }
+  ],
+  "override": null
+ },
+ "snap.p.javonte-williams-rb": {
+  "player_key": "snap.p.javonte-williams-rb",
+  "team_key": "snap.t.pepperidge-farm",
+  "base_price": 37,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 47,
+  "cost_if_kept_again": 62,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 37
+   }
+  ],
+  "override": null
+ },
+ "snap.p.justin-jefferson-wr": {
+  "player_key": "snap.p.justin-jefferson-wr",
+  "team_key": "snap.t.pepperidge-farm",
+  "base_price": 49,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 59,
+  "cost_if_kept_again": 74,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 49
+   }
+  ],
+  "override": null
+ },
+ "snap.p.kenny-gainwell-rb": {
+  "player_key": "snap.p.kenny-gainwell-rb",
+  "team_key": "snap.t.pepperidge-farm",
+  "base_price": 5,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.kimani-vidal-rb": {
+  "player_key": "snap.p.kimani-vidal-rb",
+  "team_key": "snap.t.pepperidge-farm",
+  "base_price": 10,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 20,
+  "cost_if_kept_again": 35,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-14",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 10
+   }
+  ],
+  "override": null
+ },
+ "snap.p.rhamondre-stevenson-rb": {
+  "player_key": "snap.p.rhamondre-stevenson-rb",
+  "team_key": "snap.t.pepperidge-farm",
+  "base_price": 10,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 20,
+  "cost_if_kept_again": 35,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 10
+   }
+  ],
+  "override": null
+ },
+ "snap.p.seahawks-def": {
+  "player_key": "snap.p.seahawks-def",
+  "team_key": "snap.t.pepperidge-farm",
+  "base_price": 3,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 13,
+  "cost_if_kept_again": 28,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 3
+   }
+  ],
+  "override": null
+ },
+ "snap.p.tetairoa-mcmillan-wr": {
+  "player_key": "snap.p.tetairoa-mcmillan-wr",
+  "team_key": "snap.t.pepperidge-farm",
+  "base_price": 22,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 32,
+  "cost_if_kept_again": 47,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 22
+   }
+  ],
+  "override": null
+ },
+ "snap.p.travis-kelce-te": {
+  "player_key": "snap.p.travis-kelce-te",
+  "team_key": "snap.t.pepperidge-farm",
+  "base_price": 6,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 16,
+  "cost_if_kept_again": 31,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 6
+   }
+  ],
+  "override": null
+ },
+ "snap.p.trey-mcbride-te": {
+  "player_key": "snap.p.trey-mcbride-te",
+  "team_key": "snap.t.pepperidge-farm",
+  "base_price": 35,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 45,
+  "cost_if_kept_again": 60,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sato-s-escorts",
+    "price": 35
+   },
+   {
+    "event": "traded",
+    "date": "2026-10-09",
+    "from_team": "snap.t.sato-s-escorts",
+    "team_key": "snap.t.pepperidge-farm"
+   }
+  ],
+  "override": null
+ },
+ "snap.p.wan-dale-robinson-wr": {
+  "player_key": "snap.p.wan-dale-robinson-wr",
+  "team_key": "snap.t.pepperidge-farm",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.my-team-hurts",
+    "price": 1
+   },
+   {
+    "event": "dropped",
+    "date": "2026-09-23",
+    "team_key": "snap.t.my-team-hurts"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-09-30",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 12
+   },
+   {
+    "event": "dropped",
+    "date": "2026-10-07",
+    "team_key": "snap.t.love-thy-nabers"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-09",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.amon-ra-st-brown-wr": {
+  "player_key": "snap.p.amon-ra-st-brown-wr",
+  "team_key": "snap.t.granny-danger",
+  "base_price": 55,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 65,
+  "cost_if_kept_again": 80,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.granny-danger",
+    "price": 55
+   }
+  ],
+  "override": null
+ },
+ "snap.p.bucky-irving-rb": {
+  "player_key": "snap.p.bucky-irving-rb",
+  "team_key": "snap.t.granny-danger",
+  "base_price": 15,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 25,
+  "cost_if_kept_again": 40,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.granny-danger",
+    "price": 15
+   }
+  ],
+  "override": null
+ },
+ "snap.p.c-j-stroud-qb": {
+  "player_key": "snap.p.c-j-stroud-qb",
+  "team_key": "snap.t.granny-danger",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-23",
+    "team_key": "snap.t.granny-danger",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.demario-douglas-wr": {
+  "player_key": "snap.p.demario-douglas-wr",
+  "team_key": "snap.t.granny-danger",
+  "base_price": 0,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.granny-danger",
+    "price": 0
+   }
+  ],
+  "override": null
+ },
+ "snap.p.emanuel-wilson-rb": {
+  "player_key": "snap.p.emanuel-wilson-rb",
+  "team_key": "snap.t.granny-danger",
+  "base_price": 5,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-23",
+    "team_key": "snap.t.granny-danger",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.evan-mcpherson-k": {
+  "player_key": "snap.p.evan-mcpherson-k",
+  "team_key": "snap.t.granny-danger",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.granny-danger",
+    "price": 1
+   },
+   {
+    "event": "dropped",
+    "date": "2026-10-13",
+    "team_key": "snap.t.granny-danger"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.granny-danger",
+    "price": 0
+   }
+  ],
+  "override": null
+ },
+ "snap.p.germie-bernard-wr": {
+  "player_key": "snap.p.germie-bernard-wr",
+  "team_key": "snap.t.granny-danger",
+  "base_price": 21,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 31,
+  "cost_if_kept_again": 46,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-14",
+    "team_key": "snap.t.granny-danger",
+    "price": 21
+   }
+  ],
+  "override": null
+ },
+ "snap.p.ja-marr-chase-wr": {
+  "player_key": "snap.p.ja-marr-chase-wr",
+  "team_key": "snap.t.granny-danger",
+  "base_price": 64,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 74,
+  "cost_if_kept_again": 89,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.granny-danger",
+    "price": 64
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jadarian-price-rb": {
+  "player_key": "snap.p.jadarian-price-rb",
+  "team_key": "snap.t.granny-danger",
+  "base_price": 19,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 29,
+  "cost_if_kept_again": 44,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.granny-danger",
+    "price": 19
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jared-goff-qb": {
+  "player_key": "snap.p.jared-goff-qb",
+  "team_key": "snap.t.granny-danger",
+  "base_price": 3,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 13,
+  "cost_if_kept_again": 28,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.granny-danger",
+    "price": 3
+   }
+  ],
+  "override": null
+ },
+ "snap.p.luther-burden-iii-wr": {
+  "player_key": "snap.p.luther-burden-iii-wr",
+  "team_key": "snap.t.granny-danger",
+  "base_price": 17,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 27,
+  "cost_if_kept_again": 42,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.granny-danger",
+    "price": 17
+   }
+  ],
+  "override": null
+ },
+ "snap.p.packers-def": {
+  "player_key": "snap.p.packers-def",
+  "team_key": "snap.t.granny-danger",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": 1
+   },
+   {
+    "event": "dropped",
+    "date": "2026-09-30",
+    "team_key": "snap.t.gallupgate-2020"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.granny-danger",
+    "price": 0
+   }
+  ],
+  "override": null
+ },
+ "snap.p.rico-dowdle-rb": {
+  "player_key": "snap.p.rico-dowdle-rb",
+  "team_key": "snap.t.granny-danger",
+  "base_price": 12,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 22,
+  "cost_if_kept_again": 37,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.granny-danger",
+    "price": 12
+   }
+  ],
+  "override": null
+ },
+ "snap.p.t-j-hockenson-te": {
+  "player_key": "snap.p.t-j-hockenson-te",
+  "team_key": "snap.t.granny-danger",
+  "base_price": 12,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 22,
+  "cost_if_kept_again": 37,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-07",
+    "team_key": "snap.t.granny-danger",
+    "price": 12
+   }
+  ],
+  "override": null
+ },
+ "snap.p.tre-tucker-wr": {
+  "player_key": "snap.p.tre-tucker-wr",
+  "team_key": "snap.t.granny-danger",
+  "base_price": 0,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-09",
+    "team_key": "snap.t.sam-laporta-potty",
+    "price": 0
+   },
+   {
+    "event": "dropped",
+    "date": "2026-10-14",
+    "team_key": "snap.t.sam-laporta-potty"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-16",
+    "team_key": "snap.t.granny-danger",
+    "price": 0
+   }
+  ],
+  "override": null
+ },
+ "snap.p.tyler-allgeier-rb": {
+  "player_key": "snap.p.tyler-allgeier-rb",
+  "team_key": "snap.t.granny-danger",
+  "base_price": 2,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 12,
+  "cost_if_kept_again": 27,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.granny-danger",
+    "price": 2
+   }
+  ],
+  "override": null
+ },
+ "snap.p.aaron-jones-sr-rb": {
+  "player_key": "snap.p.aaron-jones-sr-rb",
+  "team_key": "snap.t.big-rig-bohler",
+  "base_price": 4,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 14,
+  "cost_if_kept_again": 29,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": 4
+   }
+  ],
+  "override": null
+ },
+ "snap.p.aaron-rodgers-qb": {
+  "player_key": "snap.p.aaron-rodgers-qb",
+  "team_key": "snap.t.big-rig-bohler",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-08",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.chase-mclaughlin-k": {
+  "player_key": "snap.p.chase-mclaughlin-k",
+  "team_key": "snap.t.big-rig-bohler",
+  "base_price": 5,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-11",
+    "team_key": "snap.t.my-team-hurts",
+    "price": null
+   },
+   {
+    "event": "dropped",
+    "date": "2026-09-20",
+    "team_key": "snap.t.my-team-hurts"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-09-23",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 0
+   },
+   {
+    "event": "dropped",
+    "date": "2026-10-07",
+    "team_key": "snap.t.love-thy-nabers"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-14",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.chris-olave-wr": {
+  "player_key": "snap.p.chris-olave-wr",
+  "team_key": "snap.t.big-rig-bohler",
+  "base_price": 37,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 47,
+  "cost_if_kept_again": 62,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": 37
+   }
+  ],
+  "override": null
+ },
+ "snap.p.derrick-henry-rb": {
+  "player_key": "snap.p.derrick-henry-rb",
+  "team_key": "snap.t.big-rig-bohler",
+  "base_price": 42,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 52,
+  "cost_if_kept_again": 67,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": 42
+   }
+  ],
+  "override": null
+ },
+ "snap.p.dk-metcalf-wr": {
+  "player_key": "snap.p.dk-metcalf-wr",
+  "team_key": "snap.t.big-rig-bohler",
+  "base_price": 8,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 18,
+  "cost_if_kept_again": 33,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": 8
+   }
+  ],
+  "override": null
+ },
+ "snap.p.emeka-egbuka-wr": {
+  "player_key": "snap.p.emeka-egbuka-wr",
+  "team_key": "snap.t.big-rig-bohler",
+  "base_price": 19,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 29,
+  "cost_if_kept_again": 44,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": 19
+   }
+  ],
+  "override": null
+ },
+ "snap.p.george-kittle-te": {
+  "player_key": "snap.p.george-kittle-te",
+  "team_key": "snap.t.big-rig-bohler",
+  "base_price": 5,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jakobi-meyers-wr": {
+  "player_key": "snap.p.jakobi-meyers-wr",
+  "team_key": "snap.t.big-rig-bohler",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jets-def": {
+  "player_key": "snap.p.jets-def",
+  "team_key": "snap.t.big-rig-bohler",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-14",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.juwan-johnson-te": {
+  "player_key": "snap.p.juwan-johnson-te",
+  "team_key": "snap.t.big-rig-bohler",
+  "base_price": 2,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 12,
+  "cost_if_kept_again": 27,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": 2
+   }
+  ],
+  "override": null
+ },
+ "snap.p.lamar-jackson-qb": {
+  "player_key": "snap.p.lamar-jackson-qb",
+  "team_key": "snap.t.big-rig-bohler",
+  "base_price": 17,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 27,
+  "cost_if_kept_again": 42,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": 17
+   }
+  ],
+  "override": null
+ },
+ "snap.p.malik-nabers-wr": {
+  "player_key": "snap.p.malik-nabers-wr",
+  "team_key": "snap.t.big-rig-bohler",
+  "base_price": 29,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 39,
+  "cost_if_kept_again": 54,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 29
+   },
+   {
+    "event": "traded",
+    "date": "2026-09-23",
+    "from_team": "snap.t.love-thy-nabers",
+    "team_key": "snap.t.big-rig-bohler"
+   }
+  ],
+  "override": null
+ },
+ "snap.p.roschon-johnson-rb": {
+  "player_key": "snap.p.roschon-johnson-rb",
+  "team_key": "snap.t.big-rig-bohler",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-18",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.saquon-barkley-rb": {
+  "player_key": "snap.p.saquon-barkley-rb",
+  "team_key": "snap.t.big-rig-bohler",
+  "base_price": 54,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 64,
+  "cost_if_kept_again": 79,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": 54
+   }
+  ],
+  "override": null
+ },
+ "snap.p.vikings-def": {
+  "player_key": "snap.p.vikings-def",
+  "team_key": "snap.t.big-rig-bohler",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.big-rig-bohler",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.alvin-kamara-rb": {
+  "player_key": "snap.p.alvin-kamara-rb",
+  "team_key": "snap.t.gallupgate-2020",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.ashton-jeanty-rb": {
+  "player_key": "snap.p.ashton-jeanty-rb",
+  "team_key": "snap.t.gallupgate-2020",
+  "base_price": 44,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 54,
+  "cost_if_kept_again": 69,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": 44
+   }
+  ],
+  "override": null
+ },
+ "snap.p.braelon-allen-rb": {
+  "player_key": "snap.p.braelon-allen-rb",
+  "team_key": "snap.t.gallupgate-2020",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-16",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.brian-thomas-jr-wr": {
+  "player_key": "snap.p.brian-thomas-jr-wr",
+  "team_key": "snap.t.gallupgate-2020",
+  "base_price": 13,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 23,
+  "cost_if_kept_again": 38,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sato-s-escorts",
+    "price": 13
+   },
+   {
+    "event": "traded",
+    "date": "2026-10-09",
+    "from_team": "snap.t.sato-s-escorts",
+    "team_key": "snap.t.gallupgate-2020"
+   }
+  ],
+  "override": null
+ },
+ "snap.p.chris-godwin-jr-wr": {
+  "player_key": "snap.p.chris-godwin-jr-wr",
+  "team_key": "snap.t.gallupgate-2020",
+  "base_price": 10,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 20,
+  "cost_if_kept_again": 35,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": 10
+   },
+   {
+    "event": "dropped",
+    "date": "2026-09-30",
+    "team_key": "snap.t.love-thy-nabers"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-14",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": 0
+   },
+   {
+    "event": "dropped",
+    "date": "2026-10-15",
+    "team_key": "snap.t.pepperidge-farm"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": 0
+   }
+  ],
+  "override": null
+ },
+ "snap.p.davante-adams-wr": {
+  "player_key": "snap.p.davante-adams-wr",
+  "team_key": "snap.t.gallupgate-2020",
+  "base_price": 19,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 29,
+  "cost_if_kept_again": 44,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sato-s-escorts",
+    "price": 19
+   },
+   {
+    "event": "traded",
+    "date": "2026-10-09",
+    "from_team": "snap.t.sato-s-escorts",
+    "team_key": "snap.t.gallupgate-2020"
+   }
+  ],
+  "override": null
+ },
+ "snap.p.devaughn-vele-wr": {
+  "player_key": "snap.p.devaughn-vele-wr",
+  "team_key": "snap.t.gallupgate-2020",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-16",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.harrison-butker-k": {
+  "player_key": "snap.p.harrison-butker-k",
+  "team_key": "snap.t.gallupgate-2020",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.james-cook-iii-rb": {
+  "player_key": "snap.p.james-cook-iii-rb",
+  "team_key": "snap.t.gallupgate-2020",
+  "base_price": 58,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 68,
+  "cost_if_kept_again": 83,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": 58
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jordan-love-qb": {
+  "player_key": "snap.p.jordan-love-qb",
+  "team_key": "snap.t.gallupgate-2020",
+  "base_price": 5,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.josh-jacobs-rb": {
+  "player_key": "snap.p.josh-jacobs-rb",
+  "team_key": "snap.t.gallupgate-2020",
+  "base_price": 14,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 24,
+  "cost_if_kept_again": 39,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.sato-s-escorts",
+    "price": 14
+   },
+   {
+    "event": "traded",
+    "date": "2026-10-09",
+    "from_team": "snap.t.sato-s-escorts",
+    "team_key": "snap.t.gallupgate-2020"
+   }
+  ],
+  "override": null
+ },
+ "snap.p.kirk-cousins-qb": {
+  "player_key": "snap.p.kirk-cousins-qb",
+  "team_key": "snap.t.gallupgate-2020",
+  "base_price": 0,
+  "price_source": "waiver",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-30",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": 0
+   }
+  ],
+  "override": null
+ },
+ "snap.p.nico-collins-wr": {
+  "player_key": "snap.p.nico-collins-wr",
+  "team_key": "snap.t.gallupgate-2020",
+  "base_price": 39,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 49,
+  "cost_if_kept_again": 64,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": 39
+   }
+  ],
+  "override": null
+ },
+ "snap.p.romeo-doubs-wr": {
+  "player_key": "snap.p.romeo-doubs-wr",
+  "team_key": "snap.t.gallupgate-2020",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.texans-def": {
+  "player_key": "snap.p.texans-def",
+  "team_key": "snap.t.gallupgate-2020",
+  "base_price": 5,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.tucker-kraft-te": {
+  "player_key": "snap.p.tucker-kraft-te",
+  "team_key": "snap.t.gallupgate-2020",
+  "base_price": 13,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 23,
+  "cost_if_kept_again": 38,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.gallupgate-2020",
+    "price": 13
+   }
+  ],
+  "override": null
+ },
+ "snap.p.bo-nix-qb": {
+  "player_key": "snap.p.bo-nix-qb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.christian-mccaffrey-rb": {
+  "player_key": "snap.p.christian-mccaffrey-rb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "base_price": 63,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 73,
+  "cost_if_kept_again": 88,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": 63
+   }
+  ],
+  "override": null
+ },
+ "snap.p.d-andre-swift-rb": {
+  "player_key": "snap.p.d-andre-swift-rb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "base_price": 17,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 27,
+  "cost_if_kept_again": 42,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": 17
+   }
+  ],
+  "override": null
+ },
+ "snap.p.harold-fannin-jr-te": {
+  "player_key": "snap.p.harold-fannin-jr-te",
+  "team_key": "snap.t.succop-is-the-glue",
+  "base_price": 5,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jaguars-def": {
+  "player_key": "snap.p.jaguars-def",
+  "team_key": "snap.t.succop-is-the-glue",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.my-team-hurts",
+    "price": 1
+   },
+   {
+    "event": "dropped",
+    "date": "2026-09-16",
+    "team_key": "snap.t.my-team-hurts"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-09-30",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": 0
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jeremiyah-love-rb": {
+  "player_key": "snap.p.jeremiyah-love-rb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "base_price": 27,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 37,
+  "cost_if_kept_again": 52,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": 27
+   }
+  ],
+  "override": null
+ },
+ "snap.p.jordan-addison-wr": {
+  "player_key": "snap.p.jordan-addison-wr",
+  "team_key": "snap.t.succop-is-the-glue",
+  "base_price": 2,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 12,
+  "cost_if_kept_again": 27,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": 2
+   }
+  ],
+  "override": null
+ },
+ "snap.p.kaelon-black-rb": {
+  "player_key": "snap.p.kaelon-black-rb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "base_price": 7,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 17,
+  "cost_if_kept_again": 32,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": 7
+   }
+  ],
+  "override": null
+ },
+ "snap.p.kyle-monangai-rb": {
+  "player_key": "snap.p.kyle-monangai-rb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "base_price": 2,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 12,
+  "cost_if_kept_again": 27,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": 2
+   }
+  ],
+  "override": null
+ },
+ "snap.p.matthew-golden-wr": {
+  "player_key": "snap.p.matthew-golden-wr",
+  "team_key": "snap.t.succop-is-the-glue",
+  "base_price": 5,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.michael-mayer-te": {
+  "player_key": "snap.p.michael-mayer-te",
+  "team_key": "snap.t.succop-is-the-glue",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": null
+   }
+  ],
+  "override": null
+ },
+ "snap.p.panthers-def": {
+  "player_key": "snap.p.panthers-def",
+  "team_key": "snap.t.succop-is-the-glue",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-10-15",
+    "team_key": "snap.t.pepperidge-farm",
+    "price": null
+   },
+   {
+    "event": "dropped",
+    "date": "2026-10-19",
+    "team_key": "snap.t.pepperidge-farm"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-21",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": 0
+   }
+  ],
+  "override": null
+ },
+ "snap.p.puka-nacua-wr": {
+  "player_key": "snap.p.puka-nacua-wr",
+  "team_key": "snap.t.succop-is-the-glue",
+  "base_price": 57,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 67,
+  "cost_if_kept_again": 82,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": 57
+   }
+  ],
+  "override": null
+ },
+ "snap.p.rj-harvey-rb": {
+  "player_key": "snap.p.rj-harvey-rb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "base_price": 5,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 15,
+  "cost_if_kept_again": 30,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": 5
+   }
+  ],
+  "override": null
+ },
+ "snap.p.tyler-loop-k": {
+  "player_key": "snap.p.tyler-loop-k",
+  "team_key": "snap.t.succop-is-the-glue",
+  "base_price": 1,
+  "price_source": "draft",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 11,
+  "cost_if_kept_again": 26,
+  "history": [
+   {
+    "event": "drafted",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": 1
+   }
+  ],
+  "override": null
+ },
+ "snap.p.tyler-shough-qb": {
+  "player_key": "snap.p.tyler-shough-qb",
+  "team_key": "snap.t.succop-is-the-glue",
+  "base_price": 0,
+  "price_source": "free_agent",
+  "years_kept": 0,
+  "eligible": true,
+  "status": "eligible",
+  "keeper_tax": 10,
+  "keeper_cost": 10,
+  "cost_if_kept_again": 25,
+  "history": [
+   {
+    "event": "claimed",
+    "date": "2026-09-16",
+    "team_key": "snap.t.love-thy-nabers",
+    "price": null
+   },
+   {
+    "event": "dropped",
+    "date": "2026-10-14",
+    "team_key": "snap.t.love-thy-nabers"
+   },
+   {
+    "event": "claimed",
+    "date": "2026-10-16",
+    "team_key": "snap.t.succop-is-the-glue",
+    "price": 0
+   }
+  ],
+  "override": null
+ }
+}

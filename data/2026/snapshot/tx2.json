@@ -1,0 +1,556 @@
+{
+  "file": "tx2",
+  "transactions": [
+    {
+      "seq": 1,
+      "date": "2026-10-18",
+      "time": "5:59 am",
+      "team": "Love Thy Nabers",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Tyler Higbee",
+          "nfl": "LAR",
+          "pos": "TE",
+          "faab_bid": null,
+          "from_team": null,
+          "to_team": "Love Thy Nabers"
+        },
+        {
+          "type": "drop",
+          "player": "Pat Freiermuth",
+          "nfl": "PIT",
+          "pos": "TE",
+          "faab_bid": null,
+          "from_team": "Love Thy Nabers",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "date": "2026-10-17",
+      "time": "10:04 pm",
+      "team": "Sam LaPorta Potty",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Kendre Miller",
+          "nfl": "NO",
+          "pos": "RB",
+          "faab_bid": null,
+          "from_team": null,
+          "to_team": "Sam LaPorta Potty"
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "date": "2026-10-17",
+      "time": "9:34 pm",
+      "team": "Sam LaPorta Potty",
+      "moves": [
+        {
+          "type": "drop",
+          "player": "Kyle Pitts Sr.",
+          "nfl": "ATL",
+          "pos": "TE",
+          "faab_bid": null,
+          "from_team": "Sam LaPorta Potty",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "date": "2026-10-16",
+      "time": "12:46 am",
+      "team": "Succop is the glue",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Tyler Shough",
+          "nfl": "NO",
+          "pos": "QB",
+          "faab_bid": 0,
+          "from_team": null,
+          "to_team": "Succop is the glue"
+        },
+        {
+          "type": "drop",
+          "player": "Malik Willis",
+          "nfl": "MIA",
+          "pos": "QB",
+          "faab_bid": null,
+          "from_team": "Succop is the glue",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "date": "2026-10-16",
+      "time": "12:46 am",
+      "team": "Granny Danger",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Tre Tucker",
+          "nfl": "LV",
+          "pos": "WR",
+          "faab_bid": 0,
+          "from_team": null,
+          "to_team": "Granny Danger"
+        },
+        {
+          "type": "drop",
+          "player": "Keon Coleman",
+          "nfl": "BUF",
+          "pos": "WR",
+          "faab_bid": null,
+          "from_team": "Granny Danger",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "date": "2026-10-15",
+      "time": "4:11 pm",
+      "team": "Bear downs",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Blake Grupe",
+          "nfl": "LAR",
+          "pos": "K",
+          "faab_bid": null,
+          "from_team": null,
+          "to_team": "Bear downs"
+        },
+        {
+          "type": "drop",
+          "player": "Makai Lemon",
+          "nfl": "PHI",
+          "pos": "WR",
+          "faab_bid": null,
+          "from_team": "Bear downs",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "date": "2026-10-15",
+      "time": "10:35 am",
+      "team": "Pepperidge Farm",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Panthers",
+          "nfl": "CAR",
+          "pos": "DEF",
+          "faab_bid": null,
+          "from_team": null,
+          "to_team": "Pepperidge Farm"
+        },
+        {
+          "type": "drop",
+          "player": "Chris Godwin Jr.",
+          "nfl": "TB",
+          "pos": "WR",
+          "faab_bid": null,
+          "from_team": "Pepperidge Farm",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "date": "2026-10-15",
+      "time": "7:23 am",
+      "team": "Succop is the glue",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Ty Johnson",
+          "nfl": "BUF",
+          "pos": "RB",
+          "faab_bid": null,
+          "from_team": null,
+          "to_team": "Succop is the glue"
+        },
+        {
+          "type": "drop",
+          "player": "Jaylen Wright",
+          "nfl": "MIA",
+          "pos": "RB",
+          "faab_bid": null,
+          "from_team": "Succop is the glue",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "date": "2026-10-14",
+      "time": "7:58 am",
+      "team": "Succop is the glue",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Justin Herbert",
+          "nfl": "LAC",
+          "pos": "QB",
+          "faab_bid": null,
+          "from_team": null,
+          "to_team": "Succop is the glue"
+        },
+        {
+          "type": "drop",
+          "player": "Michael Pittman Jr.",
+          "nfl": "PIT",
+          "pos": "WR",
+          "faab_bid": null,
+          "from_team": "Succop is the glue",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "date": "2026-10-14",
+      "time": "4:05 am",
+      "team": "My Team Hurts",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Colts",
+          "nfl": "IND",
+          "pos": "DEF",
+          "faab_bid": null,
+          "from_team": null,
+          "to_team": "My Team Hurts"
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "date": "2026-10-14",
+      "time": "3:43 am",
+      "team": "Big Rig Bohler",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Jets",
+          "nfl": "NYJ",
+          "pos": "DEF",
+          "faab_bid": null,
+          "from_team": null,
+          "to_team": "Big Rig Bohler"
+        },
+        {
+          "type": "drop",
+          "player": "Austin Ekeler",
+          "nfl": "WAS",
+          "pos": "RB",
+          "faab_bid": null,
+          "from_team": "Big Rig Bohler",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "date": "2026-10-14",
+      "time": "1:21 am",
+      "team": "Sam LaPorta Potty",
+      "moves": [
+        {
+          "type": "add",
+          "player": "49ers",
+          "nfl": "SF",
+          "pos": "DEF",
+          "faab_bid": 0,
+          "from_team": null,
+          "to_team": "Sam LaPorta Potty"
+        },
+        {
+          "type": "drop",
+          "player": "Browns",
+          "nfl": "CLE",
+          "pos": "DEF",
+          "faab_bid": null,
+          "from_team": "Sam LaPorta Potty",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "date": "2026-10-14",
+      "time": "1:21 am",
+      "team": "Sam LaPorta Potty",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Dameon Pierce",
+          "nfl": "PHI",
+          "pos": "RB",
+          "faab_bid": 0,
+          "from_team": null,
+          "to_team": "Sam LaPorta Potty"
+        },
+        {
+          "type": "drop",
+          "player": "Tre Tucker",
+          "nfl": "LV",
+          "pos": "WR",
+          "faab_bid": null,
+          "from_team": "Sam LaPorta Potty",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "date": "2026-10-14",
+      "time": "1:21 am",
+      "team": "Pepperidge Farm",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Chris Godwin Jr.",
+          "nfl": "TB",
+          "pos": "WR",
+          "faab_bid": 0,
+          "from_team": null,
+          "to_team": "Pepperidge Farm"
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "date": "2026-10-14",
+      "time": "1:21 am",
+      "team": "Love Thy Nabers",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Efton Chism III",
+          "nfl": "NE",
+          "pos": "WR",
+          "faab_bid": 0,
+          "from_team": null,
+          "to_team": "Love Thy Nabers"
+        },
+        {
+          "type": "drop",
+          "player": "Antonio Williams",
+          "nfl": "WAS",
+          "pos": "WR",
+          "faab_bid": null,
+          "from_team": "Love Thy Nabers",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 16,
+      "date": "2026-10-14",
+      "time": "1:21 am",
+      "team": "Granny Danger",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Tyler Bass",
+          "nfl": "BUF",
+          "pos": "K",
+          "faab_bid": 2,
+          "from_team": null,
+          "to_team": "Granny Danger"
+        }
+      ]
+    },
+    {
+      "seq": 17,
+      "date": "2026-10-14",
+      "time": "1:21 am",
+      "team": "Big Rig Bohler",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Chase McLaughlin",
+          "nfl": "TB",
+          "pos": "K",
+          "faab_bid": 5,
+          "from_team": null,
+          "to_team": "Big Rig Bohler"
+        },
+        {
+          "type": "drop",
+          "player": "Chad Ryland",
+          "nfl": "ARI",
+          "pos": "K",
+          "faab_bid": null,
+          "from_team": "Big Rig Bohler",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 18,
+      "date": "2026-10-14",
+      "time": "1:21 am",
+      "team": "Granny Danger",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Chiefs",
+          "nfl": "KC",
+          "pos": "DEF",
+          "faab_bid": 6,
+          "from_team": null,
+          "to_team": "Granny Danger"
+        }
+      ]
+    },
+    {
+      "seq": 19,
+      "date": "2026-10-14",
+      "time": "1:21 am",
+      "team": "Pepperidge Farm",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Kimani Vidal",
+          "nfl": "LAC",
+          "pos": "RB",
+          "faab_bid": 10,
+          "from_team": null,
+          "to_team": "Pepperidge Farm"
+        }
+      ]
+    },
+    {
+      "seq": 20,
+      "date": "2026-10-14",
+      "time": "1:21 am",
+      "team": "Love Thy Nabers",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Drake Maye",
+          "nfl": "NE",
+          "pos": "QB",
+          "faab_bid": 10,
+          "from_team": null,
+          "to_team": "Love Thy Nabers"
+        },
+        {
+          "type": "drop",
+          "player": "Tyler Shough",
+          "nfl": "NO",
+          "pos": "QB",
+          "faab_bid": null,
+          "from_team": "Love Thy Nabers",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 21,
+      "date": "2026-10-14",
+      "time": "1:21 am",
+      "team": "Love Thy Nabers",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Pat Freiermuth",
+          "nfl": "PIT",
+          "pos": "TE",
+          "faab_bid": 16,
+          "from_team": null,
+          "to_team": "Love Thy Nabers"
+        }
+      ]
+    },
+    {
+      "seq": 22,
+      "date": "2026-10-14",
+      "time": "1:21 am",
+      "team": "Granny Danger",
+      "moves": [
+        {
+          "type": "add",
+          "player": "Germie Bernard",
+          "nfl": "PIT",
+          "pos": "WR",
+          "faab_bid": 21,
+          "from_team": null,
+          "to_team": "Granny Danger"
+        },
+        {
+          "type": "drop",
+          "player": "George Holani",
+          "nfl": "SEA",
+          "pos": "RB",
+          "faab_bid": null,
+          "from_team": "Granny Danger",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 23,
+      "date": "2026-10-13",
+      "time": "6:17 pm",
+      "team": "Granny Danger",
+      "moves": [
+        {
+          "type": "drop",
+          "player": "Evan McPherson",
+          "nfl": "CIN",
+          "pos": "K",
+          "faab_bid": null,
+          "from_team": "Granny Danger",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 24,
+      "date": "2026-10-13",
+      "time": "6:17 pm",
+      "team": "Granny Danger",
+      "moves": [
+        {
+          "type": "drop",
+          "player": "Cowboys",
+          "nfl": "DAL",
+          "pos": "DEF",
+          "faab_bid": null,
+          "from_team": "Granny Danger",
+          "to_team": null
+        }
+      ]
+    },
+    {
+      "seq": 25,
+      "date": "2026-10-13",
+      "time": "5:19 pm",
+      "team": "Love Thy Nabers",
+      "moves": [
+        {
+          "type": "drop",
+          "player": "Will Shipley",
+          "nfl": "PHI",
+          "pos": "RB",
+          "faab_bid": null,
+          "from_team": "Love Thy Nabers",
+          "to_team": null
+        }
+      ]
+    }
+  ]
+}

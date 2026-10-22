@@ -1,0 +1,1970 @@
+[
+ {
+  "timestamp": 1788913860,
+  "type": "add",
+  "player_key": "snap.p.steelers-def",
+  "from_team": null,
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": 6
+ },
+ {
+  "timestamp": 1788913860,
+  "type": "drop",
+  "player_key": "snap.p.tank-bigsby-rb",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1788913860,
+  "type": "add",
+  "player_key": "snap.p.tre-tucker-wr",
+  "from_team": null,
+  "to_team": "snap.t.sam-laporta-potty",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1788913860,
+  "type": "drop",
+  "player_key": "snap.p.brock-purdy-qb",
+  "from_team": "snap.t.sam-laporta-potty",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1788958440,
+  "type": "add",
+  "player_key": "snap.p.malik-washington-wr",
+  "from_team": null,
+  "to_team": "snap.t.bear-downs",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1788958440,
+  "type": "drop",
+  "player_key": "snap.p.jordyn-tyson-wr",
+  "from_team": "snap.t.bear-downs",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789119240,
+  "type": "add",
+  "player_key": "snap.p.chase-mclaughlin-k",
+  "from_team": null,
+  "to_team": "snap.t.my-team-hurts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789119240,
+  "type": "drop",
+  "player_key": "snap.p.spencer-shrader-k",
+  "from_team": "snap.t.my-team-hurts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789326720,
+  "type": "drop",
+  "player_key": "snap.p.dylan-sampson-rb",
+  "from_team": "snap.t.pepperidge-farm",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789524480,
+  "type": "add",
+  "player_key": "snap.p.dontayvion-wicks-wr",
+  "from_team": null,
+  "to_team": "snap.t.sato-s-escorts",
+  "faab_bid": 25
+ },
+ {
+  "timestamp": 1789524480,
+  "type": "drop",
+  "player_key": "snap.p.calvin-ridley-wr",
+  "from_team": "snap.t.sato-s-escorts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789524480,
+  "type": "add",
+  "player_key": "snap.p.brock-purdy-qb",
+  "from_team": null,
+  "to_team": "snap.t.pepperidge-farm",
+  "faab_bid": 10
+ },
+ {
+  "timestamp": 1789524480,
+  "type": "drop",
+  "player_key": "snap.p.rashid-shaheed-wr",
+  "from_team": "snap.t.pepperidge-farm",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789524480,
+  "type": "add",
+  "player_key": "snap.p.devin-singletary-rb",
+  "from_team": null,
+  "to_team": "snap.t.pepperidge-farm",
+  "faab_bid": 5
+ },
+ {
+  "timestamp": 1789524480,
+  "type": "add",
+  "player_key": "snap.p.chiefs-def",
+  "from_team": null,
+  "to_team": "snap.t.granny-danger",
+  "faab_bid": 1
+ },
+ {
+  "timestamp": 1789524480,
+  "type": "drop",
+  "player_key": "snap.p.chargers-def",
+  "from_team": "snap.t.granny-danger",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789524480,
+  "type": "add",
+  "player_key": "snap.p.pat-bryant-wr",
+  "from_team": null,
+  "to_team": "snap.t.succop-is-the-glue",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1789524480,
+  "type": "drop",
+  "player_key": "snap.p.kaytron-allen-rb",
+  "from_team": "snap.t.succop-is-the-glue",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789530840,
+  "type": "add",
+  "player_key": "snap.p.buccaneers-def",
+  "from_team": null,
+  "to_team": "snap.t.my-team-hurts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789530840,
+  "type": "drop",
+  "player_key": "snap.p.jaguars-def",
+  "from_team": "snap.t.my-team-hurts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789538100,
+  "type": "add",
+  "player_key": "snap.p.tyler-shough-qb",
+  "from_team": null,
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789538100,
+  "type": "drop",
+  "player_key": "snap.p.kyler-murray-qb",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789551240,
+  "type": "add",
+  "player_key": "snap.p.mike-gesicki-te",
+  "from_team": null,
+  "to_team": "snap.t.bear-downs",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789551240,
+  "type": "drop",
+  "player_key": "snap.p.greg-dulcich-te",
+  "from_team": "snap.t.bear-downs",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789560420,
+  "type": "add",
+  "player_key": "snap.p.deejay-dallas-rb",
+  "from_team": null,
+  "to_team": "snap.t.succop-is-the-glue",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789560420,
+  "type": "drop",
+  "player_key": "snap.p.pat-bryant-wr",
+  "from_team": "snap.t.succop-is-the-glue",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789564560,
+  "type": "add",
+  "player_key": "snap.p.jordyn-tyson-wr",
+  "from_team": null,
+  "to_team": "snap.t.my-team-hurts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789564560,
+  "type": "drop",
+  "player_key": "snap.p.de-zhaun-stribling-wr",
+  "from_team": "snap.t.my-team-hurts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789577760,
+  "type": "add",
+  "player_key": "snap.p.49ers-def",
+  "from_team": null,
+  "to_team": "snap.t.succop-is-the-glue",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789577760,
+  "type": "drop",
+  "player_key": "snap.p.cowboys-def",
+  "from_team": "snap.t.succop-is-the-glue",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789588080,
+  "type": "add",
+  "player_key": "snap.p.braelon-allen-rb",
+  "from_team": null,
+  "to_team": "snap.t.gallupgate-2020",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789588080,
+  "type": "drop",
+  "player_key": "snap.p.taysom-hill-te",
+  "from_team": "snap.t.gallupgate-2020",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789588140,
+  "type": "add",
+  "player_key": "snap.p.devaughn-vele-wr",
+  "from_team": null,
+  "to_team": "snap.t.gallupgate-2020",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789588140,
+  "type": "drop",
+  "player_key": "snap.p.justin-fields-qb",
+  "from_team": "snap.t.gallupgate-2020",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789593120,
+  "type": "add",
+  "player_key": "snap.p.malachi-fields-wr",
+  "from_team": null,
+  "to_team": "snap.t.fgb",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789593120,
+  "type": "drop",
+  "player_key": "snap.p.ja-kobi-lane-wr",
+  "from_team": "snap.t.fgb",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789734600,
+  "type": "add",
+  "player_key": "snap.p.rashod-bateman-wr",
+  "from_team": null,
+  "to_team": "snap.t.sam-laporta-potty",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789734600,
+  "type": "drop",
+  "player_key": "snap.p.kc-concepcion-jr-wr",
+  "from_team": "snap.t.sam-laporta-potty",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789817880,
+  "type": "add",
+  "player_key": "snap.p.dalton-schultz-te",
+  "from_team": null,
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789817880,
+  "type": "drop",
+  "player_key": "snap.p.keaton-mitchell-rb",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789898340,
+  "type": "add",
+  "player_key": "snap.p.eddy-pineiro-k",
+  "from_team": null,
+  "to_team": "snap.t.my-team-hurts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1789898340,
+  "type": "drop",
+  "player_key": "snap.p.chase-mclaughlin-k",
+  "from_team": "snap.t.my-team-hurts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790129760,
+  "type": "add",
+  "player_key": "snap.p.jonah-coleman-rb",
+  "from_team": null,
+  "to_team": "snap.t.sam-laporta-potty",
+  "faab_bid": 36
+ },
+ {
+  "timestamp": 1790129760,
+  "type": "drop",
+  "player_key": "snap.p.chris-rodriguez-jr-rb",
+  "from_team": "snap.t.sam-laporta-potty",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790129760,
+  "type": "add",
+  "player_key": "snap.p.denzel-boston-wr",
+  "from_team": null,
+  "to_team": "snap.t.sato-s-escorts",
+  "faab_bid": 27
+ },
+ {
+  "timestamp": 1790129760,
+  "type": "drop",
+  "player_key": "snap.p.cyrus-allen-wr",
+  "from_team": "snap.t.sato-s-escorts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790129760,
+  "type": "add",
+  "player_key": "snap.p.terrance-ferguson-te",
+  "from_team": null,
+  "to_team": "snap.t.sam-laporta-potty",
+  "faab_bid": 18
+ },
+ {
+  "timestamp": 1790129760,
+  "type": "drop",
+  "player_key": "snap.p.rashod-bateman-wr",
+  "from_team": "snap.t.sam-laporta-potty",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790129760,
+  "type": "add",
+  "player_key": "snap.p.emanuel-wilson-rb",
+  "from_team": null,
+  "to_team": "snap.t.granny-danger",
+  "faab_bid": 5
+ },
+ {
+  "timestamp": 1790129760,
+  "type": "drop",
+  "player_key": "snap.p.george-holani-rb",
+  "from_team": "snap.t.granny-danger",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790129760,
+  "type": "add",
+  "player_key": "snap.p.tank-bigsby-rb",
+  "from_team": null,
+  "to_team": "snap.t.big-rig-bohler",
+  "faab_bid": 2
+ },
+ {
+  "timestamp": 1790129760,
+  "type": "drop",
+  "player_key": "snap.p.bills-def",
+  "from_team": "snap.t.big-rig-bohler",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790129760,
+  "type": "add",
+  "player_key": "snap.p.adonai-mitchell-wr",
+  "from_team": null,
+  "to_team": "snap.t.succop-is-the-glue",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1790129760,
+  "type": "drop",
+  "player_key": "snap.p.deejay-dallas-rb",
+  "from_team": "snap.t.succop-is-the-glue",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790129760,
+  "type": "add",
+  "player_key": "snap.p.chase-mclaughlin-k",
+  "from_team": null,
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1790129760,
+  "type": "drop",
+  "player_key": "snap.p.harrison-mevis-k",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790129760,
+  "type": "add",
+  "player_key": "snap.p.bengals-def",
+  "from_team": null,
+  "to_team": "snap.t.my-team-hurts",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1790129760,
+  "type": "drop",
+  "player_key": "snap.p.buccaneers-def",
+  "from_team": "snap.t.my-team-hurts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790155020,
+  "type": "add",
+  "player_key": "snap.p.c-j-stroud-qb",
+  "from_team": null,
+  "to_team": "snap.t.granny-danger",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790155020,
+  "type": "drop",
+  "player_key": "snap.p.jaxson-dart-qb",
+  "from_team": "snap.t.granny-danger",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790163060,
+  "type": "add",
+  "player_key": "snap.p.keon-coleman-wr",
+  "from_team": null,
+  "to_team": "snap.t.my-team-hurts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790163060,
+  "type": "drop",
+  "player_key": "snap.p.wan-dale-robinson-wr",
+  "from_team": "snap.t.my-team-hurts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790170740,
+  "type": "add",
+  "player_key": "snap.p.kalif-raymond-wr",
+  "from_team": null,
+  "to_team": "snap.t.pepperidge-farm",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790170740,
+  "type": "drop",
+  "player_key": "snap.p.quentin-johnston-wr",
+  "from_team": "snap.t.pepperidge-farm",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790197500,
+  "type": "trade",
+  "player_key": "snap.p.patrick-mahomes-qb",
+  "from_team": "snap.t.big-rig-bohler",
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790197500,
+  "type": "trade",
+  "player_key": "snap.p.malik-nabers-wr",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": "snap.t.big-rig-bohler",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790500920,
+  "type": "add",
+  "player_key": "snap.p.rashod-bateman-wr",
+  "from_team": null,
+  "to_team": "snap.t.sam-laporta-potty",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790500920,
+  "type": "drop",
+  "player_key": "snap.p.jonah-coleman-rb",
+  "from_team": "snap.t.sam-laporta-potty",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790502240,
+  "type": "add",
+  "player_key": "snap.p.will-shipley-rb",
+  "from_team": null,
+  "to_team": "snap.t.pepperidge-farm",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790502240,
+  "type": "drop",
+  "player_key": "snap.p.devin-singletary-rb",
+  "from_team": "snap.t.pepperidge-farm",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790655780,
+  "type": "drop",
+  "player_key": "snap.p.bengals-def",
+  "from_team": "snap.t.my-team-hurts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790658900,
+  "type": "drop",
+  "player_key": "snap.p.rashod-bateman-wr",
+  "from_team": "snap.t.sam-laporta-potty",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790658960,
+  "type": "drop",
+  "player_key": "snap.p.justin-herbert-qb",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "add",
+  "player_key": "snap.p.ollie-gordon-ii-rb",
+  "from_team": null,
+  "to_team": "snap.t.sam-laporta-potty",
+  "faab_bid": 46
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "add",
+  "player_key": "snap.p.noah-fant-te",
+  "from_team": null,
+  "to_team": "snap.t.big-rig-bohler",
+  "faab_bid": 20
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "drop",
+  "player_key": "snap.p.zach-charbonnet-rb",
+  "from_team": "snap.t.big-rig-bohler",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "add",
+  "player_key": "snap.p.wan-dale-robinson-wr",
+  "from_team": null,
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": 12
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "add",
+  "player_key": "snap.p.keaton-mitchell-rb",
+  "from_team": null,
+  "to_team": "snap.t.sato-s-escorts",
+  "faab_bid": 12
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "drop",
+  "player_key": "snap.p.drake-maye-qb",
+  "from_team": "snap.t.sato-s-escorts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "add",
+  "player_key": "snap.p.tyreek-hill-wr",
+  "from_team": null,
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": 11
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "drop",
+  "player_key": "snap.p.chris-godwin-jr-wr",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "add",
+  "player_key": "snap.p.konata-mumpfield-wr",
+  "from_team": null,
+  "to_team": "snap.t.fgb",
+  "faab_bid": 11
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "drop",
+  "player_key": "snap.p.zavion-thomas-wr",
+  "from_team": "snap.t.fgb",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "add",
+  "player_key": "snap.p.austin-ekeler-rb",
+  "from_team": null,
+  "to_team": "snap.t.big-rig-bohler",
+  "faab_bid": 2
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "drop",
+  "player_key": "snap.p.alec-pierce-wr",
+  "from_team": "snap.t.big-rig-bohler",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "add",
+  "player_key": "snap.p.roman-wilson-wr",
+  "from_team": null,
+  "to_team": "snap.t.pepperidge-farm",
+  "faab_bid": 1
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "drop",
+  "player_key": "snap.p.will-shipley-rb",
+  "from_team": "snap.t.pepperidge-farm",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "add",
+  "player_key": "snap.p.bills-def",
+  "from_team": null,
+  "to_team": "snap.t.my-team-hurts",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "add",
+  "player_key": "snap.p.kirk-cousins-qb",
+  "from_team": null,
+  "to_team": "snap.t.gallupgate-2020",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "drop",
+  "player_key": "snap.p.packers-def",
+  "from_team": "snap.t.gallupgate-2020",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "add",
+  "player_key": "snap.p.jaguars-def",
+  "from_team": null,
+  "to_team": "snap.t.succop-is-the-glue",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1790731380,
+  "type": "drop",
+  "player_key": "snap.p.49ers-def",
+  "from_team": "snap.t.succop-is-the-glue",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790742960,
+  "type": "add",
+  "player_key": "snap.p.kc-concepcion-jr-wr",
+  "from_team": null,
+  "to_team": "snap.t.my-team-hurts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790742960,
+  "type": "drop",
+  "player_key": "snap.p.jonathon-brooks-rb",
+  "from_team": "snap.t.my-team-hurts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790743380,
+  "type": "add",
+  "player_key": "snap.p.darren-waller-te",
+  "from_team": null,
+  "to_team": "snap.t.gallupgate-2020",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790743380,
+  "type": "drop",
+  "player_key": "snap.p.tyrone-tracy-jr-rb",
+  "from_team": "snap.t.gallupgate-2020",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790778360,
+  "type": "drop",
+  "player_key": "snap.p.jayden-reed-wr",
+  "from_team": "snap.t.granny-danger",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790784120,
+  "type": "add",
+  "player_key": "snap.p.jaylen-wright-rb",
+  "from_team": null,
+  "to_team": "snap.t.succop-is-the-glue",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790784120,
+  "type": "drop",
+  "player_key": "snap.p.adonai-mitchell-wr",
+  "from_team": "snap.t.succop-is-the-glue",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790866560,
+  "type": "add",
+  "player_key": "snap.p.isaiah-davis-rb",
+  "from_team": null,
+  "to_team": "snap.t.sato-s-escorts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790866560,
+  "type": "drop",
+  "player_key": "snap.p.keaton-mitchell-rb",
+  "from_team": "snap.t.sato-s-escorts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790866680,
+  "type": "add",
+  "player_key": "snap.p.george-holani-rb",
+  "from_team": null,
+  "to_team": "snap.t.granny-danger",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790900520,
+  "type": "add",
+  "player_key": "snap.p.zach-charbonnet-rb",
+  "from_team": null,
+  "to_team": "snap.t.my-team-hurts",
+  "faab_bid": 7
+ },
+ {
+  "timestamp": 1790900520,
+  "type": "drop",
+  "player_key": "snap.p.keon-coleman-wr",
+  "from_team": "snap.t.my-team-hurts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790966760,
+  "type": "drop",
+  "player_key": "snap.p.terrance-ferguson-te",
+  "from_team": "snap.t.sam-laporta-potty",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1790966820,
+  "type": "add",
+  "player_key": "snap.p.aj-barner-te",
+  "from_team": null,
+  "to_team": "snap.t.sam-laporta-potty",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791016980,
+  "type": "add",
+  "player_key": "snap.p.bears-def",
+  "from_team": null,
+  "to_team": "snap.t.fgb",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791016980,
+  "type": "drop",
+  "player_key": "snap.p.malachi-fields-wr",
+  "from_team": "snap.t.fgb",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791105540,
+  "type": "add",
+  "player_key": "snap.p.ryan-fitzgerald-k",
+  "from_team": null,
+  "to_team": "snap.t.big-rig-bohler",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791105540,
+  "type": "drop",
+  "player_key": "snap.p.ka-imi-fairbairn-k",
+  "from_team": "snap.t.big-rig-bohler",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791336060,
+  "type": "add",
+  "player_key": "snap.p.will-shipley-rb",
+  "from_team": null,
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": 41
+ },
+ {
+  "timestamp": 1791336060,
+  "type": "drop",
+  "player_key": "snap.p.dalton-schultz-te",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791336060,
+  "type": "add",
+  "player_key": "snap.p.t-j-hockenson-te",
+  "from_team": null,
+  "to_team": "snap.t.granny-danger",
+  "faab_bid": 12
+ },
+ {
+  "timestamp": 1791336060,
+  "type": "drop",
+  "player_key": "snap.p.hunter-henry-te",
+  "from_team": "snap.t.granny-danger",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791336060,
+  "type": "add",
+  "player_key": "snap.p.cowboys-def",
+  "from_team": null,
+  "to_team": "snap.t.granny-danger",
+  "faab_bid": 6
+ },
+ {
+  "timestamp": 1791336060,
+  "type": "drop",
+  "player_key": "snap.p.chiefs-def",
+  "from_team": "snap.t.granny-danger",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791336060,
+  "type": "add",
+  "player_key": "snap.p.spencer-shrader-k",
+  "from_team": null,
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": 4
+ },
+ {
+  "timestamp": 1791336060,
+  "type": "drop",
+  "player_key": "snap.p.chase-mclaughlin-k",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791336060,
+  "type": "add",
+  "player_key": "snap.p.jacoby-brissett-qb",
+  "from_team": null,
+  "to_team": "snap.t.sato-s-escorts",
+  "faab_bid": 4
+ },
+ {
+  "timestamp": 1791336060,
+  "type": "drop",
+  "player_key": "snap.p.de-von-achane-rb",
+  "from_team": "snap.t.sato-s-escorts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791336060,
+  "type": "add",
+  "player_key": "snap.p.keon-coleman-wr",
+  "from_team": null,
+  "to_team": "snap.t.granny-danger",
+  "faab_bid": 4
+ },
+ {
+  "timestamp": 1791336060,
+  "type": "drop",
+  "player_key": "snap.p.caleb-douglas-wr",
+  "from_team": "snap.t.granny-danger",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791336060,
+  "type": "add",
+  "player_key": "snap.p.bengals-def",
+  "from_team": null,
+  "to_team": "snap.t.my-team-hurts",
+  "faab_bid": 1
+ },
+ {
+  "timestamp": 1791336060,
+  "type": "drop",
+  "player_key": "snap.p.bills-def",
+  "from_team": "snap.t.my-team-hurts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791336060,
+  "type": "add",
+  "player_key": "snap.p.raiders-def",
+  "from_team": null,
+  "to_team": "snap.t.pepperidge-farm",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1791336060,
+  "type": "drop",
+  "player_key": "snap.p.kalif-raymond-wr",
+  "from_team": "snap.t.pepperidge-farm",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791348240,
+  "type": "add",
+  "player_key": "snap.p.browns-def",
+  "from_team": null,
+  "to_team": "snap.t.sam-laporta-potty",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791348240,
+  "type": "drop",
+  "player_key": "snap.p.eagles-def",
+  "from_team": "snap.t.sam-laporta-potty",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791348360,
+  "type": "add",
+  "player_key": "snap.p.brenton-strange-te",
+  "from_team": null,
+  "to_team": "snap.t.sam-laporta-potty",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791348360,
+  "type": "drop",
+  "player_key": "snap.p.aj-barner-te",
+  "from_team": "snap.t.sam-laporta-potty",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791366900,
+  "type": "add",
+  "player_key": "snap.p.antonio-williams-wr",
+  "from_team": null,
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791366900,
+  "type": "drop",
+  "player_key": "snap.p.wan-dale-robinson-wr",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791399180,
+  "type": "add",
+  "player_key": "snap.p.matt-gay-k",
+  "from_team": null,
+  "to_team": "snap.t.gallupgate-2020",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791399180,
+  "type": "drop",
+  "player_key": "snap.p.darren-waller-te",
+  "from_team": "snap.t.gallupgate-2020",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791434580,
+  "type": "add",
+  "player_key": "snap.p.chad-ryland-k",
+  "from_team": null,
+  "to_team": "snap.t.big-rig-bohler",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791434580,
+  "type": "drop",
+  "player_key": "snap.p.ryan-fitzgerald-k",
+  "from_team": "snap.t.big-rig-bohler",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791434700,
+  "type": "add",
+  "player_key": "snap.p.aaron-rodgers-qb",
+  "from_team": null,
+  "to_team": "snap.t.big-rig-bohler",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791434700,
+  "type": "drop",
+  "player_key": "snap.p.tank-bigsby-rb",
+  "from_team": "snap.t.big-rig-bohler",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791475380,
+  "type": "add",
+  "player_key": "snap.p.keaton-mitchell-rb",
+  "from_team": null,
+  "to_team": "snap.t.fgb",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791475380,
+  "type": "drop",
+  "player_key": "snap.p.konata-mumpfield-wr",
+  "from_team": "snap.t.fgb",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791537480,
+  "type": "trade",
+  "player_key": "snap.p.bhayshul-tuten-rb",
+  "from_team": "snap.t.pepperidge-farm",
+  "to_team": "snap.t.sato-s-escorts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791537480,
+  "type": "trade",
+  "player_key": "snap.p.deebo-samuel-sr-wr",
+  "from_team": "snap.t.pepperidge-farm",
+  "to_team": "snap.t.sato-s-escorts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791537480,
+  "type": "trade",
+  "player_key": "snap.p.dalton-kincaid-te",
+  "from_team": "snap.t.pepperidge-farm",
+  "to_team": "snap.t.sato-s-escorts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791537480,
+  "type": "trade",
+  "player_key": "snap.p.trey-mcbride-te",
+  "from_team": "snap.t.sato-s-escorts",
+  "to_team": "snap.t.pepperidge-farm",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791537480,
+  "type": "trade",
+  "player_key": "snap.p.breece-hall-rb",
+  "from_team": "snap.t.sato-s-escorts",
+  "to_team": "snap.t.pepperidge-farm",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791537480,
+  "type": "trade",
+  "player_key": "snap.p.cooper-kupp-wr",
+  "from_team": "snap.t.sato-s-escorts",
+  "to_team": "snap.t.pepperidge-farm",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791537900,
+  "type": "add",
+  "player_key": "snap.p.wan-dale-robinson-wr",
+  "from_team": null,
+  "to_team": "snap.t.pepperidge-farm",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791537900,
+  "type": "drop",
+  "player_key": "snap.p.cooper-kupp-wr",
+  "from_team": "snap.t.pepperidge-farm",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791541680,
+  "type": "trade",
+  "player_key": "snap.p.davante-adams-wr",
+  "from_team": "snap.t.sato-s-escorts",
+  "to_team": "snap.t.gallupgate-2020",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791541680,
+  "type": "trade",
+  "player_key": "snap.p.brian-thomas-jr-wr",
+  "from_team": "snap.t.sato-s-escorts",
+  "to_team": "snap.t.gallupgate-2020",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791541680,
+  "type": "trade",
+  "player_key": "snap.p.josh-jacobs-rb",
+  "from_team": "snap.t.sato-s-escorts",
+  "to_team": "snap.t.gallupgate-2020",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791541680,
+  "type": "trade",
+  "player_key": "snap.p.jaylen-waddle-wr",
+  "from_team": "snap.t.gallupgate-2020",
+  "to_team": "snap.t.sato-s-escorts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791541680,
+  "type": "trade",
+  "player_key": "snap.p.tony-pollard-rb",
+  "from_team": "snap.t.gallupgate-2020",
+  "to_team": "snap.t.sato-s-escorts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791541680,
+  "type": "trade",
+  "player_key": "snap.p.brian-robinson-jr-rb",
+  "from_team": "snap.t.gallupgate-2020",
+  "to_team": "snap.t.sato-s-escorts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791641760,
+  "type": "add",
+  "player_key": "snap.p.chris-boswell-k",
+  "from_team": null,
+  "to_team": "snap.t.sam-laporta-potty",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791641760,
+  "type": "drop",
+  "player_key": "snap.p.jason-myers-k",
+  "from_team": "snap.t.sam-laporta-potty",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791856380,
+  "type": "drop",
+  "player_key": "snap.p.bengals-def",
+  "from_team": "snap.t.my-team-hurts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791910500,
+  "type": "drop",
+  "player_key": "snap.p.raiders-def",
+  "from_team": "snap.t.pepperidge-farm",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791911700,
+  "type": "drop",
+  "player_key": "snap.p.roman-wilson-wr",
+  "from_team": "snap.t.pepperidge-farm",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791911940,
+  "type": "drop",
+  "player_key": "snap.p.will-shipley-rb",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791915420,
+  "type": "drop",
+  "player_key": "snap.p.cowboys-def",
+  "from_team": "snap.t.granny-danger",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791915420,
+  "type": "drop",
+  "player_key": "snap.p.evan-mcpherson-k",
+  "from_team": "snap.t.granny-danger",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "add",
+  "player_key": "snap.p.germie-bernard-wr",
+  "from_team": null,
+  "to_team": "snap.t.granny-danger",
+  "faab_bid": 21
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "drop",
+  "player_key": "snap.p.george-holani-rb",
+  "from_team": "snap.t.granny-danger",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "add",
+  "player_key": "snap.p.pat-freiermuth-te",
+  "from_team": null,
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": 16
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "add",
+  "player_key": "snap.p.drake-maye-qb",
+  "from_team": null,
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": 10
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "drop",
+  "player_key": "snap.p.tyler-shough-qb",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "add",
+  "player_key": "snap.p.kimani-vidal-rb",
+  "from_team": null,
+  "to_team": "snap.t.pepperidge-farm",
+  "faab_bid": 10
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "add",
+  "player_key": "snap.p.chiefs-def",
+  "from_team": null,
+  "to_team": "snap.t.granny-danger",
+  "faab_bid": 6
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "add",
+  "player_key": "snap.p.chase-mclaughlin-k",
+  "from_team": null,
+  "to_team": "snap.t.big-rig-bohler",
+  "faab_bid": 5
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "drop",
+  "player_key": "snap.p.chad-ryland-k",
+  "from_team": "snap.t.big-rig-bohler",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "add",
+  "player_key": "snap.p.tyler-bass-k",
+  "from_team": null,
+  "to_team": "snap.t.granny-danger",
+  "faab_bid": 2
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "add",
+  "player_key": "snap.p.efton-chism-iii-wr",
+  "from_team": null,
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "drop",
+  "player_key": "snap.p.antonio-williams-wr",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "add",
+  "player_key": "snap.p.chris-godwin-jr-wr",
+  "from_team": null,
+  "to_team": "snap.t.pepperidge-farm",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "add",
+  "player_key": "snap.p.dameon-pierce-rb",
+  "from_team": null,
+  "to_team": "snap.t.sam-laporta-potty",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "drop",
+  "player_key": "snap.p.tre-tucker-wr",
+  "from_team": "snap.t.sam-laporta-potty",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "add",
+  "player_key": "snap.p.49ers-def",
+  "from_team": null,
+  "to_team": "snap.t.sam-laporta-potty",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1791940860,
+  "type": "drop",
+  "player_key": "snap.p.browns-def",
+  "from_team": "snap.t.sam-laporta-potty",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791949380,
+  "type": "add",
+  "player_key": "snap.p.jets-def",
+  "from_team": null,
+  "to_team": "snap.t.big-rig-bohler",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791949380,
+  "type": "drop",
+  "player_key": "snap.p.austin-ekeler-rb",
+  "from_team": "snap.t.big-rig-bohler",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791950700,
+  "type": "add",
+  "player_key": "snap.p.colts-def",
+  "from_team": null,
+  "to_team": "snap.t.my-team-hurts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791964680,
+  "type": "add",
+  "player_key": "snap.p.justin-herbert-qb",
+  "from_team": null,
+  "to_team": "snap.t.succop-is-the-glue",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1791964680,
+  "type": "drop",
+  "player_key": "snap.p.michael-pittman-jr-wr",
+  "from_team": "snap.t.succop-is-the-glue",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792048980,
+  "type": "add",
+  "player_key": "snap.p.ty-johnson-rb",
+  "from_team": null,
+  "to_team": "snap.t.succop-is-the-glue",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792048980,
+  "type": "drop",
+  "player_key": "snap.p.jaylen-wright-rb",
+  "from_team": "snap.t.succop-is-the-glue",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792060500,
+  "type": "add",
+  "player_key": "snap.p.panthers-def",
+  "from_team": null,
+  "to_team": "snap.t.pepperidge-farm",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792060500,
+  "type": "drop",
+  "player_key": "snap.p.chris-godwin-jr-wr",
+  "from_team": "snap.t.pepperidge-farm",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792080660,
+  "type": "add",
+  "player_key": "snap.p.blake-grupe-k",
+  "from_team": null,
+  "to_team": "snap.t.bear-downs",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792080660,
+  "type": "drop",
+  "player_key": "snap.p.makai-lemon-wr",
+  "from_team": "snap.t.bear-downs",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792111560,
+  "type": "add",
+  "player_key": "snap.p.tre-tucker-wr",
+  "from_team": null,
+  "to_team": "snap.t.granny-danger",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1792111560,
+  "type": "drop",
+  "player_key": "snap.p.keon-coleman-wr",
+  "from_team": "snap.t.granny-danger",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792111560,
+  "type": "add",
+  "player_key": "snap.p.tyler-shough-qb",
+  "from_team": null,
+  "to_team": "snap.t.succop-is-the-glue",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1792111560,
+  "type": "drop",
+  "player_key": "snap.p.malik-willis-qb",
+  "from_team": "snap.t.succop-is-the-glue",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792272840,
+  "type": "drop",
+  "player_key": "snap.p.kyle-pitts-sr-te",
+  "from_team": "snap.t.sam-laporta-potty",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792274640,
+  "type": "add",
+  "player_key": "snap.p.kendre-miller-rb",
+  "from_team": null,
+  "to_team": "snap.t.sam-laporta-potty",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792303140,
+  "type": "add",
+  "player_key": "snap.p.tyler-higbee-te",
+  "from_team": null,
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792303140,
+  "type": "drop",
+  "player_key": "snap.p.pat-freiermuth-te",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792305360,
+  "type": "add",
+  "player_key": "snap.p.najee-harris-rb",
+  "from_team": null,
+  "to_team": "snap.t.fgb",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792305360,
+  "type": "drop",
+  "player_key": "snap.p.bears-def",
+  "from_team": "snap.t.fgb",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792305480,
+  "type": "add",
+  "player_key": "snap.p.roschon-johnson-rb",
+  "from_team": null,
+  "to_team": "snap.t.big-rig-bohler",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792305480,
+  "type": "drop",
+  "player_key": "snap.p.noah-fant-te",
+  "from_team": "snap.t.big-rig-bohler",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792313220,
+  "type": "add",
+  "player_key": "snap.p.chig-okonkwo-te",
+  "from_team": null,
+  "to_team": "snap.t.my-team-hurts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792313220,
+  "type": "drop",
+  "player_key": "snap.p.kc-concepcion-jr-wr",
+  "from_team": "snap.t.my-team-hurts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792315200,
+  "type": "add",
+  "player_key": "snap.p.jaleel-mclaughlin-rb",
+  "from_team": null,
+  "to_team": "snap.t.sam-laporta-potty",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792315200,
+  "type": "drop",
+  "player_key": "snap.p.kendre-miller-rb",
+  "from_team": "snap.t.sam-laporta-potty",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792328460,
+  "type": "add",
+  "player_key": "snap.p.brandin-cooks-wr",
+  "from_team": null,
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792328460,
+  "type": "drop",
+  "player_key": "snap.p.efton-chism-iii-wr",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792418040,
+  "type": "add",
+  "player_key": "snap.p.mac-jones-qb",
+  "from_team": null,
+  "to_team": "snap.t.pepperidge-farm",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792418040,
+  "type": "drop",
+  "player_key": "snap.p.panthers-def",
+  "from_team": "snap.t.pepperidge-farm",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "add",
+  "player_key": "snap.p.browns-def",
+  "from_team": null,
+  "to_team": "snap.t.pepperidge-farm",
+  "faab_bid": 15
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "drop",
+  "player_key": "snap.p.mac-jones-qb",
+  "from_team": "snap.t.pepperidge-farm",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "add",
+  "player_key": "snap.p.kyler-murray-qb",
+  "from_team": null,
+  "to_team": "snap.t.fgb",
+  "faab_bid": 3
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "drop",
+  "player_key": "snap.p.najee-harris-rb",
+  "from_team": "snap.t.fgb",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "add",
+  "player_key": "snap.p.kyle-pitts-sr-te",
+  "from_team": null,
+  "to_team": "snap.t.my-team-hurts",
+  "faab_bid": 2
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "drop",
+  "player_key": "snap.p.chig-okonkwo-te",
+  "from_team": "snap.t.my-team-hurts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "add",
+  "player_key": "snap.p.pat-freiermuth-te",
+  "from_team": null,
+  "to_team": "snap.t.sato-s-escorts",
+  "faab_bid": 2
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "drop",
+  "player_key": "snap.p.isaiah-davis-rb",
+  "from_team": "snap.t.sato-s-escorts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "add",
+  "player_key": "snap.p.kendre-miller-rb",
+  "from_team": null,
+  "to_team": "snap.t.fgb",
+  "faab_bid": 2
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "drop",
+  "player_key": "snap.p.keaton-mitchell-rb",
+  "from_team": "snap.t.fgb",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "add",
+  "player_key": "snap.p.ka-imi-fairbairn-k",
+  "from_team": null,
+  "to_team": "snap.t.fgb",
+  "faab_bid": 1
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "drop",
+  "player_key": "snap.p.cam-little-k",
+  "from_team": "snap.t.fgb",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "add",
+  "player_key": "snap.p.omar-cooper-jr-wr",
+  "from_team": null,
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "drop",
+  "player_key": "snap.p.brandin-cooks-wr",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "add",
+  "player_key": "snap.p.chris-godwin-jr-wr",
+  "from_team": null,
+  "to_team": "snap.t.gallupgate-2020",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "drop",
+  "player_key": "snap.p.matt-gay-k",
+  "from_team": "snap.t.gallupgate-2020",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "add",
+  "player_key": "snap.p.evan-mcpherson-k",
+  "from_team": null,
+  "to_team": "snap.t.granny-danger",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "drop",
+  "player_key": "snap.p.tyler-bass-k",
+  "from_team": "snap.t.granny-danger",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "add",
+  "player_key": "snap.p.packers-def",
+  "from_team": null,
+  "to_team": "snap.t.granny-danger",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "drop",
+  "player_key": "snap.p.chiefs-def",
+  "from_team": "snap.t.granny-danger",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "add",
+  "player_key": "snap.p.demario-douglas-wr",
+  "from_team": null,
+  "to_team": "snap.t.granny-danger",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "drop",
+  "player_key": "snap.p.jake-ferguson-te",
+  "from_team": "snap.t.granny-danger",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "add",
+  "player_key": "snap.p.panthers-def",
+  "from_team": null,
+  "to_team": "snap.t.succop-is-the-glue",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "drop",
+  "player_key": "snap.p.justin-herbert-qb",
+  "from_team": "snap.t.succop-is-the-glue",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "add",
+  "player_key": "snap.p.hunter-henry-te",
+  "from_team": null,
+  "to_team": "snap.t.sam-laporta-potty",
+  "faab_bid": 0
+ },
+ {
+  "timestamp": 1792545840,
+  "type": "drop",
+  "player_key": "snap.p.jaleel-mclaughlin-rb",
+  "from_team": "snap.t.sam-laporta-potty",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792555380,
+  "type": "add",
+  "player_key": "snap.p.titans-def",
+  "from_team": null,
+  "to_team": "snap.t.my-team-hurts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792555380,
+  "type": "drop",
+  "player_key": "snap.p.colts-def",
+  "from_team": "snap.t.my-team-hurts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792555440,
+  "type": "add",
+  "player_key": "snap.p.geno-smith-qb",
+  "from_team": null,
+  "to_team": "snap.t.my-team-hurts",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792555440,
+  "type": "drop",
+  "player_key": "snap.p.jalen-hurts-qb",
+  "from_team": "snap.t.my-team-hurts",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792558380,
+  "type": "add",
+  "player_key": "snap.p.ja-kobi-lane-wr",
+  "from_team": null,
+  "to_team": "snap.t.love-thy-nabers",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792558380,
+  "type": "drop",
+  "player_key": "snap.p.tyler-higbee-te",
+  "from_team": "snap.t.love-thy-nabers",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792567200,
+  "type": "add",
+  "player_key": "snap.p.michael-mayer-te",
+  "from_team": null,
+  "to_team": "snap.t.succop-is-the-glue",
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792567200,
+  "type": "drop",
+  "player_key": "snap.p.ty-johnson-rb",
+  "from_team": "snap.t.succop-is-the-glue",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792582440,
+  "type": "drop",
+  "player_key": "snap.p.blake-grupe-k",
+  "from_team": "snap.t.bear-downs",
+  "to_team": null,
+  "faab_bid": null
+ },
+ {
+  "timestamp": 1792582560,
+  "type": "add",
+  "player_key": "snap.p.tanner-mckee-qb",
+  "from_team": null,
+  "to_team": "snap.t.bear-downs",
+  "faab_bid": null
+ }
+]

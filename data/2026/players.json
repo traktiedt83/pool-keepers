@@ -1,0 +1,1616 @@
+{
+ "snap.p.jahmyr-gibbs-rb": {
+  "player_key": "snap.p.jahmyr-gibbs-rb",
+  "name": "Jahmyr Gibbs",
+  "position": "RB",
+  "nfl_team": "DET"
+ },
+ "snap.p.zay-flowers-wr": {
+  "player_key": "snap.p.zay-flowers-wr",
+  "name": "Zay Flowers",
+  "position": "WR",
+  "nfl_team": "BAL"
+ },
+ "snap.p.rashee-rice-wr": {
+  "player_key": "snap.p.rashee-rice-wr",
+  "name": "Rashee Rice",
+  "position": "WR",
+  "nfl_team": "KC"
+ },
+ "snap.p.kyle-pitts-sr-te": {
+  "player_key": "snap.p.kyle-pitts-sr-te",
+  "name": "Kyle Pitts Sr.",
+  "position": "TE",
+  "nfl_team": "ATL"
+ },
+ "snap.p.ladd-mcconkey-wr": {
+  "player_key": "snap.p.ladd-mcconkey-wr",
+  "name": "Ladd McConkey",
+  "position": "WR",
+  "nfl_team": "LAC"
+ },
+ "snap.p.chris-rodriguez-jr-rb": {
+  "player_key": "snap.p.chris-rodriguez-jr-rb",
+  "name": "Chris Rodriguez Jr.",
+  "position": "RB",
+  "nfl_team": "JAX"
+ },
+ "snap.p.carnell-tate-wr": {
+  "player_key": "snap.p.carnell-tate-wr",
+  "name": "Carnell Tate",
+  "position": "WR",
+  "nfl_team": "TEN"
+ },
+ "snap.p.david-montgomery-rb": {
+  "player_key": "snap.p.david-montgomery-rb",
+  "name": "David Montgomery",
+  "position": "RB",
+  "nfl_team": "HOU"
+ },
+ "snap.p.josh-downs-wr": {
+  "player_key": "snap.p.josh-downs-wr",
+  "name": "Josh Downs",
+  "position": "WR",
+  "nfl_team": "IND"
+ },
+ "snap.p.dak-prescott-qb": {
+  "player_key": "snap.p.dak-prescott-qb",
+  "name": "Dak Prescott",
+  "position": "QB",
+  "nfl_team": "DAL"
+ },
+ "snap.p.jason-myers-k": {
+  "player_key": "snap.p.jason-myers-k",
+  "name": "Jason Myers",
+  "position": "K",
+  "nfl_team": "SEA"
+ },
+ "snap.p.eagles-def": {
+  "player_key": "snap.p.eagles-def",
+  "name": "Eagles",
+  "position": "DEF",
+  "nfl_team": "PHI"
+ },
+ "snap.p.michael-wilson-wr": {
+  "player_key": "snap.p.michael-wilson-wr",
+  "name": "Michael Wilson",
+  "position": "WR",
+  "nfl_team": "ARI"
+ },
+ "snap.p.tyjae-spears-rb": {
+  "player_key": "snap.p.tyjae-spears-rb",
+  "name": "Tyjae Spears",
+  "position": "RB",
+  "nfl_team": "TEN"
+ },
+ "snap.p.brock-purdy-qb": {
+  "player_key": "snap.p.brock-purdy-qb",
+  "name": "Brock Purdy",
+  "position": "QB",
+  "nfl_team": "SF"
+ },
+ "snap.p.kc-concepcion-jr-wr": {
+  "player_key": "snap.p.kc-concepcion-jr-wr",
+  "name": "KC Concepcion Jr.",
+  "position": "WR",
+  "nfl_team": "CLE"
+ },
+ "snap.p.bijan-robinson-rb": {
+  "player_key": "snap.p.bijan-robinson-rb",
+  "name": "Bijan Robinson",
+  "position": "RB",
+  "nfl_team": "ATL"
+ },
+ "snap.p.brock-bowers-te": {
+  "player_key": "snap.p.brock-bowers-te",
+  "name": "Brock Bowers",
+  "position": "TE",
+  "nfl_team": "LV"
+ },
+ "snap.p.marshawn-lloyd-rb": {
+  "player_key": "snap.p.marshawn-lloyd-rb",
+  "name": "MarShawn Lloyd",
+  "position": "RB",
+  "nfl_team": "GB"
+ },
+ "snap.p.joe-burrow-qb": {
+  "player_key": "snap.p.joe-burrow-qb",
+  "name": "Joe Burrow",
+  "position": "QB",
+  "nfl_team": "CIN"
+ },
+ "snap.p.matthew-stafford-qb": {
+  "player_key": "snap.p.matthew-stafford-qb",
+  "name": "Matthew Stafford",
+  "position": "QB",
+  "nfl_team": "LAR"
+ },
+ "snap.p.terry-mclaurin-wr": {
+  "player_key": "snap.p.terry-mclaurin-wr",
+  "name": "Terry McLaurin",
+  "position": "WR",
+  "nfl_team": "WAS"
+ },
+ "snap.p.keenan-allen-wr": {
+  "player_key": "snap.p.keenan-allen-wr",
+  "name": "Keenan Allen",
+  "position": "WR",
+  "nfl_team": "IND"
+ },
+ "snap.p.treveyon-henderson-rb": {
+  "player_key": "snap.p.treveyon-henderson-rb",
+  "name": "TreVeyon Henderson",
+  "position": "RB",
+  "nfl_team": "NE"
+ },
+ "snap.p.stefon-diggs-wr": {
+  "player_key": "snap.p.stefon-diggs-wr",
+  "name": "Stefon Diggs",
+  "position": "WR",
+  "nfl_team": "WAS"
+ },
+ "snap.p.marvin-harrison-jr-wr": {
+  "player_key": "snap.p.marvin-harrison-jr-wr",
+  "name": "Marvin Harrison Jr.",
+  "position": "WR",
+  "nfl_team": "HOU"
+ },
+ "snap.p.jaylen-warren-rb": {
+  "player_key": "snap.p.jaylen-warren-rb",
+  "name": "Jaylen Warren",
+  "position": "RB",
+  "nfl_team": "PIT"
+ },
+ "snap.p.broncos-def": {
+  "player_key": "snap.p.broncos-def",
+  "name": "Broncos",
+  "position": "DEF",
+  "nfl_team": "DEN"
+ },
+ "snap.p.cameron-dicker-k": {
+  "player_key": "snap.p.cameron-dicker-k",
+  "name": "Cameron Dicker",
+  "position": "K",
+  "nfl_team": "LAC"
+ },
+ "snap.p.courtland-sutton-wr": {
+  "player_key": "snap.p.courtland-sutton-wr",
+  "name": "Courtland Sutton",
+  "position": "WR",
+  "nfl_team": "DEN"
+ },
+ "snap.p.mark-andrews-te": {
+  "player_key": "snap.p.mark-andrews-te",
+  "name": "Mark Andrews",
+  "position": "TE",
+  "nfl_team": "BAL"
+ },
+ "snap.p.jake-bates-k": {
+  "player_key": "snap.p.jake-bates-k",
+  "name": "Jake Bates",
+  "position": "K",
+  "nfl_team": "DET"
+ },
+ "snap.p.omarion-hampton-rb": {
+  "player_key": "snap.p.omarion-hampton-rb",
+  "name": "Omarion Hampton",
+  "position": "RB",
+  "nfl_team": "LAC"
+ },
+ "snap.p.ceedee-lamb-wr": {
+  "player_key": "snap.p.ceedee-lamb-wr",
+  "name": "CeeDee Lamb",
+  "position": "WR",
+  "nfl_team": "DAL"
+ },
+ "snap.p.dj-moore-wr": {
+  "player_key": "snap.p.dj-moore-wr",
+  "name": "DJ Moore",
+  "position": "WR",
+  "nfl_team": "BUF"
+ },
+ "snap.p.colston-loveland-te": {
+  "player_key": "snap.p.colston-loveland-te",
+  "name": "Colston Loveland",
+  "position": "TE",
+  "nfl_team": "CHI"
+ },
+ "snap.p.rome-odunze-wr": {
+  "player_key": "snap.p.rome-odunze-wr",
+  "name": "Rome Odunze",
+  "position": "WR",
+  "nfl_team": "CHI"
+ },
+ "snap.p.jameson-williams-wr": {
+  "player_key": "snap.p.jameson-williams-wr",
+  "name": "Jameson Williams",
+  "position": "WR",
+  "nfl_team": "DET"
+ },
+ "snap.p.christian-watson-wr": {
+  "player_key": "snap.p.christian-watson-wr",
+  "name": "Christian Watson",
+  "position": "WR",
+  "nfl_team": "GB"
+ },
+ "snap.p.quinshon-judkins-rb": {
+  "player_key": "snap.p.quinshon-judkins-rb",
+  "name": "Quinshon Judkins",
+  "position": "RB",
+  "nfl_team": "CLE"
+ },
+ "snap.p.patriots-def": {
+  "player_key": "snap.p.patriots-def",
+  "name": "Patriots",
+  "position": "DEF",
+  "nfl_team": "NE"
+ },
+ "snap.p.trevor-lawrence-qb": {
+  "player_key": "snap.p.trevor-lawrence-qb",
+  "name": "Trevor Lawrence",
+  "position": "QB",
+  "nfl_team": "JAX"
+ },
+ "snap.p.ja-kobi-lane-wr": {
+  "player_key": "snap.p.ja-kobi-lane-wr",
+  "name": "Ja'Kobi Lane",
+  "position": "WR",
+  "nfl_team": "BAL"
+ },
+ "snap.p.cam-little-k": {
+  "player_key": "snap.p.cam-little-k",
+  "name": "Cam Little",
+  "position": "K",
+  "nfl_team": "JAX"
+ },
+ "snap.p.chuba-hubbard-rb": {
+  "player_key": "snap.p.chuba-hubbard-rb",
+  "name": "Chuba Hubbard",
+  "position": "RB",
+  "nfl_team": "CAR"
+ },
+ "snap.p.dallas-goedert-te": {
+  "player_key": "snap.p.dallas-goedert-te",
+  "name": "Dallas Goedert",
+  "position": "TE",
+  "nfl_team": "PHI"
+ },
+ "snap.p.zavion-thomas-wr": {
+  "player_key": "snap.p.zavion-thomas-wr",
+  "name": "Zavion Thomas",
+  "position": "WR",
+  "nfl_team": "CHI"
+ },
+ "snap.p.mike-washington-jr-rb": {
+  "player_key": "snap.p.mike-washington-jr-rb",
+  "name": "Mike Washington Jr.",
+  "position": "RB",
+  "nfl_team": "LV"
+ },
+ "snap.p.a-j-brown-wr": {
+  "player_key": "snap.p.a-j-brown-wr",
+  "name": "A.J. Brown",
+  "position": "WR",
+  "nfl_team": "NE"
+ },
+ "snap.p.drake-london-wr": {
+  "player_key": "snap.p.drake-london-wr",
+  "name": "Drake London",
+  "position": "WR",
+  "nfl_team": "ATL"
+ },
+ "snap.p.george-pickens-wr": {
+  "player_key": "snap.p.george-pickens-wr",
+  "name": "George Pickens",
+  "position": "WR",
+  "nfl_team": "DAL"
+ },
+ "snap.p.tyler-warren-te": {
+  "player_key": "snap.p.tyler-warren-te",
+  "name": "Tyler Warren",
+  "position": "TE",
+  "nfl_team": "IND"
+ },
+ "snap.p.cam-skattebo-rb": {
+  "player_key": "snap.p.cam-skattebo-rb",
+  "name": "Cam Skattebo",
+  "position": "RB",
+  "nfl_team": "NYG"
+ },
+ "snap.p.travis-etienne-jr-rb": {
+  "player_key": "snap.p.travis-etienne-jr-rb",
+  "name": "Travis Etienne Jr.",
+  "position": "RB",
+  "nfl_team": "NO"
+ },
+ "snap.p.jayden-daniels-qb": {
+  "player_key": "snap.p.jayden-daniels-qb",
+  "name": "Jayden Daniels",
+  "position": "QB",
+  "nfl_team": "WAS"
+ },
+ "snap.p.jalen-hurts-qb": {
+  "player_key": "snap.p.jalen-hurts-qb",
+  "name": "Jalen Hurts",
+  "position": "QB",
+  "nfl_team": "PHI"
+ },
+ "snap.p.j-k-dobbins-rb": {
+  "player_key": "snap.p.j-k-dobbins-rb",
+  "name": "J.K. Dobbins",
+  "position": "RB",
+  "nfl_team": "DEN"
+ },
+ "snap.p.jacory-croskey-merritt-rb": {
+  "player_key": "snap.p.jacory-croskey-merritt-rb",
+  "name": "Jacory Croskey-Merritt",
+  "position": "RB",
+  "nfl_team": "WAS"
+ },
+ "snap.p.jonathon-brooks-rb": {
+  "player_key": "snap.p.jonathon-brooks-rb",
+  "name": "Jonathon Brooks",
+  "position": "RB",
+  "nfl_team": "CAR"
+ },
+ "snap.p.jordan-mason-rb": {
+  "player_key": "snap.p.jordan-mason-rb",
+  "name": "Jordan Mason",
+  "position": "RB",
+  "nfl_team": "MIN"
+ },
+ "snap.p.wan-dale-robinson-wr": {
+  "player_key": "snap.p.wan-dale-robinson-wr",
+  "name": "Wan'Dale Robinson",
+  "position": "WR",
+  "nfl_team": "TEN"
+ },
+ "snap.p.de-zhaun-stribling-wr": {
+  "player_key": "snap.p.de-zhaun-stribling-wr",
+  "name": "De'Zhaun Stribling",
+  "position": "WR",
+  "nfl_team": "SF"
+ },
+ "snap.p.spencer-shrader-k": {
+  "player_key": "snap.p.spencer-shrader-k",
+  "name": "Spencer Shrader",
+  "position": "K",
+  "nfl_team": "IND"
+ },
+ "snap.p.jaguars-def": {
+  "player_key": "snap.p.jaguars-def",
+  "name": "Jaguars",
+  "position": "DEF",
+  "nfl_team": "JAX"
+ },
+ "snap.p.jaxon-smith-njigba-wr": {
+  "player_key": "snap.p.jaxon-smith-njigba-wr",
+  "name": "Jaxon Smith-Njigba",
+  "position": "WR",
+  "nfl_team": "SEA"
+ },
+ "snap.p.jonathan-taylor-rb": {
+  "player_key": "snap.p.jonathan-taylor-rb",
+  "name": "Jonathan Taylor",
+  "position": "RB",
+  "nfl_team": "IND"
+ },
+ "snap.p.josh-allen-qb": {
+  "player_key": "snap.p.josh-allen-qb",
+  "name": "Josh Allen",
+  "position": "QB",
+  "nfl_team": "BUF"
+ },
+ "snap.p.tee-higgins-wr": {
+  "player_key": "snap.p.tee-higgins-wr",
+  "name": "Tee Higgins",
+  "position": "WR",
+  "nfl_team": "CIN"
+ },
+ "snap.p.kyren-williams-rb": {
+  "player_key": "snap.p.kyren-williams-rb",
+  "name": "Kyren Williams",
+  "position": "RB",
+  "nfl_team": "LAR"
+ },
+ "snap.p.greg-dulcich-te": {
+  "player_key": "snap.p.greg-dulcich-te",
+  "name": "Greg Dulcich",
+  "position": "TE",
+  "nfl_team": "MIA"
+ },
+ "snap.p.isaiah-likely-te": {
+  "player_key": "snap.p.isaiah-likely-te",
+  "name": "Isaiah Likely",
+  "position": "TE",
+  "nfl_team": "NYG"
+ },
+ "snap.p.kenyon-sadiq-te": {
+  "player_key": "snap.p.kenyon-sadiq-te",
+  "name": "Kenyon Sadiq",
+  "position": "TE",
+  "nfl_team": "NYJ"
+ },
+ "snap.p.makai-lemon-wr": {
+  "player_key": "snap.p.makai-lemon-wr",
+  "name": "Makai Lemon",
+  "position": "WR",
+  "nfl_team": "PHI"
+ },
+ "snap.p.rachaad-white-rb": {
+  "player_key": "snap.p.rachaad-white-rb",
+  "name": "Rachaad White",
+  "position": "RB",
+  "nfl_team": "WAS"
+ },
+ "snap.p.jordyn-tyson-wr": {
+  "player_key": "snap.p.jordyn-tyson-wr",
+  "name": "Jordyn Tyson",
+  "position": "WR",
+  "nfl_team": "NO"
+ },
+ "snap.p.baker-mayfield-qb": {
+  "player_key": "snap.p.baker-mayfield-qb",
+  "name": "Baker Mayfield",
+  "position": "QB",
+  "nfl_team": "TB"
+ },
+ "snap.p.xavier-worthy-wr": {
+  "player_key": "snap.p.xavier-worthy-wr",
+  "name": "Xavier Worthy",
+  "position": "WR",
+  "nfl_team": "KC"
+ },
+ "snap.p.khalil-shakir-wr": {
+  "player_key": "snap.p.khalil-shakir-wr",
+  "name": "Khalil Shakir",
+  "position": "WR",
+  "nfl_team": "BUF"
+ },
+ "snap.p.ravens-def": {
+  "player_key": "snap.p.ravens-def",
+  "name": "Ravens",
+  "position": "DEF",
+  "nfl_team": "BAL"
+ },
+ "snap.p.will-reichard-k": {
+  "player_key": "snap.p.will-reichard-k",
+  "name": "Will Reichard",
+  "position": "K",
+  "nfl_team": "MIN"
+ },
+ "snap.p.malik-nabers-wr": {
+  "player_key": "snap.p.malik-nabers-wr",
+  "name": "Malik Nabers",
+  "position": "WR",
+  "nfl_team": "NYG"
+ },
+ "snap.p.kenneth-walker-iii-rb": {
+  "player_key": "snap.p.kenneth-walker-iii-rb",
+  "name": "Kenneth Walker III",
+  "position": "RB",
+  "nfl_team": "KC"
+ },
+ "snap.p.chase-brown-rb": {
+  "player_key": "snap.p.chase-brown-rb",
+  "name": "Chase Brown",
+  "position": "RB",
+  "nfl_team": "CIN"
+ },
+ "snap.p.sam-laporta-te": {
+  "player_key": "snap.p.sam-laporta-te",
+  "name": "Sam LaPorta",
+  "position": "TE",
+  "nfl_team": "DET"
+ },
+ "snap.p.parker-washington-wr": {
+  "player_key": "snap.p.parker-washington-wr",
+  "name": "Parker Washington",
+  "position": "WR",
+  "nfl_team": "JAX"
+ },
+ "snap.p.mike-evans-wr": {
+  "player_key": "snap.p.mike-evans-wr",
+  "name": "Mike Evans",
+  "position": "WR",
+  "nfl_team": "SF"
+ },
+ "snap.p.harrison-mevis-k": {
+  "player_key": "snap.p.harrison-mevis-k",
+  "name": "Harrison Mevis",
+  "position": "K",
+  "nfl_team": "LAR"
+ },
+ "snap.p.justin-herbert-qb": {
+  "player_key": "snap.p.justin-herbert-qb",
+  "name": "Justin Herbert",
+  "position": "QB",
+  "nfl_team": "LAC"
+ },
+ "snap.p.blake-corum-rb": {
+  "player_key": "snap.p.blake-corum-rb",
+  "name": "Blake Corum",
+  "position": "RB",
+  "nfl_team": "LAR"
+ },
+ "snap.p.chris-godwin-jr-wr": {
+  "player_key": "snap.p.chris-godwin-jr-wr",
+  "name": "Chris Godwin Jr.",
+  "position": "WR",
+  "nfl_team": "TB"
+ },
+ "snap.p.woody-marks-rb": {
+  "player_key": "snap.p.woody-marks-rb",
+  "name": "Woody Marks",
+  "position": "RB",
+  "nfl_team": "HOU"
+ },
+ "snap.p.kyler-murray-qb": {
+  "player_key": "snap.p.kyler-murray-qb",
+  "name": "Kyler Murray",
+  "position": "QB",
+  "nfl_team": "MIN"
+ },
+ "snap.p.jalen-coker-wr": {
+  "player_key": "snap.p.jalen-coker-wr",
+  "name": "Jalen Coker",
+  "position": "WR",
+  "nfl_team": "CAR"
+ },
+ "snap.p.keaton-mitchell-rb": {
+  "player_key": "snap.p.keaton-mitchell-rb",
+  "name": "Keaton Mitchell",
+  "position": "RB",
+  "nfl_team": "LAC"
+ },
+ "snap.p.emmett-johnson-rb": {
+  "player_key": "snap.p.emmett-johnson-rb",
+  "name": "Emmett Johnson",
+  "position": "RB",
+  "nfl_team": "KC"
+ },
+ "snap.p.tank-bigsby-rb": {
+  "player_key": "snap.p.tank-bigsby-rb",
+  "name": "Tank Bigsby",
+  "position": "RB",
+  "nfl_team": "PHI"
+ },
+ "snap.p.drake-maye-qb": {
+  "player_key": "snap.p.drake-maye-qb",
+  "name": "Drake Maye",
+  "position": "QB",
+  "nfl_team": "NE"
+ },
+ "snap.p.de-von-achane-rb": {
+  "player_key": "snap.p.de-von-achane-rb",
+  "name": "De'Von Achane",
+  "position": "RB",
+  "nfl_team": "MIA"
+ },
+ "snap.p.josh-jacobs-rb": {
+  "player_key": "snap.p.josh-jacobs-rb",
+  "name": "Josh Jacobs",
+  "position": "RB",
+  "nfl_team": "GB"
+ },
+ "snap.p.breece-hall-rb": {
+  "player_key": "snap.p.breece-hall-rb",
+  "name": "Breece Hall",
+  "position": "RB",
+  "nfl_team": "NYJ"
+ },
+ "snap.p.trey-mcbride-te": {
+  "player_key": "snap.p.trey-mcbride-te",
+  "name": "Trey McBride",
+  "position": "TE",
+  "nfl_team": "ARI"
+ },
+ "snap.p.rams-def": {
+  "player_key": "snap.p.rams-def",
+  "name": "Rams",
+  "position": "DEF",
+  "nfl_team": "LAR"
+ },
+ "snap.p.garrett-wilson-wr": {
+  "player_key": "snap.p.garrett-wilson-wr",
+  "name": "Garrett Wilson",
+  "position": "WR",
+  "nfl_team": "NYJ"
+ },
+ "snap.p.brian-thomas-jr-wr": {
+  "player_key": "snap.p.brian-thomas-jr-wr",
+  "name": "Brian Thomas Jr.",
+  "position": "WR",
+  "nfl_team": "JAX"
+ },
+ "snap.p.davante-adams-wr": {
+  "player_key": "snap.p.davante-adams-wr",
+  "name": "Davante Adams",
+  "position": "WR",
+  "nfl_team": "LAR"
+ },
+ "snap.p.kaleb-johnson-rb": {
+  "player_key": "snap.p.kaleb-johnson-rb",
+  "name": "Kaleb Johnson",
+  "position": "RB",
+  "nfl_team": "GB"
+ },
+ "snap.p.trey-smack-k": {
+  "player_key": "snap.p.trey-smack-k",
+  "name": "Trey Smack",
+  "position": "K",
+  "nfl_team": "GB"
+ },
+ "snap.p.cyrus-allen-wr": {
+  "player_key": "snap.p.cyrus-allen-wr",
+  "name": "Cyrus Allen",
+  "position": "WR",
+  "nfl_team": "KC"
+ },
+ "snap.p.calvin-ridley-wr": {
+  "player_key": "snap.p.calvin-ridley-wr",
+  "name": "Calvin Ridley",
+  "position": "WR",
+  "nfl_team": "TEN"
+ },
+ "snap.p.kayshon-boutte-wr": {
+  "player_key": "snap.p.kayshon-boutte-wr",
+  "name": "Kayshon Boutte",
+  "position": "WR",
+  "nfl_team": "HOU"
+ },
+ "snap.p.bryce-young-qb": {
+  "player_key": "snap.p.bryce-young-qb",
+  "name": "Bryce Young",
+  "position": "QB",
+  "nfl_team": "CAR"
+ },
+ "snap.p.cooper-kupp-wr": {
+  "player_key": "snap.p.cooper-kupp-wr",
+  "name": "Cooper Kupp",
+  "position": "WR",
+  "nfl_team": "SEA"
+ },
+ "snap.p.justin-jefferson-wr": {
+  "player_key": "snap.p.justin-jefferson-wr",
+  "name": "Justin Jefferson",
+  "position": "WR",
+  "nfl_team": "MIN"
+ },
+ "snap.p.devonta-smith-wr": {
+  "player_key": "snap.p.devonta-smith-wr",
+  "name": "DeVonta Smith",
+  "position": "WR",
+  "nfl_team": "PHI"
+ },
+ "snap.p.javonte-williams-rb": {
+  "player_key": "snap.p.javonte-williams-rb",
+  "name": "Javonte Williams",
+  "position": "RB",
+  "nfl_team": "DAL"
+ },
+ "snap.p.tetairoa-mcmillan-wr": {
+  "player_key": "snap.p.tetairoa-mcmillan-wr",
+  "name": "Tetairoa McMillan",
+  "position": "WR",
+  "nfl_team": "CAR"
+ },
+ "snap.p.travis-kelce-te": {
+  "player_key": "snap.p.travis-kelce-te",
+  "name": "Travis Kelce",
+  "position": "TE",
+  "nfl_team": "KC"
+ },
+ "snap.p.caleb-williams-qb": {
+  "player_key": "snap.p.caleb-williams-qb",
+  "name": "Caleb Williams",
+  "position": "QB",
+  "nfl_team": "CHI"
+ },
+ "snap.p.bhayshul-tuten-rb": {
+  "player_key": "snap.p.bhayshul-tuten-rb",
+  "name": "Bhayshul Tuten",
+  "position": "RB",
+  "nfl_team": "JAX"
+ },
+ "snap.p.brandon-aubrey-k": {
+  "player_key": "snap.p.brandon-aubrey-k",
+  "name": "Brandon Aubrey",
+  "position": "K",
+  "nfl_team": "DAL"
+ },
+ "snap.p.rhamondre-stevenson-rb": {
+  "player_key": "snap.p.rhamondre-stevenson-rb",
+  "name": "Rhamondre Stevenson",
+  "position": "RB",
+  "nfl_team": "NE"
+ },
+ "snap.p.kenny-gainwell-rb": {
+  "player_key": "snap.p.kenny-gainwell-rb",
+  "name": "Kenny Gainwell",
+  "position": "RB",
+  "nfl_team": "TB"
+ },
+ "snap.p.seahawks-def": {
+  "player_key": "snap.p.seahawks-def",
+  "name": "Seahawks",
+  "position": "DEF",
+  "nfl_team": "SEA"
+ },
+ "snap.p.quentin-johnston-wr": {
+  "player_key": "snap.p.quentin-johnston-wr",
+  "name": "Quentin Johnston",
+  "position": "WR",
+  "nfl_team": "LAC"
+ },
+ "snap.p.rashid-shaheed-wr": {
+  "player_key": "snap.p.rashid-shaheed-wr",
+  "name": "Rashid Shaheed",
+  "position": "WR",
+  "nfl_team": "SEA"
+ },
+ "snap.p.deebo-samuel-sr-wr": {
+  "player_key": "snap.p.deebo-samuel-sr-wr",
+  "name": "Deebo Samuel Sr.",
+  "position": "WR",
+  "nfl_team": "SF"
+ },
+ "snap.p.dylan-sampson-rb": {
+  "player_key": "snap.p.dylan-sampson-rb",
+  "name": "Dylan Sampson",
+  "position": "RB",
+  "nfl_team": "CLE"
+ },
+ "snap.p.dalton-kincaid-te": {
+  "player_key": "snap.p.dalton-kincaid-te",
+  "name": "Dalton Kincaid",
+  "position": "TE",
+  "nfl_team": "BUF"
+ },
+ "snap.p.ja-marr-chase-wr": {
+  "player_key": "snap.p.ja-marr-chase-wr",
+  "name": "Ja'Marr Chase",
+  "position": "WR",
+  "nfl_team": "CIN"
+ },
+ "snap.p.amon-ra-st-brown-wr": {
+  "player_key": "snap.p.amon-ra-st-brown-wr",
+  "name": "Amon-Ra St. Brown",
+  "position": "WR",
+  "nfl_team": "DET"
+ },
+ "snap.p.bucky-irving-rb": {
+  "player_key": "snap.p.bucky-irving-rb",
+  "name": "Bucky Irving",
+  "position": "RB",
+  "nfl_team": "TB"
+ },
+ "snap.p.luther-burden-iii-wr": {
+  "player_key": "snap.p.luther-burden-iii-wr",
+  "name": "Luther Burden III",
+  "position": "WR",
+  "nfl_team": "CHI"
+ },
+ "snap.p.jadarian-price-rb": {
+  "player_key": "snap.p.jadarian-price-rb",
+  "name": "Jadarian Price",
+  "position": "RB",
+  "nfl_team": "SEA"
+ },
+ "snap.p.jared-goff-qb": {
+  "player_key": "snap.p.jared-goff-qb",
+  "name": "Jared Goff",
+  "position": "QB",
+  "nfl_team": "DET"
+ },
+ "snap.p.chargers-def": {
+  "player_key": "snap.p.chargers-def",
+  "name": "Chargers",
+  "position": "DEF",
+  "nfl_team": "LAC"
+ },
+ "snap.p.jayden-reed-wr": {
+  "player_key": "snap.p.jayden-reed-wr",
+  "name": "Jayden Reed",
+  "position": "WR",
+  "nfl_team": "GB"
+ },
+ "snap.p.rico-dowdle-rb": {
+  "player_key": "snap.p.rico-dowdle-rb",
+  "name": "Rico Dowdle",
+  "position": "RB",
+  "nfl_team": "PIT"
+ },
+ "snap.p.jaxson-dart-qb": {
+  "player_key": "snap.p.jaxson-dart-qb",
+  "name": "Jaxson Dart",
+  "position": "QB",
+  "nfl_team": "NYG"
+ },
+ "snap.p.tyler-allgeier-rb": {
+  "player_key": "snap.p.tyler-allgeier-rb",
+  "name": "Tyler Allgeier",
+  "position": "RB",
+  "nfl_team": "ARI"
+ },
+ "snap.p.evan-mcpherson-k": {
+  "player_key": "snap.p.evan-mcpherson-k",
+  "name": "Evan McPherson",
+  "position": "K",
+  "nfl_team": "CIN"
+ },
+ "snap.p.hunter-henry-te": {
+  "player_key": "snap.p.hunter-henry-te",
+  "name": "Hunter Henry",
+  "position": "TE",
+  "nfl_team": "NE"
+ },
+ "snap.p.george-holani-rb": {
+  "player_key": "snap.p.george-holani-rb",
+  "name": "George Holani",
+  "position": "RB",
+  "nfl_team": "SEA"
+ },
+ "snap.p.caleb-douglas-wr": {
+  "player_key": "snap.p.caleb-douglas-wr",
+  "name": "Caleb Douglas",
+  "position": "WR",
+  "nfl_team": "MIA"
+ },
+ "snap.p.jake-ferguson-te": {
+  "player_key": "snap.p.jake-ferguson-te",
+  "name": "Jake Ferguson",
+  "position": "TE",
+  "nfl_team": "DAL"
+ },
+ "snap.p.derrick-henry-rb": {
+  "player_key": "snap.p.derrick-henry-rb",
+  "name": "Derrick Henry",
+  "position": "RB",
+  "nfl_team": "BAL"
+ },
+ "snap.p.saquon-barkley-rb": {
+  "player_key": "snap.p.saquon-barkley-rb",
+  "name": "Saquon Barkley",
+  "position": "RB",
+  "nfl_team": "PHI"
+ },
+ "snap.p.bills-def": {
+  "player_key": "snap.p.bills-def",
+  "name": "Bills",
+  "position": "DEF",
+  "nfl_team": "BUF"
+ },
+ "snap.p.chris-olave-wr": {
+  "player_key": "snap.p.chris-olave-wr",
+  "name": "Chris Olave",
+  "position": "WR",
+  "nfl_team": "NO"
+ },
+ "snap.p.emeka-egbuka-wr": {
+  "player_key": "snap.p.emeka-egbuka-wr",
+  "name": "Emeka Egbuka",
+  "position": "WR",
+  "nfl_team": "TB"
+ },
+ "snap.p.lamar-jackson-qb": {
+  "player_key": "snap.p.lamar-jackson-qb",
+  "name": "Lamar Jackson",
+  "position": "QB",
+  "nfl_team": "BAL"
+ },
+ "snap.p.george-kittle-te": {
+  "player_key": "snap.p.george-kittle-te",
+  "name": "George Kittle",
+  "position": "TE",
+  "nfl_team": "SF"
+ },
+ "snap.p.patrick-mahomes-qb": {
+  "player_key": "snap.p.patrick-mahomes-qb",
+  "name": "Patrick Mahomes",
+  "position": "QB",
+  "nfl_team": "KC"
+ },
+ "snap.p.dk-metcalf-wr": {
+  "player_key": "snap.p.dk-metcalf-wr",
+  "name": "DK Metcalf",
+  "position": "WR",
+  "nfl_team": "PIT"
+ },
+ "snap.p.ka-imi-fairbairn-k": {
+  "player_key": "snap.p.ka-imi-fairbairn-k",
+  "name": "Ka'imi Fairbairn",
+  "position": "K",
+  "nfl_team": "HOU"
+ },
+ "snap.p.aaron-jones-sr-rb": {
+  "player_key": "snap.p.aaron-jones-sr-rb",
+  "name": "Aaron Jones Sr.",
+  "position": "RB",
+  "nfl_team": "MIN"
+ },
+ "snap.p.vikings-def": {
+  "player_key": "snap.p.vikings-def",
+  "name": "Vikings",
+  "position": "DEF",
+  "nfl_team": "MIN"
+ },
+ "snap.p.alec-pierce-wr": {
+  "player_key": "snap.p.alec-pierce-wr",
+  "name": "Alec Pierce",
+  "position": "WR",
+  "nfl_team": "IND"
+ },
+ "snap.p.jakobi-meyers-wr": {
+  "player_key": "snap.p.jakobi-meyers-wr",
+  "name": "Jakobi Meyers",
+  "position": "WR",
+  "nfl_team": "JAX"
+ },
+ "snap.p.juwan-johnson-te": {
+  "player_key": "snap.p.juwan-johnson-te",
+  "name": "Juwan Johnson",
+  "position": "TE",
+  "nfl_team": "NO"
+ },
+ "snap.p.zach-charbonnet-rb": {
+  "player_key": "snap.p.zach-charbonnet-rb",
+  "name": "Zach Charbonnet",
+  "position": "RB",
+  "nfl_team": "SEA"
+ },
+ "snap.p.james-cook-iii-rb": {
+  "player_key": "snap.p.james-cook-iii-rb",
+  "name": "James Cook III",
+  "position": "RB",
+  "nfl_team": "BUF"
+ },
+ "snap.p.jordan-love-qb": {
+  "player_key": "snap.p.jordan-love-qb",
+  "name": "Jordan Love",
+  "position": "QB",
+  "nfl_team": "GB"
+ },
+ "snap.p.ashton-jeanty-rb": {
+  "player_key": "snap.p.ashton-jeanty-rb",
+  "name": "Ashton Jeanty",
+  "position": "RB",
+  "nfl_team": "LV"
+ },
+ "snap.p.nico-collins-wr": {
+  "player_key": "snap.p.nico-collins-wr",
+  "name": "Nico Collins",
+  "position": "WR",
+  "nfl_team": "HOU"
+ },
+ "snap.p.jaylen-waddle-wr": {
+  "player_key": "snap.p.jaylen-waddle-wr",
+  "name": "Jaylen Waddle",
+  "position": "WR",
+  "nfl_team": "DEN"
+ },
+ "snap.p.tucker-kraft-te": {
+  "player_key": "snap.p.tucker-kraft-te",
+  "name": "Tucker Kraft",
+  "position": "TE",
+  "nfl_team": "GB"
+ },
+ "snap.p.tony-pollard-rb": {
+  "player_key": "snap.p.tony-pollard-rb",
+  "name": "Tony Pollard",
+  "position": "RB",
+  "nfl_team": "TEN"
+ },
+ "snap.p.texans-def": {
+  "player_key": "snap.p.texans-def",
+  "name": "Texans",
+  "position": "DEF",
+  "nfl_team": "HOU"
+ },
+ "snap.p.harrison-butker-k": {
+  "player_key": "snap.p.harrison-butker-k",
+  "name": "Harrison Butker",
+  "position": "K",
+  "nfl_team": "KC"
+ },
+ "snap.p.alvin-kamara-rb": {
+  "player_key": "snap.p.alvin-kamara-rb",
+  "name": "Alvin Kamara",
+  "position": "RB",
+  "nfl_team": "NO"
+ },
+ "snap.p.tyrone-tracy-jr-rb": {
+  "player_key": "snap.p.tyrone-tracy-jr-rb",
+  "name": "Tyrone Tracy Jr.",
+  "position": "RB",
+  "nfl_team": "NYG"
+ },
+ "snap.p.romeo-doubs-wr": {
+  "player_key": "snap.p.romeo-doubs-wr",
+  "name": "Romeo Doubs",
+  "position": "WR",
+  "nfl_team": "NE"
+ },
+ "snap.p.packers-def": {
+  "player_key": "snap.p.packers-def",
+  "name": "Packers",
+  "position": "DEF",
+  "nfl_team": "GB"
+ },
+ "snap.p.brian-robinson-jr-rb": {
+  "player_key": "snap.p.brian-robinson-jr-rb",
+  "name": "Brian Robinson Jr.",
+  "position": "RB",
+  "nfl_team": "ATL"
+ },
+ "snap.p.justin-fields-qb": {
+  "player_key": "snap.p.justin-fields-qb",
+  "name": "Justin Fields",
+  "position": "QB",
+  "nfl_team": "KC"
+ },
+ "snap.p.taysom-hill-te": {
+  "player_key": "snap.p.taysom-hill-te",
+  "name": "Taysom Hill",
+  "position": "TE",
+  "nfl_team": "NO"
+ },
+ "snap.p.christian-mccaffrey-rb": {
+  "player_key": "snap.p.christian-mccaffrey-rb",
+  "name": "Christian McCaffrey",
+  "position": "RB",
+  "nfl_team": "SF"
+ },
+ "snap.p.puka-nacua-wr": {
+  "player_key": "snap.p.puka-nacua-wr",
+  "name": "Puka Nacua",
+  "position": "WR",
+  "nfl_team": "LAR"
+ },
+ "snap.p.jeremiyah-love-rb": {
+  "player_key": "snap.p.jeremiyah-love-rb",
+  "name": "Jeremiyah Love",
+  "position": "RB",
+  "nfl_team": "ARI"
+ },
+ "snap.p.kaelon-black-rb": {
+  "player_key": "snap.p.kaelon-black-rb",
+  "name": "Kaelon Black",
+  "position": "RB",
+  "nfl_team": "SF"
+ },
+ "snap.p.d-andre-swift-rb": {
+  "player_key": "snap.p.d-andre-swift-rb",
+  "name": "D'Andre Swift",
+  "position": "RB",
+  "nfl_team": "CHI"
+ },
+ "snap.p.harold-fannin-jr-te": {
+  "player_key": "snap.p.harold-fannin-jr-te",
+  "name": "Harold Fannin Jr.",
+  "position": "TE",
+  "nfl_team": "CLE"
+ },
+ "snap.p.michael-pittman-jr-wr": {
+  "player_key": "snap.p.michael-pittman-jr-wr",
+  "name": "Michael Pittman Jr.",
+  "position": "WR",
+  "nfl_team": "PIT"
+ },
+ "snap.p.matthew-golden-wr": {
+  "player_key": "snap.p.matthew-golden-wr",
+  "name": "Matthew Golden",
+  "position": "WR",
+  "nfl_team": "GB"
+ },
+ "snap.p.rj-harvey-rb": {
+  "player_key": "snap.p.rj-harvey-rb",
+  "name": "RJ Harvey",
+  "position": "RB",
+  "nfl_team": "DEN"
+ },
+ "snap.p.malik-willis-qb": {
+  "player_key": "snap.p.malik-willis-qb",
+  "name": "Malik Willis",
+  "position": "QB",
+  "nfl_team": "MIA"
+ },
+ "snap.p.kyle-monangai-rb": {
+  "player_key": "snap.p.kyle-monangai-rb",
+  "name": "Kyle Monangai",
+  "position": "RB",
+  "nfl_team": "CHI"
+ },
+ "snap.p.bo-nix-qb": {
+  "player_key": "snap.p.bo-nix-qb",
+  "name": "Bo Nix",
+  "position": "QB",
+  "nfl_team": "DEN"
+ },
+ "snap.p.jordan-addison-wr": {
+  "player_key": "snap.p.jordan-addison-wr",
+  "name": "Jordan Addison",
+  "position": "WR",
+  "nfl_team": "MIN"
+ },
+ "snap.p.cowboys-def": {
+  "player_key": "snap.p.cowboys-def",
+  "name": "Cowboys",
+  "position": "DEF",
+  "nfl_team": "DAL"
+ },
+ "snap.p.kaytron-allen-rb": {
+  "player_key": "snap.p.kaytron-allen-rb",
+  "name": "Kaytron Allen",
+  "position": "RB",
+  "nfl_team": "MIA"
+ },
+ "snap.p.tyler-loop-k": {
+  "player_key": "snap.p.tyler-loop-k",
+  "name": "Tyler Loop",
+  "position": "K",
+  "nfl_team": "BAL"
+ },
+ "snap.p.steelers-def": {
+  "player_key": "snap.p.steelers-def",
+  "name": "Steelers",
+  "position": "DEF",
+  "nfl_team": "PIT"
+ },
+ "snap.p.tre-tucker-wr": {
+  "player_key": "snap.p.tre-tucker-wr",
+  "name": "Tre Tucker",
+  "position": "WR",
+  "nfl_team": "LV"
+ },
+ "snap.p.malik-washington-wr": {
+  "player_key": "snap.p.malik-washington-wr",
+  "name": "Malik Washington",
+  "position": "WR",
+  "nfl_team": "MIA"
+ },
+ "snap.p.chase-mclaughlin-k": {
+  "player_key": "snap.p.chase-mclaughlin-k",
+  "name": "Chase McLaughlin",
+  "position": "K",
+  "nfl_team": "TB"
+ },
+ "snap.p.dontayvion-wicks-wr": {
+  "player_key": "snap.p.dontayvion-wicks-wr",
+  "name": "Dontayvion Wicks",
+  "position": "WR",
+  "nfl_team": "PHI"
+ },
+ "snap.p.devin-singletary-rb": {
+  "player_key": "snap.p.devin-singletary-rb",
+  "name": "Devin Singletary",
+  "position": "RB",
+  "nfl_team": "NYG"
+ },
+ "snap.p.chiefs-def": {
+  "player_key": "snap.p.chiefs-def",
+  "name": "Chiefs",
+  "position": "DEF",
+  "nfl_team": "KC"
+ },
+ "snap.p.pat-bryant-wr": {
+  "player_key": "snap.p.pat-bryant-wr",
+  "name": "Pat Bryant",
+  "position": "WR",
+  "nfl_team": "DEN"
+ },
+ "snap.p.buccaneers-def": {
+  "player_key": "snap.p.buccaneers-def",
+  "name": "Buccaneers",
+  "position": "DEF",
+  "nfl_team": "TB"
+ },
+ "snap.p.tyler-shough-qb": {
+  "player_key": "snap.p.tyler-shough-qb",
+  "name": "Tyler Shough",
+  "position": "QB",
+  "nfl_team": "NO"
+ },
+ "snap.p.mike-gesicki-te": {
+  "player_key": "snap.p.mike-gesicki-te",
+  "name": "Mike Gesicki",
+  "position": "TE",
+  "nfl_team": "CIN"
+ },
+ "snap.p.deejay-dallas-rb": {
+  "player_key": "snap.p.deejay-dallas-rb",
+  "name": "DeeJay Dallas",
+  "position": "RB",
+  "nfl_team": "MIN"
+ },
+ "snap.p.49ers-def": {
+  "player_key": "snap.p.49ers-def",
+  "name": "49ers",
+  "position": "DEF",
+  "nfl_team": "SF"
+ },
+ "snap.p.braelon-allen-rb": {
+  "player_key": "snap.p.braelon-allen-rb",
+  "name": "Braelon Allen",
+  "position": "RB",
+  "nfl_team": "NYJ"
+ },
+ "snap.p.devaughn-vele-wr": {
+  "player_key": "snap.p.devaughn-vele-wr",
+  "name": "Devaughn Vele",
+  "position": "WR",
+  "nfl_team": "NO"
+ },
+ "snap.p.malachi-fields-wr": {
+  "player_key": "snap.p.malachi-fields-wr",
+  "name": "Malachi Fields",
+  "position": "WR",
+  "nfl_team": "NYG"
+ },
+ "snap.p.rashod-bateman-wr": {
+  "player_key": "snap.p.rashod-bateman-wr",
+  "name": "Rashod Bateman",
+  "position": "WR",
+  "nfl_team": "BAL"
+ },
+ "snap.p.dalton-schultz-te": {
+  "player_key": "snap.p.dalton-schultz-te",
+  "name": "Dalton Schultz",
+  "position": "TE",
+  "nfl_team": "HOU"
+ },
+ "snap.p.eddy-pineiro-k": {
+  "player_key": "snap.p.eddy-pineiro-k",
+  "name": "Eddy Pineiro",
+  "position": "K",
+  "nfl_team": "SF"
+ },
+ "snap.p.jonah-coleman-rb": {
+  "player_key": "snap.p.jonah-coleman-rb",
+  "name": "Jonah Coleman",
+  "position": "RB",
+  "nfl_team": "DEN"
+ },
+ "snap.p.denzel-boston-wr": {
+  "player_key": "snap.p.denzel-boston-wr",
+  "name": "Denzel Boston",
+  "position": "WR",
+  "nfl_team": "CLE"
+ },
+ "snap.p.terrance-ferguson-te": {
+  "player_key": "snap.p.terrance-ferguson-te",
+  "name": "Terrance Ferguson",
+  "position": "TE",
+  "nfl_team": "LAR"
+ },
+ "snap.p.emanuel-wilson-rb": {
+  "player_key": "snap.p.emanuel-wilson-rb",
+  "name": "Emanuel Wilson",
+  "position": "RB",
+  "nfl_team": "SEA"
+ },
+ "snap.p.adonai-mitchell-wr": {
+  "player_key": "snap.p.adonai-mitchell-wr",
+  "name": "Adonai Mitchell",
+  "position": "WR",
+  "nfl_team": "NYJ"
+ },
+ "snap.p.bengals-def": {
+  "player_key": "snap.p.bengals-def",
+  "name": "Bengals",
+  "position": "DEF",
+  "nfl_team": "CIN"
+ },
+ "snap.p.c-j-stroud-qb": {
+  "player_key": "snap.p.c-j-stroud-qb",
+  "name": "C.J. Stroud",
+  "position": "QB",
+  "nfl_team": "HOU"
+ },
+ "snap.p.keon-coleman-wr": {
+  "player_key": "snap.p.keon-coleman-wr",
+  "name": "Keon Coleman",
+  "position": "WR",
+  "nfl_team": "BUF"
+ },
+ "snap.p.kalif-raymond-wr": {
+  "player_key": "snap.p.kalif-raymond-wr",
+  "name": "Kalif Raymond",
+  "position": "WR",
+  "nfl_team": "CHI"
+ },
+ "snap.p.will-shipley-rb": {
+  "player_key": "snap.p.will-shipley-rb",
+  "name": "Will Shipley",
+  "position": "RB",
+  "nfl_team": "PHI"
+ },
+ "snap.p.ollie-gordon-ii-rb": {
+  "player_key": "snap.p.ollie-gordon-ii-rb",
+  "name": "Ollie Gordon II",
+  "position": "RB",
+  "nfl_team": "MIA"
+ },
+ "snap.p.noah-fant-te": {
+  "player_key": "snap.p.noah-fant-te",
+  "name": "Noah Fant",
+  "position": "TE",
+  "nfl_team": "NO"
+ },
+ "snap.p.tyreek-hill-wr": {
+  "player_key": "snap.p.tyreek-hill-wr",
+  "name": "Tyreek Hill",
+  "position": "WR",
+  "nfl_team": "MIA"
+ },
+ "snap.p.konata-mumpfield-wr": {
+  "player_key": "snap.p.konata-mumpfield-wr",
+  "name": "Konata Mumpfield",
+  "position": "WR",
+  "nfl_team": "LAR"
+ },
+ "snap.p.austin-ekeler-rb": {
+  "player_key": "snap.p.austin-ekeler-rb",
+  "name": "Austin Ekeler",
+  "position": "RB",
+  "nfl_team": "WAS"
+ },
+ "snap.p.roman-wilson-wr": {
+  "player_key": "snap.p.roman-wilson-wr",
+  "name": "Roman Wilson",
+  "position": "WR",
+  "nfl_team": "PIT"
+ },
+ "snap.p.kirk-cousins-qb": {
+  "player_key": "snap.p.kirk-cousins-qb",
+  "name": "Kirk Cousins",
+  "position": "QB",
+  "nfl_team": "LV"
+ },
+ "snap.p.darren-waller-te": {
+  "player_key": "snap.p.darren-waller-te",
+  "name": "Darren Waller",
+  "position": "TE",
+  "nfl_team": "CAR"
+ },
+ "snap.p.jaylen-wright-rb": {
+  "player_key": "snap.p.jaylen-wright-rb",
+  "name": "Jaylen Wright",
+  "position": "RB",
+  "nfl_team": "MIA"
+ },
+ "snap.p.isaiah-davis-rb": {
+  "player_key": "snap.p.isaiah-davis-rb",
+  "name": "Isaiah Davis",
+  "position": "RB",
+  "nfl_team": "NYJ"
+ },
+ "snap.p.aj-barner-te": {
+  "player_key": "snap.p.aj-barner-te",
+  "name": "AJ Barner",
+  "position": "TE",
+  "nfl_team": "SEA"
+ },
+ "snap.p.bears-def": {
+  "player_key": "snap.p.bears-def",
+  "name": "Bears",
+  "position": "DEF",
+  "nfl_team": "CHI"
+ },
+ "snap.p.ryan-fitzgerald-k": {
+  "player_key": "snap.p.ryan-fitzgerald-k",
+  "name": "Ryan Fitzgerald",
+  "position": "K",
+  "nfl_team": "CAR"
+ },
+ "snap.p.t-j-hockenson-te": {
+  "player_key": "snap.p.t-j-hockenson-te",
+  "name": "T.J. Hockenson",
+  "position": "TE",
+  "nfl_team": "MIN"
+ },
+ "snap.p.jacoby-brissett-qb": {
+  "player_key": "snap.p.jacoby-brissett-qb",
+  "name": "Jacoby Brissett",
+  "position": "QB",
+  "nfl_team": "ARI"
+ },
+ "snap.p.raiders-def": {
+  "player_key": "snap.p.raiders-def",
+  "name": "Raiders",
+  "position": "DEF",
+  "nfl_team": "LV"
+ },
+ "snap.p.browns-def": {
+  "player_key": "snap.p.browns-def",
+  "name": "Browns",
+  "position": "DEF",
+  "nfl_team": "CLE"
+ },
+ "snap.p.brenton-strange-te": {
+  "player_key": "snap.p.brenton-strange-te",
+  "name": "Brenton Strange",
+  "position": "TE",
+  "nfl_team": "JAX"
+ },
+ "snap.p.antonio-williams-wr": {
+  "player_key": "snap.p.antonio-williams-wr",
+  "name": "Antonio Williams",
+  "position": "WR",
+  "nfl_team": "WAS"
+ },
+ "snap.p.matt-gay-k": {
+  "player_key": "snap.p.matt-gay-k",
+  "name": "Matt Gay",
+  "position": "K",
+  "nfl_team": "LV"
+ },
+ "snap.p.chad-ryland-k": {
+  "player_key": "snap.p.chad-ryland-k",
+  "name": "Chad Ryland",
+  "position": "K",
+  "nfl_team": "ARI"
+ },
+ "snap.p.aaron-rodgers-qb": {
+  "player_key": "snap.p.aaron-rodgers-qb",
+  "name": "Aaron Rodgers",
+  "position": "QB",
+  "nfl_team": "PIT"
+ },
+ "snap.p.chris-boswell-k": {
+  "player_key": "snap.p.chris-boswell-k",
+  "name": "Chris Boswell",
+  "position": "K",
+  "nfl_team": "PIT"
+ },
+ "snap.p.germie-bernard-wr": {
+  "player_key": "snap.p.germie-bernard-wr",
+  "name": "Germie Bernard",
+  "position": "WR",
+  "nfl_team": "PIT"
+ },
+ "snap.p.pat-freiermuth-te": {
+  "player_key": "snap.p.pat-freiermuth-te",
+  "name": "Pat Freiermuth",
+  "position": "TE",
+  "nfl_team": "PIT"
+ },
+ "snap.p.kimani-vidal-rb": {
+  "player_key": "snap.p.kimani-vidal-rb",
+  "name": "Kimani Vidal",
+  "position": "RB",
+  "nfl_team": "LAC"
+ },
+ "snap.p.tyler-bass-k": {
+  "player_key": "snap.p.tyler-bass-k",
+  "name": "Tyler Bass",
+  "position": "K",
+  "nfl_team": "BUF"
+ },
+ "snap.p.efton-chism-iii-wr": {
+  "player_key": "snap.p.efton-chism-iii-wr",
+  "name": "Efton Chism III",
+  "position": "WR",
+  "nfl_team": "NE"
+ },
+ "snap.p.dameon-pierce-rb": {
+  "player_key": "snap.p.dameon-pierce-rb",
+  "name": "Dameon Pierce",
+  "position": "RB",
+  "nfl_team": "PHI"
+ },
+ "snap.p.jets-def": {
+  "player_key": "snap.p.jets-def",
+  "name": "Jets",
+  "position": "DEF",
+  "nfl_team": "NYJ"
+ },
+ "snap.p.colts-def": {
+  "player_key": "snap.p.colts-def",
+  "name": "Colts",
+  "position": "DEF",
+  "nfl_team": "IND"
+ },
+ "snap.p.ty-johnson-rb": {
+  "player_key": "snap.p.ty-johnson-rb",
+  "name": "Ty Johnson",
+  "position": "RB",
+  "nfl_team": "BUF"
+ },
+ "snap.p.panthers-def": {
+  "player_key": "snap.p.panthers-def",
+  "name": "Panthers",
+  "position": "DEF",
+  "nfl_team": "CAR"
+ },
+ "snap.p.blake-grupe-k": {
+  "player_key": "snap.p.blake-grupe-k",
+  "name": "Blake Grupe",
+  "position": "K",
+  "nfl_team": "LAR"
+ },
+ "snap.p.kendre-miller-rb": {
+  "player_key": "snap.p.kendre-miller-rb",
+  "name": "Kendre Miller",
+  "position": "RB",
+  "nfl_team": "NO"
+ },
+ "snap.p.tyler-higbee-te": {
+  "player_key": "snap.p.tyler-higbee-te",
+  "name": "Tyler Higbee",
+  "position": "TE",
+  "nfl_team": "LAR"
+ },
+ "snap.p.najee-harris-rb": {
+  "player_key": "snap.p.najee-harris-rb",
+  "name": "Najee Harris",
+  "position": "RB",
+  "nfl_team": "NYG"
+ },
+ "snap.p.roschon-johnson-rb": {
+  "player_key": "snap.p.roschon-johnson-rb",
+  "name": "Roschon Johnson",
+  "position": "RB",
+  "nfl_team": "CHI"
+ },
+ "snap.p.chig-okonkwo-te": {
+  "player_key": "snap.p.chig-okonkwo-te",
+  "name": "Chig Okonkwo",
+  "position": "TE",
+  "nfl_team": "WAS"
+ },
+ "snap.p.jaleel-mclaughlin-rb": {
+  "player_key": "snap.p.jaleel-mclaughlin-rb",
+  "name": "Jaleel McLaughlin",
+  "position": "RB",
+  "nfl_team": "CLE"
+ },
+ "snap.p.brandin-cooks-wr": {
+  "player_key": "snap.p.brandin-cooks-wr",
+  "name": "Brandin Cooks",
+  "position": "WR",
+  "nfl_team": "SF"
+ },
+ "snap.p.mac-jones-qb": {
+  "player_key": "snap.p.mac-jones-qb",
+  "name": "Mac Jones",
+  "position": "QB",
+  "nfl_team": "SF"
+ },
+ "snap.p.omar-cooper-jr-wr": {
+  "player_key": "snap.p.omar-cooper-jr-wr",
+  "name": "Omar Cooper Jr.",
+  "position": "WR",
+  "nfl_team": "NYJ"
+ },
+ "snap.p.demario-douglas-wr": {
+  "player_key": "snap.p.demario-douglas-wr",
+  "name": "DeMario Douglas",
+  "position": "WR",
+  "nfl_team": "NE"
+ },
+ "snap.p.titans-def": {
+  "player_key": "snap.p.titans-def",
+  "name": "Titans",
+  "position": "DEF",
+  "nfl_team": "TEN"
+ },
+ "snap.p.geno-smith-qb": {
+  "player_key": "snap.p.geno-smith-qb",
+  "name": "Geno Smith",
+  "position": "QB",
+  "nfl_team": "NYJ"
+ },
+ "snap.p.michael-mayer-te": {
+  "player_key": "snap.p.michael-mayer-te",
+  "name": "Michael Mayer",
+  "position": "TE",
+  "nfl_team": "LV"
+ },
+ "snap.p.tanner-mckee-qb": {
+  "player_key": "snap.p.tanner-mckee-qb",
+  "name": "Tanner McKee",
+  "position": "QB",
+  "nfl_team": "PHI"
+ }
+}

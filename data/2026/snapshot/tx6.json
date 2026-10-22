@@ -1,0 +1,24 @@
+{"file": "tx6", "transactions": [
+  {"seq": 1, "date": "2026-09-16", "time": "2:08 am", "team": "Pepperidge Farm", "moves": [
+     {"type": "add", "player": "Devin Singletary", "nfl": "NYG", "pos": "RB", "faab_bid": 5, "from_team": null, "to_team": "Pepperidge Farm"}]},
+  {"seq": 2, "date": "2026-09-16", "time": "2:08 am", "team": "Pepperidge Farm", "moves": [
+     {"type": "add", "player": "Brock Purdy", "nfl": "SF", "pos": "QB", "faab_bid": 10, "from_team": null, "to_team": "Pepperidge Farm"},
+     {"type": "drop", "player": "Rashid Shaheed", "nfl": "SEA", "pos": "WR", "faab_bid": null, "from_team": "Pepperidge Farm", "to_team": null}]},
+  {"seq": 3, "date": "2026-09-16", "time": "2:08 am", "team": "Sato's Escorts", "moves": [
+     {"type": "add", "player": "Dontayvion Wicks", "nfl": "PHI", "pos": "WR", "faab_bid": 25, "from_team": null, "to_team": "Sato's Escorts"},
+     {"type": "drop", "player": "Calvin Ridley", "nfl": "TEN", "pos": "WR", "faab_bid": null, "from_team": "Sato's Escorts", "to_team": null}]},
+  {"seq": 4, "date": "2026-09-13", "time": "7:12 pm", "team": "Pepperidge Farm", "moves": [
+     {"type": "drop", "player": "Dylan Sampson", "nfl": "CLE", "pos": "RB", "faab_bid": null, "from_team": "Pepperidge Farm", "to_team": null}]},
+  {"seq": 5, "date": "2026-09-11", "time": "9:34 am", "team": "My Team Hurts", "moves": [
+     {"type": "add", "player": "Chase McLaughlin", "nfl": "TB", "pos": "K", "faab_bid": null, "from_team": null, "to_team": "My Team Hurts"},
+     {"type": "drop", "player": "Spencer Shrader", "nfl": "IND", "pos": "K", "faab_bid": null, "from_team": "My Team Hurts", "to_team": null}]},
+  {"seq": 6, "date": "2026-09-09", "time": "12:54 pm", "team": "Bear downs", "moves": [
+     {"type": "add", "player": "Malik Washington", "nfl": "MIA", "pos": "WR", "faab_bid": null, "from_team": null, "to_team": "Bear downs"},
+     {"type": "drop", "player": "Jordyn Tyson", "nfl": "NO", "pos": "WR", "faab_bid": null, "from_team": "Bear downs", "to_team": null}]},
+  {"seq": 7, "date": "2026-09-09", "time": "12:31 am", "team": "Sam LaPorta Potty", "moves": [
+     {"type": "add", "player": "Tre Tucker", "nfl": "LV", "pos": "WR", "faab_bid": 0, "from_team": null, "to_team": "Sam LaPorta Potty"},
+     {"type": "drop", "player": "Brock Purdy", "nfl": "SF", "pos": "QB", "faab_bid": null, "from_team": "Sam LaPorta Potty", "to_team": null}]},
+  {"seq": 8, "date": "2026-09-09", "time": "12:31 am", "team": "Love Thy Nabers", "moves": [
+     {"type": "add", "player": "Steelers", "nfl": "PIT", "pos": "DEF", "faab_bid": 6, "from_team": null, "to_team": "Love Thy Nabers"},
+     {"type": "drop", "player": "Tank Bigsby", "nfl": "PHI", "pos": "RB", "faab_bid": null, "from_team": "Love Thy Nabers", "to_team": null}]}
+]}
