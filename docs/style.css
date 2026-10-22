@@ -115,6 +115,12 @@ ol.trail .date { color: var(--muted); font-size: .8rem; }
 .picks .cost { font-weight: 700; font-variant-numeric: tabular-nums; }
 .picks label.disabled { opacity: .5; }
 
+.pick-actions { display: flex; gap: 8px; margin-top: 10px; }
+.pick-actions button {
+  flex: 1 1 0; font: inherit; font-size: .9rem; font-weight: 600; padding: 8px 6px; cursor: pointer;
+  border: 0; border-radius: 8px; background: #fff; color: var(--accent);
+}
+.pick-actions button:disabled { opacity: .45; cursor: default; }
 .budget { position: sticky; bottom: 0; background: var(--accent); color: #fff; border-radius: var(--radius); padding: 12px 14px; margin-top: 12px; }
 .budget b { font-size: 1.4rem; }
 

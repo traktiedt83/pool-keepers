@@ -128,6 +128,7 @@
   function board() {
     view.innerHTML =
       "<h2>Keeper Board</h2>" +
+      '<p class="small">Thinking about keepers? <a href="#teams">Try picking yours →</a></p>' +
       '<div class="controls">' +
       '<input type="search" id="q" placeholder="Search player or team" value="' + esc(state.q) + '">' +
       '<select id="team">' + teamOptions(state.team, "All teams") + "</select>" +
@@ -175,16 +176,33 @@
     }));
   }
 
-  function teams(team) {
-    team = team || teamKeys[0];
+  // Last team viewed, so "My keepers" opens on your own team. Browser storage may be unavailable.
+  function rememberedTeam(set) {
+    try {
+      if (set) localStorage.setItem("pool.team", set);
+      return localStorage.getItem("pool.team");
+    } catch (e) {
+      return null;
+    }
+  }
+
+  // Try-out keeper picks. The picks live in the page address (#teams/<team>/<player>,<player>)
+  // so a link shows someone else the same picks. Nothing here is an official declaration.
+  function teams(team, picksArg) {
+    if (!teamKeys.includes(team)) team = teamKeys.includes(rememberedTeam()) ? rememberedTeam() : teamKeys[0];
+    rememberedTeam(team);
     const roster = players.filter((p) => p.team_key === team)
       .sort((a, b) => (b.eligible - a.eligible) || ((b.keeper_cost || 0) - (a.keeper_cost || 0)));
+    const eligible = new Set(roster.filter((p) => p.eligible).map((p) => p.player_key));
+    let picks = (picksArg ? picksArg.split(",") : []).filter((k) => eligible.has(k)).slice(0, C.max_keepers);
+    const undoStack = [];
     const t = D.teams[team] || {};
     view.innerHTML =
-      "<h2>Team keepers</h2>" +
+      "<h2>Try your keepers</h2>" +
       '<div class="controls"><select id="team">' + teamOptions(team) + "</select></div>" +
       '<div class="card"><h3>' + esc(teamName(team)) + (t.manager ? ' <span class="muted small">' + esc(t.manager) + "</span>" : "") + "</h3>" +
-      '<p class="muted small">Pick up to ' + C.max_keepers + " to see what you'd have left to spend in the " + D.keeper_season + " draft.</p>" +
+      '<p class="muted small">Tap up to ' + C.max_keepers + " players to see what they'd cost and what you'd have left for the " +
+        D.keeper_season + " draft. This is just a try-out, not your official keeper declaration.</p>" +
       '<div class="picks">' + roster.map((p) =>
         '<label class="' + (p.eligible ? "" : "disabled") + '">' +
         '<input type="checkbox" value="' + esc(p.player_key) + '"' + (p.eligible ? "" : " disabled") + ">" +
@@ -193,25 +211,67 @@
         (p.override ? ' <span class="pill ovr" title="' + esc(p.override.note) + '">Commish</span>' : "") + "</span>" +
         '<span class="cost">' + (p.eligible ? money(p.keeper_cost) : '<span class="pill out">Back to pool</span>') + "</span></label>").join("") +
       "</div>" +
-      '<div class="budget" id="budget"></div></div>';
+      // Pinned to the bottom of the screen so the total and buttons stay in reach while scrolling.
+      '<div class="budget"><div id="budget"></div><div class="pick-actions">' +
+      '<button type="button" id="undo">Undo</button>' +
+      '<button type="button" id="clear">Clear</button>' +
+      '<button type="button" id="share">Share</button>' +
+      "</div></div></div>";
 
     const boxes = Array.from(view.querySelectorAll(".picks input"));
-    function update() {
-      const picked = boxes.filter((b) => b.checked).map((b) => byKey[b.value]);
+    const undoBtn = document.getElementById("undo");
+    const clearBtn = document.getElementById("clear");
+    const shareBtn = document.getElementById("share");
+
+    function setPicks(next) {
+      undoStack.push(picks);
+      picks = next;
+      sync();
+    }
+    function sync() {
+      const picked = picks.map((k) => byKey[k]);
       const total = picked.reduce((s, p) => s + p.keeper_cost, 0);
-      const full = picked.length >= C.max_keepers;
+      const full = picks.length >= C.max_keepers;
       boxes.forEach((b) => {
-        const off = !byKey[b.value].eligible || (full && !b.checked);
+        b.checked = picks.includes(b.value);
+        const off = !eligible.has(b.value) || (full && !b.checked);
         b.disabled = off;
         b.parentElement.classList.toggle("disabled", off);
       });
+      undoBtn.disabled = !undoStack.length;
+      clearBtn.disabled = !picks.length;
+      shareBtn.disabled = !picks.length;
       document.getElementById("budget").innerHTML = picked.length
-        ? "Keeping " + picked.map((p) => esc(p.name)).join(" + ") + " (" + money(total) + ")<br><b>" +
-          money(C.draft_budget - total) + "</b> to spend in the draft"
+        ? "Keeping " + picked.map((p) => esc(p.name) + " (" + money(p.keeper_cost) + ")").join(" + ") +
+          "<br><b>" + money(C.draft_budget - total) + "</b> left to spend in the " + D.keeper_season + " draft"
         : "No keepers picked · <b>" + money(C.draft_budget) + "</b> to spend";
+      // Keep the address in step without re-rendering, so the link always matches the picks.
+      history.replaceState(null, "", "#teams/" + encodeURIComponent(team) +
+        (picks.length ? "/" + picks.map(encodeURIComponent).join(",") : ""));
     }
-    boxes.forEach((b) => b.addEventListener("change", update));
-    update();
+
+    boxes.forEach((b) => b.addEventListener("change", () =>
+      setPicks(b.checked ? picks.concat(b.value) : picks.filter((k) => k !== b.value))));
+    undoBtn.addEventListener("click", () => {
+      picks = undoStack.pop();
+      sync();
+    });
+    clearBtn.addEventListener("click", () => setPicks([]));
+    shareBtn.addEventListener("click", () => {
+      const url = location.href;
+      const text = teamName(team) + " keeping " + picks.map((k) => byKey[k].name).join(" + ");
+      if (navigator.share) {
+        navigator.share({ title: "Pool Keepers", text: text, url: url }).catch(() => {});
+      } else if (navigator.clipboard) {
+        navigator.clipboard.writeText(url).then(() => {
+          shareBtn.textContent = "Link copied!";
+          setTimeout(() => { shareBtn.textContent = "Share"; }, 2000);
+        }, () => window.prompt("Copy this link:", url));
+      } else {
+        window.prompt("Copy this link:", url);
+      }
+    });
+    sync();
     document.getElementById("team").addEventListener("change", (e) => { location.hash = "teams/" + encodeURIComponent(e.target.value); });
   }
 
@@ -325,10 +385,10 @@
 
   const ROUTES = { board: board, teams: teams, player: lookup, trade: trade, declarations: declarations, rules: rules };
   function route() {
-    const [name, arg] = (location.hash.slice(1) || "board").split("/");
+    const [name, ...args] = (location.hash.slice(1) || "board").split("/");
     const fn = ROUTES[name] || board;
     document.querySelectorAll(".tabs a").forEach((a) => a.classList.toggle("on", a.getAttribute("href") === "#" + (ROUTES[name] ? name : "board")));
-    fn(arg && decodeURIComponent(arg));
+    fn(...args.map(decodeURIComponent));
     if (snapshotNote) view.insertAdjacentHTML("afterbegin", snapshotNote);
     window.scrollTo(0, 0);
   }
